@@ -1,10 +1,8 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Subvisual's Blog 2.0
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-## Deploy
+An experiment. Entertaining the possiblity of migrating our blog to a static
+website built with [Gatsby]
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+More info soon...
+
+[Gatsby]: https://github.com/gatsbyjs/gatsby

@@ -1,8 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "blog-subvisual.co",
+  "description": "Subvisual's Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Subvisual <contact@subvisual.co>",
+  "keywords": [
+    "subvisual",
+    "blog"
+  ],
   "dependencies": {
     "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.1.0",
@@ -32,9 +36,6 @@
   "devDependencies": {
     "gh-pages": "^0.12.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
