@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+puts "asd"
+require "pg"
+require "sequel"
+require "pry"
+require "active_support"
+require "active_support/core_ext/string"
+
+DB = Sequel.connect("postgres://localhost/blog")
+
+def cleanup(body)
+  body.
+    gsub("&#x2028;", "").
+    gsub(/\r/, "")
+end
+
+# remove existing legacy posts
+FileUtils.rm_rf("./pages/posts/legacy/.", secure: true)
+
+DB.from(:posts).where("published_at IS NOT NULL").each do |post|
+  id = post[:id]
+  title = post[:title]
+
+  path = "#{id} #{title}".parameterize
+
+  File.open("pages/posts/legacy/#{path}.md", "w") do |f|
+    f.write(
+      <<~TXT
+        ---
+        path: /posts/#{path}
+        ---
+
+        #{cleanup(post[:body])}
+      TXT
+    )
+  end
+end
+
+puts "Done"

@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+DATE=`date +%Y-%m-%d`
+HOST=deploy@blog.subvisual.co
+FILE=/tmp/blog-$DATE.dump
+
+echo "Dumping DB on remote server"
+
+ssh $HOST -C "pg_dump -C blog.subvisual.co --username blog.subvisual.co --format=c > $FILE"
+
+echo "Transfering"
+scp $HOST:$FILE $FILE > /dev/null
+
+echo "Restoring local database"
+sudo -u postgres pg_restore -d blog.subvisual.co -Cp $FILE > /dev/null
