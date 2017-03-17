@@ -1,0 +1,47 @@
+// Media
+//
+// The media object is an image to the left, with descriptive content to the right.
+//
+// default - Default media component.
+// .Media--noImageSpace - Media without space around the image.
+// .Media--flag - Centers content vertically
+//
+// markup:
+// <div class="Media {$modifiers}">
+//   <div class="Media-image">
+//     <img src="/placeholder.png"/>
+//   </div>
+//   <div class="Media-content">
+//     Lorem Ipsum ...
+//   </div>
+// </div>
+//
+// Styleguide 1.7
+
+.Media {
+  display: inline-flex;
+}
+
+.Media-image {
+  padding: 0 $Theme-spacing-small;
+}
+
+.Media-content {
+  flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 $Theme-spacing-small;
+}
+
+.Media.Media--noImageSpace {
+  .Media-image {
+    padding: 0;
+  }
+}
+
+.Media.Media--flag {
+  .Media-content {
+    justify-content: center;
+  }
+}

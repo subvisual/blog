@@ -1,0 +1,70 @@
+// GridCell
+//
+// Center its content and limits it to a threshold
+//
+// default - Aligns content to the left
+// .GridCell--alignCenter - Centers the content
+// .GridCell--alignRight - Aligns content to the right
+// .GridCell--small - Limits the content to a smaller width
+// .GridCell--image - The content limit is adjusted for large images
+// .GridCell--video - The content limit is adjusted for 720px width videos
+//
+// markup:
+// <div class="GridCell {$modifiers}">
+//   <div class="GridCell-content">
+//     <div>Cell 1</div>
+//     <div>Cell 3</div>
+//   </div>
+// </div>
+//
+// Styleguide 1.14
+
+@import '../reset';
+@import '../theme_vars';
+
+.GridCell {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 100%;
+  padding: 0 $Theme-spacing-small;
+}
+
+@include media('>=tablet') {
+  .GridCell {
+    padding: 0 $Theme-spacing-default;
+  }
+}
+
+.GridCell.GridCell--alignCenter {
+  justify-content: center;
+}
+
+.GridCell.GridCell--alignRight {
+  justify-content: flex-end;
+}
+
+.GridCell.GridCell--small {
+  @include media('<=tablet') {
+    .GridCell-content {
+      max-width: 460px;
+    }
+  }
+}
+
+.GridCell-content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.GridCell.GridCell--image {
+  .GridCell-content {
+    max-width: 800px;
+  }
+}
+
+.GridCell.GridCell--video {
+  .GridCell-content {
+    max-width: 720px;
+  }
+}

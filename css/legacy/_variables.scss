@@ -1,0 +1,120 @@
+@import './blue_variables';
+
+$fa-font-path: '../assets';
+$Color-catskillWhite: #eef4f8;
+$Color-item-blue: #42bffe;
+$Color-error: #cc4b44;
+
+$Theme-palette-text-body-default: $Theme-color-limedSpruce;
+$Theme-palette-text-body-subvisual: $Theme-color-poloBlue;
+$Theme-palette-text-body-alt: $Theme-color-horizon;
+$Theme-palette-table-highlight: $Theme-color-pale-grey;
+
+$NavLogo-mobile-colored:  image-path('blue/subvisual_logo_no_name.svg');
+$NavLogo-mobile-mono:     image-path('blue/subvisual_logo_mono_no_name.svg');
+$NavLogo-desktop-colored: image-path('blue/subvisual_logo_with_name.svg');
+$NavLogo-desktop-mono:    image-path('blue/subvisual_logo_mono_with_name.svg');
+
+@font-face {
+  font-family: 'SourceCodePro-Regular';
+  src: font_url('SourceCodePro-Regular.ttf') format('truetype'),
+       font_url('SourceCodePro-Regular.woff') format('woff');
+}
+
+$Theme-font-sizes-extra: (
+  mobile: (
+    heading: (
+      small: (
+        font-size: 12px,
+        line-height: 22px
+      ),
+      base: (
+        font-size: 16px,
+        line-height: 26px
+      ),
+      large: (
+        font-size: 20px,
+        line-height: 30px
+      ),
+      veryLarge: (
+        font-size: 24px,
+        line-height: 34px
+      ),
+      huge: (
+        font-size: 24px,
+        line-height: 34px
+      )
+    ),
+    code: (
+      base: (
+        font-size: 12px,
+        line-height: 22px
+      )
+    ),
+    alt: (
+      base: (
+        font-size: 12px,
+        line-height: 22px
+      ),
+      large: (
+        font-size: 16px,
+        line-height: 26px
+      )
+    )
+  ),
+  desktop: (
+    heading: (
+      small: (
+        font-size: 16px,
+        line-height: 28px
+      ),
+      base: (
+        font-size: 20px,
+        line-height: 32px
+      ),
+      large: (
+        font-size: 24px,
+        line-height: 36px
+      ),
+      veryLarge: (
+        font-size: 40px,
+        line-height: 52px
+      ),
+      huge: (
+        font-size: 60px,
+        line-height: 72px
+      )
+    ),
+    code: (
+      base: (
+        font-size: 18px,
+        line-height: 26px
+      )
+    ),
+    alt: (
+      base: (
+        font-size: 16px,
+        line-height: 24px
+      ),
+      large: (
+        font-size: 24px,
+        line-height: 36px
+      )
+    )
+  )
+);
+
+@mixin extra-font($family, $desktop, $mobile) {
+  font-family: map-get($Theme-font-families, $family);
+  font-size: $mobile;
+  line-height: $mobile + 10px;
+
+  @include media('>=tablet') {
+    font-size: $desktop;
+    line-height: $desktop + 12px;
+  }
+}
+
+// @debug $Theme-font-sizes;
+// $Theme-font-sizes: map-extend($Theme-font-sizes, $Theme-font-sizes-extra, true);
+// @debug $Theme-font-sizes;
