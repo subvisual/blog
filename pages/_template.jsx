@@ -6,6 +6,8 @@ import Nav from '../components/nav';
 import '../css/markdown-styles'
 import '../css/legacy';
 
+import separator from '../images/subvisual-separator.svg';
+
 import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
@@ -19,6 +21,7 @@ module.exports = React.createClass({
       <div>
         <Nav />
         {this.props.children}
+        <div className="Separator Separator--subvisual"></div>
       </div>
     )
   },
