@@ -22,7 +22,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 }
 
 // both tables and highlights are not limited to the specified grid
-.Post-body > :not(.highlight):not(.PostTable) {
+.Post-body > :not(.highlight):not(.PostTable):not(pre) {
   @include PostMaxWidth;
 }
 
@@ -81,57 +81,27 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
     }
   }
 
-  .Post-imageWrapper,
-  .highlight, // scss-lint:disable SelectorFormat
-  > pre {
-    margin-top: $Theme-spacing-default;
-    margin-bottom: $Theme-spacing-default;
-  }
-
-  .highlight, // scss-lint:disable SelectorFormat
-  > pre {
-    @include font-properties(code, base, $Theme-font-sizes-extra);
-
-    padding: $Theme-spacing-small 0;
-
-    background-color: $Color-catskillWhite;
-
-    font-family: 'SourceCodePro-Regular';
-  }
-
   code {
-    padding: 0.2em;
-    margin: 0;
+    @include font-properties(code, base, $Theme-font-sizes-extra);
+    @include PostMaxWidth($Post-code-max-width);
+  }
 
-    background-color: $Post-inlineCodeBgColor;
+  pre,
+  code {
+    background-color: $Color-catskillWhite;
+  }
 
+  p > code {
+    display: inline;
     border-radius: 3px;
-
-    font-family: 'SourceCodePro-Regular';
-    font-size: 85%;
   }
 
-  .highlight { // scss-lint:disable SelectorFormat
-    pre,
-    code {
-      @include PostMaxWidth($Post-code-max-width);
-
-      padding-right: $Theme-spacing-small;
-      padding-left: $Theme-spacing-small;
-
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-
-    code {
-      @include font-properties(code, base, $Theme-font-sizes-extra);
-
-      padding-top: 0;
-      padding-bottom: 0;
-
-      background-color: transparent;
-    }
-  }
+//   .Post-imageWrapper,
+//   .highlight, // scss-lint:disable SelectorFormat
+//   > pre {
+//     margin-top: $Theme-spacing-default;
+//     margin-bottom: $Theme-spacing-default;
+//   }
 
   blockquote {
     &:before,
