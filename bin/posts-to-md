@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "asd"
 require "pg"
 require "sequel"
 require "pry"
@@ -9,29 +8,45 @@ require "active_support/core_ext/string"
 
 DB = Sequel.connect("postgres://localhost/blog")
 
-def cleanup(body)
+def cleanup_body(body)
   body.
     gsub("&#x2028;", "").
     gsub(/\r/, "")
 end
 
+def cleanup_title(title)
+  title.
+    gsub("<br>", "")
+end
+
 # remove existing legacy posts
 FileUtils.rm_rf("./pages/posts/legacy/.", secure: true)
+
+post = DB.from(:posts).first
 
 DB.from(:posts).where("published_at IS NOT NULL").each do |post|
   id = post[:id]
   title = post[:title]
 
   path = "#{id} #{title}".parameterize
+  tag_ids = DB.from(:taggings).where(taggable_id: post[:id]).all.map {|t| t[:tag_id]}
+  tags = DB.from(:tags).where(id: tag_ids).map {|t| t[:name]}
+
+  tags_str = tags.reverse.map do |tag|
+    "- #{tag}"
+  end.join("\n  ")
 
   File.open("pages/posts/legacy/#{path}.md", "w") do |f|
     f.write(
       <<~TXT
         ---
         path: /posts/#{path}
+        title: "#{cleanup_title(post[:title])}"
+        tags:
+          #{tags_str}
         ---
 
-        #{cleanup(post[:body])}
+        #{cleanup_body(post[:body])}
       TXT
     )
   end

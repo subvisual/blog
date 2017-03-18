@@ -36,7 +36,7 @@ module.exports = React.createClass({
           <GoogleFont typography={typography} />
           {css}
         </head>
-        <body>
+        <body className="Theme">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
