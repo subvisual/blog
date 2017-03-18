@@ -1,10 +1,14 @@
 import React from 'react';
 
+import logoColor from '../images/logo-color.svg';
+
 export default class Nav extends React.Component {
   render() {
     return <header className='Nav Nav--topPositioned' aria-label='Main navigation'>
       <a href="https://subvisual.co" className="Nav-logo">
-        LOGO HERE
+        <div className="NavLogo">
+          <div dangerouslySetInnerHTML={{__html: logoColor}} />
+        </div>
       </a>
       <div className="Nav-menu">
         <div className="Burger">

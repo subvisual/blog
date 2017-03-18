@@ -96,12 +96,11 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
     border-radius: 3px;
   }
 
-//   .Post-imageWrapper,
-//   .highlight, // scss-lint:disable SelectorFormat
-//   > pre {
-//     margin-top: $Theme-spacing-default;
-//     margin-bottom: $Theme-spacing-default;
-//   }
+  p > img,
+  pre {
+    margin-top: $Theme-spacing-default;
+    margin-bottom: $Theme-spacing-default;
+  }
 
   blockquote {
     &:before,

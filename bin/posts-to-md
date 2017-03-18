@@ -11,7 +11,8 @@ DB = Sequel.connect("postgres://localhost/blog")
 def cleanup_body(body)
   body.
     gsub("&#x2028;", "").
-    gsub(/\r/, "")
+    gsub(/\r/, "").
+    gsub("###...", "### ...")
 end
 
 def cleanup_title(title)

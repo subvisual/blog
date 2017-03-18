@@ -32,9 +32,11 @@ module.exports = React.createClass({
             </div>
           </div>
         </div>
+        <div className="u-xSmallThenSmallMargin"></div>
         <div className="PostWidthConstrainer">
           {this.renderTags(post.tags)}
         </div>
+        <div className="u-smallThenDefaultMargin"></div>
         <div className="Post">
           <Helmet
             title={`${config.siteTitle} | ${post.title}`}

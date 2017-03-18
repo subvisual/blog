@@ -5,7 +5,7 @@ tags:
   - general
 ---
 
-###... our problem-free philosophy.
+### ... our problem-free philosophy.
 
 I grew up watching Disney movies, listening to their music and singing them at home, school, bus, car… everywhere. Like a lot of kids, Timon and Pumba’s song was one of my favorites, and it played in my head almost every single day (ok, I have to admit, it still happens). I have no idea of how many times I heard and sang that music, but I know that it never occurred to me that “Hakuna Matata” wasn’t invented for the movie. 
 
