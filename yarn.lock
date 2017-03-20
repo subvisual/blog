@@ -5799,6 +5799,12 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
+react-typekit@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-typekit/-/react-typekit-1.0.6.tgz#2a9871a800f180aaaa54a9b40b7c5e006b299193"
+  dependencies:
+    lodash "^4.17.4"
+
 react-typography@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.15.0.tgz#0c7680bcbb12a681950c2187df66c43aa4b02034"
