@@ -37,6 +37,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
     "- #{tag}"
   end.join("\n  ")
 
+  require 'pry'; binding.pry
   File.open("pages/posts/legacy/#{path}.md", "w") do |f|
     f.write(
       <<~TXT

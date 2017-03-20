@@ -4,6 +4,8 @@ import Typekit from 'react-typekit';
 
 import { prefixLink } from 'gatsby-helpers'
 import Nav from 'components/nav';
+import Sitemap from 'components/sitemap';
+import Footer from 'components/footer';
 
 const BUILD_TIME = new Date().getTime()
 
@@ -36,9 +38,12 @@ module.exports = React.createClass({
         </head>
         <body className="Theme">
           <Nav />
+          <div className="u-navPlaceholder" />
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
           <div className="Separator Separator--subvisual"></div>
+          <Sitemap />
+          <Footer />
           <Typekit kitId="wbx6iwp" />
         </body>
       </html>
