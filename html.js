@@ -3,8 +3,7 @@ import Helmet from 'react-helmet'
 import Typekit from 'react-typekit';
 
 import { prefixLink } from 'gatsby-helpers'
-import { TypographyStyle, GoogleFont } from 'react-typography'
-import typography from './utils/typography'
+import Nav from 'components/nav';
 
 const BUILD_TIME = new Date().getTime()
 
@@ -33,13 +32,13 @@ module.exports = React.createClass({
           />
           {head.title.toComponent()}
           {head.meta.toComponent()}
-          <TypographyStyle typography={typography} />
-          <GoogleFont typography={typography} />
           {css}
         </head>
         <body className="Theme">
+          <Nav />
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <div className="Separator Separator--subvisual"></div>
           <Typekit kitId="wbx6iwp" />
         </body>
       </html>
