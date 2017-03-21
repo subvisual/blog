@@ -1,0 +1,43 @@
+@import 'node_modules/include-media/dist/include-media';
+
+$breakpoints: (
+  'tablet': 650px,
+  'smallDesktop': 850px,
+  'desktop': 1024px
+);
+
+$Theme-color-caribbeanGreen: #00c2b6;
+$Theme-color-cerulean: #00a5d4;
+$Theme-color-ming: #3b6e87;
+$Theme-color-tulipTree: #efaa37;
+$Theme-color-yellowOrange: #fab23c;
+$Theme-color-white: #fff;
+$Theme-color-poloBlue: #6792a8;
+
+$Color-catskillWhite: #eef4f8;
+
+$Theme-nav-height-desktop: 80px;
+$Theme-nav-height-mobile: 60px;
+
+// Layers
+$Theme-layer-stripeTriangle: 4;
+$Theme-layer-stickyElement: 5;
+$Theme-layer-overlay: 6;
+
+// Spacing
+$Theme-spacing-default: 50px;
+$Theme-spacing-large: 100px;
+$Theme-spacing-small: 25px;
+$Theme-spacing-xSmall: 10px;
+
+// Typography
+$Theme-typography-fontWeight-bold: 700;
+$Theme-typography-fontWeight-medium: 500;
+$Theme-typography-fontWeight-regular: 400;
+
+$Theme-tags-color: (
+  design: $Theme-color-caribbeanGreen,
+  development: $Theme-color-cerulean,
+  general: $Theme-color-ming,
+  community: $Theme-color-tulipTree
+);

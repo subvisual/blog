@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../theme/vars";
 
 $PostHero-fixed-height: 400px;
 $PostHero-min-height: 300px;
@@ -28,14 +28,6 @@ $PostHero-background-color-tag: #8db6cb;
   text-align: center;
 
   transform: translateY(-50%);
-}
-
-.PostHero {
-  margin-top: -$Theme-nav-height-mobile;
-
-  @include media('>tablet') {
-    margin-top: -$Theme-nav-height-desktop;
-  }
 }
 
 .PostHero--fixed {

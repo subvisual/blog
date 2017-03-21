@@ -24,9 +24,9 @@
 $NavOverlay-item-border-height: 2px;
 $NavOverlay-item-border-width: 50px;
 $NavOverlay-item-space: $Theme-spacing-default;
+$NavOverlay-item-color-hover: $Theme-color-yellowOrange;
 
 .NavOverlay {
-  display: none;
   position: fixed;
   top: $Theme-nav-height-mobile;
   left: 0;
@@ -56,7 +56,7 @@ $NavOverlay-item-space: $Theme-spacing-default;
   text-transform: uppercase;
 
   &:hover {
-    color: $Nav-item-color-hover;
+    color: $NavOverlay-item-color-hover;
   }
 }
 
@@ -71,7 +71,7 @@ $NavOverlay-item-space: $Theme-spacing-default;
 
   &.is-selected {
     .NavOverlay-link {
-      color: $Nav-item-color-hover;
+      color: $NavOverlay-item-color-hover;
     }
   }
 

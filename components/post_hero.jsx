@@ -48,6 +48,7 @@ const author = (props) => (
 
 const PostHero = (props) => {
   return <div className={mainClasses(props)}>
+    <div className="u-navPlaceholder" />
 
     <div className="PostHero-cover" style={coverStyle(props)}></div>
     <img className="PostHero-hiddenImage" src={props.cover}/>

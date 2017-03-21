@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import Typekit from 'react-typekit';
 
 import { prefixLink } from 'gatsby-helpers'
-import Nav from 'components/nav';
 import Sitemap from 'components/sitemap';
 import Footer from 'components/footer';
 
@@ -37,8 +36,6 @@ module.exports = React.createClass({
           {css}
         </head>
         <body className="Theme">
-          <Nav />
-          <div className="u-navPlaceholder" />
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
           <div className="Separator Separator--subvisual"></div>

@@ -3,33 +3,41 @@ import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
+import Navigation from 'components/nav/all';
 import PostHero from '../components/post_hero';
 import TagList from '../components/tag_list';
 
-module.exports = React.createClass({
-  propTypes () {
-    return {
-      router: React.PropTypes.object,
-    }
-  },
+class Md extends React.Component {
+  get post() {
+    return this.props.route.page.data;
+  }
 
   render () {
-    const post = this.props.route.page.data
     return (
       <div>
-        <PostHero {...post} />
+        <Helmet
+          title={`${config.siteTitle} | ${this.post.title}`}
+        />
+
+        <Navigation light={!!this.post.cover} />
+
+        <PostHero {...this.post} />
         <div className="u-xSmallThenSmallMargin"></div>
         <div className="PostWidthConstrainer">
-          <TagList tags={post.tags} />
+          <TagList tags={this.post.tags} />
         </div>
         <div className="u-smallThenDefaultMargin"></div>
+
         <div className="Post">
-          <Helmet
-            title={`${config.siteTitle} | ${post.title}`}
-          />
-          <div className="Post-body" dangerouslySetInnerHTML={{ __html: post.body }} />
+          <div className="Post-body" dangerouslySetInnerHTML={{ __html: this.post.body }} />
         </div>
       </div>
     )
-  },
-})
+  }
+}
+
+Md.propTypes = {
+  router: React.PropTypes.object,
+}
+
+export default Md;
