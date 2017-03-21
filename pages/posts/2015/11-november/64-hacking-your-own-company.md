@@ -1,7 +1,10 @@
 ---
 path: /posts/64-hacking-your-own-company
 title: "Hacking your own company"
+author: joao-justo
 date: 18/11/2015
+cover: https://subvisual.s3.amazonaws.com/blog/hero/129/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/129/image@2x.jpg
 tags:
   - development
 ---

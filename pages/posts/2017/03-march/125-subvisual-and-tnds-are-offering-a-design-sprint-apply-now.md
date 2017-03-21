@@ -1,7 +1,10 @@
 ---
 path: /posts/125-subvisual-and-tnds-are-offering-a-design-sprint-apply-now
 title: "Subvisual and TNDS are offering a Design Sprint - Apply now!"
+author: francisco-baila
 date: 03/03/2017
+cover: https://subvisual.s3.amazonaws.com/blog/hero/193/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/193/image@2x.jpg
 tags:
   - community
   - design

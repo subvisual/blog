@@ -1,7 +1,10 @@
 ---
 path: /posts/40-adapting-education-to-the-way-we-learn
 title: "Adapting education to the way we learn"
+author: joao-ferreira
 date: 18/06/2014
+cover: 
+retina_cover: 
 tags:
   - design
 ---

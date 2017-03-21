@@ -1,7 +1,10 @@
 ---
 path: /posts/15-talking-about-design-explorers-festival
 title: "Talking about design @ Explorers Festival"
+author: joao-ferreira
 date: 19/11/2013
+cover: 
+retina_cover: 
 tags:
   - design
 ---

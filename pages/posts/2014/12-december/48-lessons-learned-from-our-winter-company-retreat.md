@@ -1,7 +1,10 @@
 ---
 path: /posts/48-lessons-learned-from-our-winter-company-retreat
 title: "Lessons Learned from our Winter Company Retreat"
+author: roberto-machado
 date: 19/12/2014
+cover: 
+retina_cover: 
 tags:
   - general
 ---

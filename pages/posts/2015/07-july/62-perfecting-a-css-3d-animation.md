@@ -1,7 +1,10 @@
 ---
 path: /posts/62-perfecting-a-css-3d-animation
 title: "Perfecting a CSS 3D animation "
+author: miguel-palhas
 date: 17/07/2015
+cover: 
+retina_cover: 
 tags:
   - development
 ---

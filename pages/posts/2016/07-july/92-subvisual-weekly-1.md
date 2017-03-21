@@ -1,7 +1,10 @@
 ---
 path: /posts/92-subvisual-weekly-1
 title: "Subvisual Weekly #1"
+author: gabriel-poca
 date: 22/07/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/159/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/159/image@2x.jpg
 tags:
   - community
 ---

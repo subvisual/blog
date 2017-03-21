@@ -1,7 +1,10 @@
 ---
 path: /posts/18-let-s-talk-tools
 title: "Let's Talk Tools"
+author: roberto-machado
 date: 03/12/2013
+cover: 
+retina_cover: 
 tags:
   - general
 ---

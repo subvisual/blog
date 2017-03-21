@@ -1,7 +1,10 @@
 ---
 path: /posts/81-rubybits-br-type-coercion
 title: "RubyBits:  Type coercion"
+author: luis-zamith
 date: 10/05/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/147/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/147/image@2x.jpg
 tags:
   - development
 ---

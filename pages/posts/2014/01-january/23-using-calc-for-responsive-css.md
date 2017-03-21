@@ -1,7 +1,10 @@
 ---
 path: /posts/23-using-calc-for-responsive-css
 title: "Using calc() for responsive CSS"
+author: gabriel-poca
 date: 07/01/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

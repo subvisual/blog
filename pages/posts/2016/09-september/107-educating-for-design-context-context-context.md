@@ -1,7 +1,10 @@
 ---
 path: /posts/107-educating-for-design-context-context-context
 title: "Educating for design: Context, context, context"
+author: joao-ferreira
 date: 15/09/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/175/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/175/image@2x.jpg
 tags:
   - general
   - design

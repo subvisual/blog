@@ -1,0 +1,92 @@
+@import "../variables";
+
+$PostHero-fixed-height: 400px;
+$PostHero-min-height: 300px;
+$PostHero-min-height-large: 600px;
+$PostHero-background-color-tag: #8db6cb;
+
+.PostHero {
+  position: relative;
+
+  min-height: $PostHero-min-height;
+  margin: auto;
+
+  background-color: $Color-catskillWhite;
+}
+
+.PostHero:not(.PostHero--withCover) {
+  @include media('>tablet') {
+    min-height: $PostHero-min-height-large;
+  }
+}
+
+.PostHero-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  text-align: center;
+
+  transform: translateY(-50%);
+}
+
+.PostHero {
+  margin-top: -$Theme-nav-height-mobile;
+
+  @include media('>tablet') {
+    margin-top: -$Theme-nav-height-desktop;
+  }
+}
+
+.PostHero--fixed {
+  height: $PostHero-fixed-height * 0.5;
+
+  @include media('>tablet') {
+    height: $PostHero-fixed-height;
+  }
+}
+
+.PostHero--pushBottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.PostHero-cover {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.PostHero-hiddenImage {
+  display: block;
+  visibility: hidden;
+  width: 100%;
+}
+
+.PostHero-content {
+  width: 100%;
+  padding-top: $Theme-nav-height-mobile * 0.5;
+
+  @include media('>=tablet') {
+    padding-top: $Theme-nav-height-desktop * 0.5;
+  }
+}
+
+.PostHero.PostHero--withCover .PostHero-overlay {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+

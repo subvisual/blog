@@ -1,7 +1,10 @@
 ---
 path: /posts/105-first-steps-into-product-design
 title: "First steps into product design"
+author: summer-campers
 date: 09/09/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/173/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/173/image@2x.jpg
 tags:
   - general
 ---

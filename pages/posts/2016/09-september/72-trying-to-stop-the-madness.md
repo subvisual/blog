@@ -1,7 +1,10 @@
 ---
 path: /posts/72-trying-to-stop-the-madness
 title: "Trying to stop the madness"
+author: francisco-baila
 date: 28/09/2016
+cover: 
+retina_cover: 
 tags:
   - design
 ---

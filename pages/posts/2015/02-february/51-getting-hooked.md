@@ -1,7 +1,10 @@
 ---
 path: /posts/51-getting-hooked
 title: "Getting Hooked"
+author: miguel-palhas
 date: 18/02/2015
+cover: 
+retina_cover: 
 tags:
   - development
 ---

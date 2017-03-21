@@ -1,7 +1,10 @@
 ---
 path: /posts/91-from-client-to-partner
 title: "From Client to Partner"
+author: joao-ferreira
 date: 02/08/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/158/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/158/image@2x.jpg
 tags:
   - general
 ---

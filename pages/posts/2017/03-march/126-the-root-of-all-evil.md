@@ -1,7 +1,10 @@
 ---
 path: /posts/126-the-root-of-all-evil
 title: "The root of all evil"
+author: miguel-palhas
 date: 13/03/2017
+cover: 
+retina_cover: 
 tags:
   - development
 ---

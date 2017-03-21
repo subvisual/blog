@@ -1,7 +1,10 @@
 ---
 path: /posts/11-open-your-html-css-to-developers
 title: "Open your HTML/CSS to Developers"
+author: joao-ferreira
 date: 23/10/2013
+cover: 
+retina_cover: 
 tags:
   - design
 ---

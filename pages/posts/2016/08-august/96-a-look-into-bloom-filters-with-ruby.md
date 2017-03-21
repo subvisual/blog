@@ -1,7 +1,10 @@
 ---
 path: /posts/96-a-look-into-bloom-filters-with-ruby
 title: "A Look Into Bloom Filters with Ruby"
+author: fernando-mendes
 date: 11/08/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/164/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/164/image@2x.jpg
 tags:
   - development
 ---

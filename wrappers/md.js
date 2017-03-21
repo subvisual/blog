@@ -2,9 +2,10 @@ import React from 'react'
 import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import moment from 'moment';
 
 import _ from 'lodash';
+
+import PostHero from '../components/post_hero';
 
 module.exports = React.createClass({
   propTypes () {
@@ -21,32 +22,11 @@ module.exports = React.createClass({
     });
   },
 
-  renderDate(date) {
-    return moment(date).format('MMM Do, YYYY');
-  },
-
   render () {
     const post = this.props.route.page.data
     return (
       <div>
-        <div className="Hero Hero--center Hero--large">
-          <div className="Hero-content">
-            <div className="PostWidthConstrainer PostWidthConstrainer--title">
-              <h1 className="PostHeading PostHeading--large">{post.title}</h1>
-              <div className="PostInfo">
-                <div className="u-smallThenDefaultMargin"></div>
-                <div className="PostInfo-author">
-                  by&nbsp;
-                  <span className="PostInfo-authorName">Joao Ferreira</span>
-                </div>
-                <div className="PostInfo-date">
-                  on&nbsp;
-                  {this.renderDate(post.date)}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <PostHero {...post} />
         <div className="u-xSmallThenSmallMargin"></div>
         <div className="PostWidthConstrainer">
           {this.renderTags(post.tags)}

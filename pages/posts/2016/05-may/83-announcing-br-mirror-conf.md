@@ -1,7 +1,10 @@
 ---
 path: /posts/83-announcing-br-mirror-conf
 title: "Announcing Mirror Conf"
+author: roberto-machado
 date: 18/05/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/149/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/149/image@2x.jpg
 tags:
   - community
 ---

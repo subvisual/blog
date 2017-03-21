@@ -1,7 +1,10 @@
 ---
 path: /posts/29-open-source-fridays
 title: "Open Source Fridays"
+author: luis-zamith
 date: 20/03/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

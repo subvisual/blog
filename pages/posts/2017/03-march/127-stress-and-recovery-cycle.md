@@ -1,7 +1,10 @@
 ---
 path: /posts/127-stress-and-recovery-cycle
 title: "Stress and Recovery Cycle"
+author: roberto-machado
 date: 15/03/2017
+cover: https://subvisual.s3.amazonaws.com/blog/hero/195/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/195/image@2x.jpg
 tags:
   - general
 ---

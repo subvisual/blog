@@ -1,7 +1,10 @@
 ---
 path: /posts/78-rubyconf-portugal-br-is-back
 title: "RubyConf Portugal  is back!"
+author: roberto-machado
 date: 08/04/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/144/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/144/image@2x.jpg
 tags:
   - community
 ---

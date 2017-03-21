@@ -1,7 +1,10 @@
 ---
 path: /posts/67-newsletter-as-a-team-building-exercise
 title: "Newsletter as a team building exercise"
+author: laura-esteves
 date: 06/01/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/133/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/133/image@2x.jpg
 tags:
   - general
 ---

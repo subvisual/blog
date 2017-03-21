@@ -1,7 +1,10 @@
 ---
 path: /posts/108-educating-for-design-design-discipline
 title: "Educating for design: Design discipline"
+author: joao-ferreira
 date: 19/10/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/176/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/176/image@2x.jpg
 tags:
   - general
   - design

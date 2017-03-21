@@ -1,7 +1,10 @@
 ---
 path: /posts/59-why-subvisual
 title: "Why Subvisual?"
+author: joao-ferreira
 date: 06/07/2015
+cover: https://subvisual.s3.amazonaws.com/blog/hero/121/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/121/image@2x.jpg
 tags:
   - design
 ---

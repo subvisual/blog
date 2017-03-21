@@ -1,7 +1,10 @@
 ---
 path: /posts/47-for-makers
 title: "For Makers"
+author: joao-ferreira
 date: 10/12/2014
+cover: 
+retina_cover: 
 tags:
   - design
 ---

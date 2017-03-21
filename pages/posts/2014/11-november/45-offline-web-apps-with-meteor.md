@@ -1,7 +1,10 @@
 ---
 path: /posts/45-offline-web-apps-with-meteor
 title: "Offline Web Apps with Meteor"
+author: gabriel-poca
 date: 26/11/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

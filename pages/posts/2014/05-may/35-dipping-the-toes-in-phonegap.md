@@ -1,7 +1,10 @@
 ---
 path: /posts/35-dipping-the-toes-in-phonegap
 title: "Dipping the toes in Phonegap"
+author: gabriel-poca
 date: 21/05/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

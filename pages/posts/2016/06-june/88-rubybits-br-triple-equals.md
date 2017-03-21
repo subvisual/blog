@@ -1,7 +1,10 @@
 ---
 path: /posts/88-rubybits-br-triple-equals
 title: "RubyBits:  Triple Equals"
+author: luis-zamith
 date: 14/06/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/154/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/154/image@2x.jpg
 tags:
   - ruby-bits
   - development

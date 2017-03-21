@@ -1,7 +1,10 @@
 ---
 path: /posts/24-why-provisioning-matters
 title: "Why Provisioning Matters"
+author: miguel-palhas
 date: 14/01/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

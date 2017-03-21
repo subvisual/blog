@@ -1,0 +1,18 @@
+@import 'node_modules/include-media/dist/include-media';
+
+$Theme-color-caribbeanGreen: #00c2b6;
+$Theme-color-cerulean: #00a5d4;
+$Theme-color-ming: #3b6e87;
+$Theme-color-tulipTree: #efaa37;
+
+$Theme-nav-height-desktop: 80px;
+$Theme-nav-height-mobile: 60px;
+
+$Color-catskillWhite: #eef4f8;
+
+$Theme-tags-color: (
+  design: $Theme-color-caribbeanGreen,
+  development: $Theme-color-cerulean,
+  general: $Theme-color-ming,
+  community: $Theme-color-tulipTree
+);

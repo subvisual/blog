@@ -1,7 +1,10 @@
 ---
 path: /posts/34-the-keyword-arguments-falacy
 title: "The keyword arguments falacy"
+author: luis-zamith
 date: 14/04/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

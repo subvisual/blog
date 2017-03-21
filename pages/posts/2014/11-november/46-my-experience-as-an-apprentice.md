@@ -1,7 +1,10 @@
 ---
 path: /posts/46-my-experience-as-an-apprentice
 title: "My experience as an apprentice"
+author: joao-justo
 date: 27/11/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

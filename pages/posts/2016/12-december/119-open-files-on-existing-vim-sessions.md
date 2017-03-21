@@ -1,7 +1,10 @@
 ---
 path: /posts/119-open-files-on-existing-vim-sessions
 title: "Open files on existing vim sessions"
+author: miguel-palhas
 date: 16/12/2016
+cover: 
+retina_cover: 
 tags:
   - development
 ---

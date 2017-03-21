@@ -1,7 +1,10 @@
 ---
 path: /posts/58-our-biggest-announcement-yet
 title: "Our Biggest Announcement Yet"
+author: roberto-machado
 date: 01/07/2015
+cover: https://subvisual.s3.amazonaws.com/blog/hero/120/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/120/image@2x.jpg
 tags:
   - general
 ---

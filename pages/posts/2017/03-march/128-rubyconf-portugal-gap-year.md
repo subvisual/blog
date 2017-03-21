@@ -1,7 +1,10 @@
 ---
 path: /posts/128-rubyconf-portugal-gap-year
 title: "RubyConf Portugal Gap Year"
+author: roberto-machado
 date: 17/03/2017
+cover: 
+retina_cover: 
 tags:
   - community
 ---

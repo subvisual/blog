@@ -1,7 +1,10 @@
 ---
 path: /posts/89-stumbling-into-a-product
 title: "Stumbling into a product"
+author: luis-zamith
 date: 22/06/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/156/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/156/image@2x.jpg
 tags:
   - community
 ---

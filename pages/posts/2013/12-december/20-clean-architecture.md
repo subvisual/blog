@@ -1,7 +1,10 @@
 ---
 path: /posts/20-clean-architecture
 title: "Clean Architecture"
+author: luis-zamith
 date: 27/12/2013
+cover: 
+retina_cover: 
 tags:
   - development
 ---

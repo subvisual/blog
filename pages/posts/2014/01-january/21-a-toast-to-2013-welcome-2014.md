@@ -1,7 +1,10 @@
 ---
 path: /posts/21-a-toast-to-2013-welcome-2014
 title: "A Toast To 2013! Welcome 2014"
+author: roberto-machado
 date: 03/01/2014
+cover: 
+retina_cover: 
 tags:
   - general
 ---

@@ -1,7 +1,10 @@
 ---
 path: /posts/28-designer-s-secret-sauce
 title: "Designer's secret sauce"
+author: joao-ferreira
 date: 11/02/2014
+cover: 
+retina_cover: 
 tags:
   - design
 ---

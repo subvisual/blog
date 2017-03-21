@@ -1,7 +1,10 @@
 ---
 path: /posts/94-subvisual-is-expanding-to-the-us
 title: "Subvisual is expanding to the US"
+author: roberto-machado
 date: 04/08/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/161/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/161/image@2x.jpg
 tags:
   - general
 ---

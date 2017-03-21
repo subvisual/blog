@@ -1,7 +1,10 @@
 ---
 path: /posts/70-life-after-apprenticeship
 title: "Life After Apprenticeship"
+author: francisco-baila
 date: 25/02/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/136/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/136/image@2x.jpg
 tags:
   - design
 ---

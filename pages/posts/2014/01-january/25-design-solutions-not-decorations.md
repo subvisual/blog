@@ -1,7 +1,10 @@
 ---
 path: /posts/25-design-solutions-not-decorations
 title: "Design solutions, not decorations"
+author: joao-ferreira
 date: 17/01/2014
+cover: https://subvisual.s3.amazonaws.com/blog/hero/126/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/126/image@2x.jpg
 tags:
   - design
 ---

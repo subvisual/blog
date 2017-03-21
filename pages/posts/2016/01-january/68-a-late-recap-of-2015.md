@@ -1,7 +1,10 @@
 ---
 path: /posts/68-a-late-recap-of-2015
 title: "A Late Recap of 2015"
+author: roberto-machado
 date: 28/01/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/134/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/134/image@2x.jpg
 tags:
   - general
 ---

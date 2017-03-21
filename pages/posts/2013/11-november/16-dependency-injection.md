@@ -1,7 +1,10 @@
 ---
 path: /posts/16-dependency-injection
 title: "Dependency Injection"
+author: luis-zamith
 date: 22/11/2013
+cover: 
+retina_cover: 
 tags:
   - development
 ---

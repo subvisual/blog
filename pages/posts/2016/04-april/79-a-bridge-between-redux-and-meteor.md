@@ -1,7 +1,10 @@
 ---
 path: /posts/79-a-bridge-between-redux-and-meteor
 title: "A bridge between Redux and Meteor"
+author: gabriel-poca
 date: 28/04/2016
+cover: 
+retina_cover: 
 tags:
   - development
 ---

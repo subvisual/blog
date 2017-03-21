@@ -1,7 +1,10 @@
 ---
 path: /posts/106-weekly-8
 title: "Weekly #8"
+author: gabriel-poca
 date: 13/09/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/174/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/174/image@2x.jpg
 tags:
   - general
 ---

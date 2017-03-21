@@ -1,7 +1,10 @@
 ---
 path: /posts/10-portuguese-ruby-community-renaissance
 title: "Portuguese Ruby Community Renaissance"
+author: roberto-machado
 date: 21/10/2013
+cover: 
+retina_cover: 
 tags:
   - community
 ---

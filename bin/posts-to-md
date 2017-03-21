@@ -28,8 +28,13 @@ post = DB.from(:posts).first
 DB.from(:posts).where("published_at IS NOT NULL").each do |post|
   id = post[:id]
   title = post[:title]
-
   filename = "#{id} #{title}".parameterize
+
+  # get the author slug
+  author = DB.from(:users).first(id: post[:author_id])
+  author_slug = "#{author[:first_name]} #{author[:last_name]}".parameterize
+
+  # create the tag list
   tag_ids = DB.from(:taggings).where(taggable_id: post[:id]).all.map {|t| t[:tag_id]}
   tags = DB.from(:tags).where(id: tag_ids).map {|t| t[:name]}
 
@@ -37,6 +42,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
     "- #{tag}"
   end.join("\n  ")
 
+  # create the directory
   year = post[:published_at].year
   month = post[:published_at].month
   day = post[:published_at].day
@@ -44,13 +50,25 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
   dir = "pages/posts/#{year}/#{"%02d" % month}-#{Date::MONTHNAMES[month].downcase}/"
   FileUtils.mkdir_p(dir)
 
+  # get the post cover image
+  hero = DB.from(:heros).first(post_id: post[:id])
+  cover = ""
+  if hero && hero[:image]
+    cover = "https://subvisual.s3.amazonaws.com/blog/hero/#{hero[:id]}/image.jpg"
+    retina_cover = "https://subvisual.s3.amazonaws.com/blog/hero/#{hero[:id]}/image@2x.jpg"
+  end
+
+  # finally, create the post file
   File.open("#{dir}/#{filename}.md", "w") do |f|
     f.write(
       <<~TXT
         ---
         path: /posts/#{filename}
         title: "#{cleanup_title(post[:title])}"
+        author: #{author_slug}
         date: #{post[:published_at].strftime("%d/%m/%Y")}
+        cover: #{cover}
+        retina_cover: #{retina_cover}
         tags:
           #{tags_str}
         ---

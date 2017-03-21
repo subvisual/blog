@@ -1,7 +1,10 @@
 ---
 path: /posts/54-the-pursuit-of-craftsmanship
 title: "The Pursuit of Craftsmanship "
+author: francisco-baila
 date: 13/04/2015
+cover: 
+retina_cover: 
 tags:
   - design
 ---

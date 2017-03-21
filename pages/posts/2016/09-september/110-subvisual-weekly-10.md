@@ -1,7 +1,10 @@
 ---
 path: /posts/110-subvisual-weekly-10
 title: "Subvisual Weekly #10"
+author: summer-campers
 date: 29/09/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/178/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/178/image@2x.jpg
 tags:
   - community
 ---

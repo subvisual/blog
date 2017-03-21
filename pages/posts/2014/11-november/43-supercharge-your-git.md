@@ -1,7 +1,10 @@
 ---
 path: /posts/43-supercharge-your-git
 title: "Supercharge your git"
+author: luis-zamith
 date: 17/11/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

@@ -1,7 +1,10 @@
 ---
 path: /posts/123-how-we-share-ownership-and-accountability
 title: "How We Share Ownership and Accountability"
+author: roberto-machado
 date: 23/02/2017
+cover: https://subvisual.s3.amazonaws.com/blog/hero/191/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/191/image@2x.jpg
 tags:
   - general
 ---

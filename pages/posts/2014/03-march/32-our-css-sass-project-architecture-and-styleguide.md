@@ -1,7 +1,10 @@
 ---
 path: /posts/32-our-css-sass-project-architecture-and-styleguide
 title: "Our CSS/Sass Project Architecture and Styleguide"
+author: bruno-azevedo
 date: 31/03/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

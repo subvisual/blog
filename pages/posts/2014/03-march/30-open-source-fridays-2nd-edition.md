@@ -1,7 +1,10 @@
 ---
 path: /posts/30-open-source-fridays-2nd-edition
 title: "Open Source Fridays - 2nd Edition"
+author: luis-zamith
 date: 24/03/2014
+cover: 
+retina_cover: 
 tags:
   - development
 ---

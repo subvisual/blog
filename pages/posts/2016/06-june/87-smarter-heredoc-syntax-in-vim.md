@@ -1,7 +1,10 @@
 ---
 path: /posts/87-smarter-heredoc-syntax-in-vim
 title: "Smarter heredoc syntax in vim"
+author: miguel-palhas
 date: 02/06/2016
+cover: 
+retina_cover: 
 tags:
   - development
 ---

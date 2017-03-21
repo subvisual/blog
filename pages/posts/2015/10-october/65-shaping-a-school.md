@@ -1,7 +1,10 @@
 ---
 path: /posts/65-shaping-a-school
 title: "Shaping a School"
+author: francisco-baila
 date: 07/10/2015
+cover: https://subvisual.s3.amazonaws.com/blog/hero/130/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/130/image@2x.jpg
 tags:
   - community
   - design

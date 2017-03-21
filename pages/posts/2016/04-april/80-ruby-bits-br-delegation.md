@@ -1,7 +1,10 @@
 ---
 path: /posts/80-ruby-bits-br-delegation
 title: "Ruby Bits:  Delegation"
+author: luis-zamith
 date: 26/04/2016
+cover: https://subvisual.s3.amazonaws.com/blog/hero/146/image.jpg
+retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/146/image@2x.jpg
 tags:
   - development
 ---
