@@ -13,6 +13,14 @@ $Hero-background-color-tag: #8db6cb;
 
 }
 
+.Hero {
+  margin-top: -$Theme-nav-height-mobile;
+
+  @include media('>tablet') {
+    margin-top: -$Theme-nav-height-desktop;
+  }
+}
+
 .Hero--tag {
   background-color: $Hero-background-color-tag;
 }

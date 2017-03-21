@@ -25,10 +25,20 @@ module.exports = React.createClass({
     return (
       <div>
         <div className="Hero Hero--center Hero--large">
-          <div className="u-navPlaceholder"></div>
           <div className="Hero-content">
             <div className="PostWidthConstrainer PostWidthConstrainer--title">
               <h1 className="PostHeading PostHeading--large">{post.title}</h1>
+              <div className="PostInfo">
+                <div className="u-smallThenDefaultMargin"></div>
+                <div className="PostInfo-author">
+                  by&nbsp;
+                  <span className="PostInfo-authorName">Joao Ferreira</span>
+                </div>
+                <div className="PostInfo-date">
+                  on&nbsp;
+                  Jul 01, 2014
+                </div>
+              </div>
             </div>
           </div>
         </div>

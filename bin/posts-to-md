@@ -21,7 +21,7 @@ def cleanup_title(title)
 end
 
 # remove existing legacy posts
-FileUtils.rm_rf("./pages/posts/legacy/.", secure: true)
+FileUtils.rm_rf("./pages/posts/.", secure: true)
 
 post = DB.from(:posts).first
 
@@ -29,7 +29,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
   id = post[:id]
   title = post[:title]
 
-  path = "#{id} #{title}".parameterize
+  filename = "#{id} #{title}".parameterize
   tag_ids = DB.from(:taggings).where(taggable_id: post[:id]).all.map {|t| t[:tag_id]}
   tags = DB.from(:tags).where(id: tag_ids).map {|t| t[:name]}
 
@@ -37,13 +37,20 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
     "- #{tag}"
   end.join("\n  ")
 
-  require 'pry'; binding.pry
-  File.open("pages/posts/legacy/#{path}.md", "w") do |f|
+  year = post[:published_at].year
+  month = post[:published_at].month
+  day = post[:published_at].day
+
+  dir = "pages/posts/#{year}/#{"%02d" % month}-#{Date::MONTHNAMES[month].downcase}/"
+  FileUtils.mkdir_p(dir)
+
+  File.open("#{dir}/#{filename}.md", "w") do |f|
     f.write(
       <<~TXT
         ---
-        path: /posts/#{path}
+        path: /posts/#{filename}
         title: "#{cleanup_title(post[:title])}"
+        date: #{post[:published_at].strftime("%d/%m/%Y")}
         tags:
           #{tags_str}
         ---
