@@ -3,11 +3,7 @@ import classnames from 'classnames';
 
 export default class Overlay extends React.Component {
   static propTypes = {
-    open: React.PropTypes.bool,
-  }
-
-  static defaultProps = {
-    open: false,
+    open: React.PropTypes.bool.isRequired,
   }
 
   get mainClasses() {

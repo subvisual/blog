@@ -55,7 +55,19 @@ export default class ScrollNav extends React.Component {
     }
   }
 
+  get finalProps() {
+    // if overlay is open,
+    // ignore all these scroll events and keep the scrollnav visible
+    return _.merge({}, this.props, {
+      hidden: !this.props.overlay && this.state.hidden,
+      hint: !this.props.overlay && this.state.hint,
+      fixed: true,
+      top: false,
+      light: false,
+    });
+  }
+
   render() {
-    return <Nav {...this.props} {...this.state} fixed top={false} light={false} />;
+    return <Nav {...this.finalProps} />;
   }
 }
