@@ -2,6 +2,7 @@ import React from 'react'
 import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
+import moment from 'moment';
 
 import _ from 'lodash';
 
@@ -20,6 +21,10 @@ module.exports = React.createClass({
     });
   },
 
+  renderDate(date) {
+    return moment(date).format('MMM Do, YYYY');
+  },
+
   render () {
     const post = this.props.route.page.data
     return (
@@ -36,7 +41,7 @@ module.exports = React.createClass({
                 </div>
                 <div className="PostInfo-date">
                   on&nbsp;
-                  Jul 01, 2014
+                  {this.renderDate(post.date)}
                 </div>
               </div>
             </div>
