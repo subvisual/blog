@@ -1,0 +1,4 @@
+.TagList > :not(:last-child):after {
+  content: ",";
+  margin-right: 5px;
+}

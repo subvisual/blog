@@ -3,23 +3,14 @@ import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
-import _ from 'lodash';
-
 import PostHero from '../components/post_hero';
+import TagList from '../components/tag_list';
 
 module.exports = React.createClass({
   propTypes () {
     return {
       router: React.PropTypes.object,
     }
-  },
-
-  renderTags(tags) {
-    return _.map(tags, (tag) => {
-      const classes = `Tag Tag--${tag}`;
-
-      return <div key={tag} className={classes}>{tag}</div>
-    });
   },
 
   render () {
@@ -29,7 +20,7 @@ module.exports = React.createClass({
         <PostHero {...post} />
         <div className="u-xSmallThenSmallMargin"></div>
         <div className="PostWidthConstrainer">
-          {this.renderTags(post.tags)}
+          <TagList tags={post.tags} />
         </div>
         <div className="u-smallThenDefaultMargin"></div>
         <div className="Post">
