@@ -1,0 +1,52 @@
+#!/usr/bin/env ruby
+
+require "pry"
+require "fileutils"
+require "json"
+
+all_posts = Dir.glob("pages/posts/**/*.md").map do |file|
+  YAML.load_file(file)
+end.sort_by do |post|
+  Date.parse(post["date"])
+end.reverse
+
+FileUtils.mkdir_p("data/_generated/tags")
+FileUtils.mkdir_p("data/_generated/authors")
+
+# output all posts
+File.open("data/_generated/all_posts.json", "w") do |file|
+  file.write(JSON.pretty_generate(all_posts))
+end
+
+# output most recent posts
+File.open("data/_generated/all_posts.json", "w") do |file|
+  posts = posts.take(10)
+
+  file.write(JSON.pretty_generate(posts))
+end
+
+# output tag pages
+all_tags = full_json.
+  flat_map { |json| json["tags"] }.
+  uniq
+
+all_tags.each do |tag|
+  posts = full_json.select { |post| post["tags"].include?(tag) }
+
+  File.open("data/_generated/tags/#{tag}.json", "w") do |file|
+    file.write(JSON.pretty_generate(posts))
+  end
+end
+
+# output author pages
+all_authors = full_json.
+  flat_map { |json| json["author"] }.
+  uniq
+
+all_authors.each do |author|
+  posts = full_json.select { |post| post["author"] == author }
+
+  File.open("data/_generated/authors/#{author}.json", "w") do |file|
+    file.write(JSON.pretty_generate(posts))
+  end
+end
