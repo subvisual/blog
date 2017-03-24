@@ -1,8 +1,44 @@
 #!/usr/bin/env ruby
 
+require "pry"
 require "fileutils"
 
-Dir.glob("pages/posts/**/*.md").each do |post|
+arg = ARGV[0]
+
+def import_post_intro(post, intro)
+  front_matter_delimiter_count = 0
+  front_matter_finished = false
+  lines_count = 0
+  finished = false
+
+  File.open(intro, "w") do |intro_file|
+    File.open(post).each do |line|
+      if !front_matter_finished
+        if line.strip == "---"
+          front_matter_delimiter_count += 1
+        end
+        if front_matter_delimiter_count == 2
+          front_matter_finished = true
+        end
+
+        intro_file << line
+        next
+      end
+
+      if front_matter_finished && !finished
+        if lines_count == 0
+          intro_file << line
+        end
+
+        if line.strip.size > 0
+          lines_count += 1
+        end
+      end
+    end
+  end
+end
+
+def handle_file(post)
   dirname = File.dirname(post)
   dirname.gsub!(/^pages/, 'pages/_generated')
 
@@ -13,25 +49,10 @@ Dir.glob("pages/posts/**/*.md").each do |post|
   import_post_intro(post, intro)
 end
 
-def import_post_intro(post, intro)
-  front_matter_delimiter_count
-  front_matter_finished = false
-  finished = false
-
-  File.open(intro, "w") do |intro_file|
-    File.open(post).each do |line|
-      if !front_matter_finished
-        if line == "---"
-          front_matter_count += 1
-        end
-        if front_matter_count == 2
-          front_matter_finished = true
-        end
-      end
-
-      if front_matter_finished && !finished
-        TODO
-      end
-    end
+if arg
+  handle_file(arg)
+else
+  Dir.glob("pages/posts/**/*.md").each do |post|
+    handle_file(post)
   end
 end
