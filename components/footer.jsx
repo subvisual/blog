@@ -1,5 +1,7 @@
 import React from 'react';
 
+import EngagementLink from './engagement_link';
+
 const year = () => new Date().getFullYear();
 
 const AtSign = '@';
@@ -15,9 +17,9 @@ const Footer = () => (
     <a className="Footer-work" href="https://subvisual.co/hire-us">
       <span className="Footer-interested">Interested in our services?</span>
       <div className="Footer-workText">
-        <div className="EngagementLink EngagementLink--iconRight EngagementLink--light">
+        <EngagementLink>
           Let&apos;s get to work
-        </div>
+        </EngagementLink>
       </div>
     </a>
   </div>

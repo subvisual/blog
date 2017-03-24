@@ -1,32 +1,63 @@
 bruno-azevedo:
-  name: Bruno Azevedo
+  name: "Bruno Azevedo"
+  twitter: "azevedo_252"
+  bio: "Likes to make a difference in everything he does. Music lover and practitioner. Healthy Hacker wannabe."
+
+fernando-mendes:
+  name: "Fernando Mendes"
+  twitter: "fribmendes"
+  bio: "Open Source enthusiast that does not host the portuguese version of The Price Is Right.\n\nLoves reading and learning and '); DROP TABLE Staff; --"
 
 francisco-baila:
-  name: Francisco Baila
+  name: "Francisco Baila"
+  twitter: "fcBaila"
+  bio: "Cares about overcoming self limitations. Working to turn technology into a friend."
 
 gabriel-poca:
-  name: Gabriel Poça
+  name: "Gabriel Poça"
+  twitter: "gabrielgpoca"
+  bio: "There is no time for introductions, but if there was, you would instantly understand that this guy is a developer and he loves every aspect of it."
 
 joao-ferreira:
-  name: João Ferreira
+  name: "João Ferreira"
+  twitter: "jferreiradzn"
+  bio: "Believes Design is not about mastering tools but about mastering people. Passionate about music, movies and whisky."
 
 joao-justo:
-  name: João Justo
+  name: "João Justo"
+  bio: "Always gets way too excited about a new idea. Downhill amateur and Android fanboy. Avoid talking to him about Game of Thrones unless you have serious time to spend."
 
 laura-esteves:
-  name: Laura Esteves
+  name: "Laura Esteves"
+  twitter: "lauraesteves"
+  bio: "Super power: Multitasking. Purpose: Making life easier. Sidekicks: Minions. This smiley girl can mislead you to think she is all niceness. Give her a challenge and see the workforce she becomes."
 
 luis-zamith:
-  name: Luis Zamith
+  name: "Luis Zamith"
+  twitter: "zamith"
+  bio: "Has worked on the web for a while now, mainly using Ruby and Ruby on Rails. Enjoys open source and giving back to the community, having taught Rails to hundreds of people."
 
 miguel-palhas:
-  name: Miguel Palhas
+  name: "Miguel Palhas"
+  twitter: "naps62"
+  bio: "All-round developer with a background in High Performance Computing and a passion for the Open Source world. Still dreams about becoming a real game developer someday."
 
 pedro-costa:
-  name: Pedro Costa
+  name: "Pedro Costa"
+  twitter: "iampfac"
+  bio: "Refactor maniac with a thing for philosophic thoughts."
 
 roberto-machado:
-  name: Roberto Machado
+  name: "Roberto Machado"
+  twitter: "rmdgb"
+  bio: "Breathes technology and deeply believes, hence the creation of Subvisual, that it is the medium for a better future. Always has 5 min to listen to you."
 
 ronaldo-sousa:
-  name: Ronaldo Sousa
+  name: "Ronaldo Sousa"
+  twitter: "ronaldofsousa"
+  bio: "Nothing to say yet..."
+
+summer-campers:
+  name: "Summer Campers"
+  twitter: "subvisual"
+  bio: "Thirsty for knowledge and keen to learn. Then we found out they had free beer."

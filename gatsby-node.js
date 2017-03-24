@@ -22,7 +22,7 @@ exports.modifyWebpackConfig = function (config, env) {
     cfg.test = /\.svg$/
     cfg.loader = "svg-inline-loader"
     return cfg;
-  })
+  });
 
   return config;
 };

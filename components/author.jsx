@@ -6,21 +6,35 @@ import roberto from '../images/authors/roberto-machado.png';
 
 import '../css/components/author.scss';
 
-const Author = props => (
-  <div className="Author Author--responsive">
+const data = slug => Authors[slug];
+
+const Author = ({ slug }) => {
+  const data = Authors[slug];
+
+  if (!data)
+    console.error(slug);
+
+  return <div className="Author Author--responsive">
     <div className="Author-imageWrapper">
-      <Picture className="Author-image" {...props} />
+      <Picture className="Author-image" slug={slug} />
     </div>
     <div className="Author-bioWrapper">
       <h2 className="Author-heading">
-        About <a href="/" target="_blank" rel="noreferrer noopener" className="Author-name">Roberto Machado</a>
+        About <a
+          href={`https://twitter.com/${data.twitter}`}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="Author-name"
+        >
+          {data.name}
+        </a>
       </h2>
 
       <div className="u-xSmallMargin" />
 
-      <div className="Author-bio">Breathes technology and deeply believes, hence the creation of Subvisual, that it is the medium for a better future. Always has 5 min to listen to you.</div>
+      <div className="Author-bio">{data.bio}</div>
     </div>
   </div>
-);
+};
 
 export default Author;

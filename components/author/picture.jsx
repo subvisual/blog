@@ -3,6 +3,7 @@ import React from 'react';
 import Authors from '../../data/authors.yaml';
 
 import bruno from '../../images/authors/bruno-azevedo.png';
+import fernando from '../../images/authors/fernando-mendes.png';
 import francisco from '../../images/authors/francisco-baila.png';
 import gabriel from '../../images/authors/gabriel-poca.png';
 import joao from '../../images/authors/joao-ferreira.png';
@@ -13,6 +14,7 @@ import naps from '../../images/authors/miguel-palhas.png';
 import pedro from '../../images/authors/pedro-costa.png';
 import roberto from '../../images/authors/roberto-machado.png';
 import ronaldo from '../../images/authors/ronaldo-sousa.png';
+import campers from '../../images/authors/summer-campers.png';
 
 const pictures = {
   'bruno-azevedo': bruno,
@@ -26,6 +28,7 @@ const pictures = {
   'pedro-costa': pedro,
   'roberto-machado': roberto,
   'ronaldo-sousa': ronaldo,
+  'summer-campers': campers,
 };
 
 const authorPicture = slug => {

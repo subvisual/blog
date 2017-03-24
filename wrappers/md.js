@@ -15,7 +15,38 @@ class Md extends React.Component {
     return this.props.route.page.data;
   }
 
-  render () {
+  renderMd() {
+    return <div dangerouslySetInnerHTML={{ __html: this.post.body }} />
+  }
+
+  renderPost() {
+    return <div>
+      <PostHero {...this.post} />
+      <div className="u-xSmallThenSmallMargin"></div>
+      <div className="PostWidthConstrainer">
+        <TagList tags={this.post.tags} />
+        <div className="u-smallThenDefaultMargin"></div>
+      </div>
+
+      <div className="Post">
+        <div className="Post-body" dangerouslySetInnerHTML={{ __html: this.post.body }} />
+      </div>
+
+      <div className="PostWidthConstrainer">
+        <div className="u-defaultThenLargeMargin" />
+        <Separator />
+        <div className="u-defaultThenLargeMargin" />
+        <Author slug={this.post.author} />
+        <div className="u-defaultThenLargeMargin" />
+        <HireUs />
+        <div className="u-smallThenDefaultMargin" />
+        <Separator />
+        <div className="u-defaultThenLargeMargin" />
+      </div>
+    </div>;
+  }
+
+  render() {
     return (
       <div>
         <Helmet
@@ -24,28 +55,7 @@ class Md extends React.Component {
 
         <Navigation light={!!this.post.cover} />
 
-        <PostHero {...this.post} />
-        <div className="u-xSmallThenSmallMargin"></div>
-        <div className="PostWidthConstrainer">
-          <TagList tags={this.post.tags} />
-          <div className="u-smallThenDefaultMargin"></div>
-        </div>
-
-        <div className="Post">
-          <div className="Post-body" dangerouslySetInnerHTML={{ __html: this.post.body }} />
-        </div>
-
-        <div className="PostWidthConstrainer">
-          <div className="u-defaultThenLargeMargin" />
-          <Separator />
-          <div className="u-defaultThenLargeMargin" />
-          <Author slug={this.post.author} />
-          <div className="u-defaultThenLargeMargin" />
-          <HireUs />
-          <div className="u-smallThenDefaultMargin" />
-          <Separator />
-          <div className="u-defaultThenLargeMargin" />
-        </div>
+        {(this.post.author) ? this.renderPost() : this.renderMd()}
       </div>
     )
   }

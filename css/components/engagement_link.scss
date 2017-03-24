@@ -1,0 +1,61 @@
+// @import '../theme/vars';
+// @import '../theme/font';
+
+// $EngagementLink-width-icon: 25px;
+
+// .EngagementLink {
+//   @include font-properties(subvisual, small);
+
+//   display: inline-flex;
+
+//   color: $Theme-color-yellowOrange;
+
+//   font-weight: $Theme-typography-fontWeight-bold;
+//   text-decoration: none;
+//   text-transform: uppercase;
+
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// }
+
+// .EngagementLink.EngagementLink--iconRight {
+//   &:before {
+//     order: 2;
+
+//     margin-right: 0;
+//     margin-left: $Theme-spacing-small;
+//   }
+// }
+
+// .EngagementLink.EngagementLink--customIcon {
+//   .EngagementLink-icon {
+//     width: $EngagementLink-width-icon;
+//     height: $EngagementLink-width-icon;
+//     margin-right: $Theme-spacing-small;
+//   }
+// }
+
+// .EngagementLink.EngagementLink--iconRight.EngagementLink--customIcon {
+//   .EngagementLink-icon {
+//     order: 2;
+
+//     margin-right: 0;
+//     margin-left: $Theme-spacing-small;
+//   }
+
+//   .EngagementLink-text {
+//     order: 1;
+//   }
+// }
+
+// .EngagementLink.EngagementLink--customIcon,
+// .EngagementLink.EngagementLink--iconRight.EngagementLink--customIcon {
+//   &:before {
+//     display: none;
+//   }
+// }
+
+// .EngagementLink.EngagementLink--light {
+//   color: $Theme-color-white;
+// }
