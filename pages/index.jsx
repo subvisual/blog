@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { config } from '../config.toml';
 
-import Navigation from '../components/nav/all';
+import Navigation from '../components/nav';
 
 const Index = () => (
   <div>

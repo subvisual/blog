@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Nav from './nav';
-import ScrollNav from './scroll_nav';
-import Overlay from './overlay';
+import Nav from './nav/nav';
+import ScrollNav from './nav/scroll_nav';
+import Overlay from './nav/overlay';
 
 export default class Navigation extends React.Component {
   constructor(props) {

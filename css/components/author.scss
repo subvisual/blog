@@ -1,4 +1,7 @@
 @import '../theme/vars';
+@import '../theme/font';
+
+$Author-name-color: $Theme-color-brightTurquoise;
 
 .Author {
   flex: 1 0 auto;
@@ -9,8 +12,34 @@
   }
 }
 
-.Author-content {
+.Author-imageWrapper,
+.Author-bioWrapper {
+  padding: 0 $Theme-spacing-small;
+}
+
+.Author-bioWrapper {
   @include media('<tablet') {
     flex: 1 0 auto;
   }
+}
+
+.Author-image {
+  width: 100px;
+  height: 100px;
+}
+
+.Author-heading {
+  @include font-properties(subvisual, base);
+
+  font-weight: $Theme-typography-fontWeight-medium;
+  text-transform: uppercase;
+}
+
+.Author-name {
+  color: $Author-name-color;
+}
+
+.Author-bio {
+  @include font-properties(heading, small, $Theme-font-sizes-extra);
+  color: $Theme-color-horizon;
 }

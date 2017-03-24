@@ -43,8 +43,8 @@ const postInfoClasses = props => (
   })
 );
 
-const author = props => (
-  _.find(Authors, { slug: props.author })
+const author = ({ author }) => (
+  Authors[author]
 );
 
 const PostHero = props => (
@@ -76,7 +76,7 @@ const PostHero = props => (
 );
 
 PostHero.propTypes = {
-  title: React.PropTypes.isRequired,
+  title: React.PropTypes.string.isRequired,
   cover: React.PropTypes.string,
   date: React.PropTypes.string,
 };
