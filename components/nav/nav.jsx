@@ -4,8 +4,6 @@ import classnames from 'classnames';
 import Burger from './burger';
 import Logo from './logo';
 
-import '../../css/components/nav.scss';
-
 export default class Nav extends React.Component {
   static propTypes = {
     onBurgerClick: React.PropTypes.func.isRequired,

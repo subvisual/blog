@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../css/components/separator.scss';
 import separator from '../images/subvisual-separator.svg';
 
 const Separator = () => (

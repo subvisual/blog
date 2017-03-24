@@ -1,11 +1,14 @@
 import React from 'react';
 
-// import '../css/components/engagement_link.scss';
+import arrow from '../images/link-arrow-white.svg';
 
 const EngagementLink = ({ children }) => (
-  <div className="EngagementLink EngagementLink--iconRight EngagementLink--light">
+  /* eslint-disable react/no-danger */
+  <div className="EngagementLink">
     {children}
+    <div className="EngagementLink-icon" dangerouslySetInnerHTML={{ __html: arrow }} />
   </div>
+  /* eslint-enable react/no-danger */
 );
 
 EngagementLink.propTypes = {

@@ -4,8 +4,6 @@ import Authors from '../data/authors.yaml';
 import Picture from './author/picture';
 import roberto from '../images/authors/roberto-machado.png';
 
-import '../css/components/author.scss';
-
 const data = slug => Authors[slug];
 
 const Author = ({ slug }) => {

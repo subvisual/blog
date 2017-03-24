@@ -1,9 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 
-import '../css/components/tag_list.scss';
-import '../css/components/engagement_link.scss';
-
 const renderTags = tags => (
   _.map(tags, (tag) => {
     const classes = `Tag Tag--${tag}`;

@@ -3,8 +3,6 @@ import moment from 'moment';
 import classnames from 'classnames';
 import _ from 'lodash';
 
-import '../css/components/post_hero.scss';
-
 import Authors from '../data/authors.yaml';
 
 const formattedDate = date => (

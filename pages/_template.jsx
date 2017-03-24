@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../css/markdown-styles.css';
 import '../css/legacy.scss';
+import '../css/app.scss';
 
 const Template = ({ children }) => (
   <div>
