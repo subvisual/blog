@@ -9,18 +9,18 @@ export default class Navigation extends React.Component {
     super(props);
     this.state = {
       overlay: false,
-    }
+    };
   }
 
   toggleOverlay = () => {
     this.setState({ overlay: !this.state.overlay });
   }
 
-  render() {
-    return <div>
+  render = () => (
+    <div>
       <Nav {...this.props} {...this.state} onBurgerClick={this.toggleOverlay} />
       <ScrollNav {...this.props} {...this.state} onBurgerClick={this.toggleOverlay} />
       <Overlay open={this.state.overlay} />
     </div>
-  }
+  )
 }

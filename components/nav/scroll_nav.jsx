@@ -1,9 +1,18 @@
+/* global window:false, document:false */
 import React from 'react';
 import _ from 'lodash';
 
 import Nav from './nav';
 
 export default class ScrollNav extends React.Component {
+  static propTypes = {
+    overlay: React.PropTypes.bool,
+  }
+
+  static defaultProps = {
+    overlay: false,
+  }
+
   constructor(props) {
     super(props);
     this.state = {

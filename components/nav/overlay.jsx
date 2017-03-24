@@ -8,7 +8,7 @@ export default class Overlay extends React.Component {
 
   get mainClasses() {
     return classnames({
-      'NavOverlay': true,
+      NavOverlay: true,
       'is-open': this.props.open,
     });
   }

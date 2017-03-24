@@ -1,28 +1,38 @@
 import React from 'react';
 import classnames from 'classnames';
-import _ from 'lodash';
-import $ from 'jquery';
 
 import Burger from './burger';
 import Logo from './logo';
 
-import '../../css/components/nav';
+import '../../css/components/nav.scss';
 
 export default class Nav extends React.Component {
-  static proprTypes = {
+  static propTypes = {
     onBurgerClick: React.PropTypes.func.isRequired,
+    top: React.PropTypes.bool,
+    fixed: React.PropTypes.bool,
+    light: React.PropTypes.bool,
+    hidden: React.PropTypes.bool,
+    hint: React.PropTypes.bool,
+    overlay: React.PropTypes.bool,
+    className: React.PropTypes.string,
+    burgerClasses: React.PropTypes.string,
   }
 
   static defaultProps = {
     top: true,
     light: false,
+    hint: false,
+    fixed: false,
+    hidden: false,
+    overlay: false,
     className: '',
-    BurgerClasses: ''
+    burgerClasses: '',
   };
 
-  get navClasses() {
+  navClasses() {
     return classnames({
-      'Nav': true,
+      Nav: true,
       'Nav--top': this.props.top,
       'Nav--fixed': this.props.fixed,
       'Nav--hint': this.props.hint,
@@ -35,7 +45,7 @@ export default class Nav extends React.Component {
   }
 
   render() {
-    return <header className={this.navClasses} aria-label='Main navigation'>
+    return <header className={this.navClasses()} aria-label="Main navigation">
 
       <div className="Nav-logo">
         <Logo mono={!this.props.overlay && this.props.light} />
@@ -66,6 +76,6 @@ export default class Nav extends React.Component {
           </li>
         </ul>
       </nav>
-    </header>
+    </header>;
   }
 }

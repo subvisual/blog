@@ -1,21 +1,16 @@
-import React from 'react'
-import { Container } from 'react-responsive-grid'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import React from 'react';
 
-import '../css/markdown-styles'
-import '../css/legacy';
+import '../css/markdown-styles.css';
+import '../css/legacy.scss';
 
-class Template extends React.Component {
-  render () {
-    return <div>
-      {this.props.children}
-    </div>;
-  }
-}
+const Template = ({ children }) => (
+  <div>
+    {children}
+  </div>
+);
 
 Template.propTypes = {
-  children: React.PropTypes.any,
-}
+  children: React.PropTypes.node.isRequired,
+};
 
 export default Template;
