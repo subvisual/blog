@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+
+Dir.glob("pages/posts/**/*.md").each do |post|
+  dirname = File.dirname(post)
+  dirname.gsub!(/^pages/, 'pages/_generated')
+
+  intro = "#{dirname}/#{File.basename(post)}.#{File.basename(post)}"
+  FileUtils.mkdir_p(dirname)
+  FileUtils.touch(intro)
+
+  import_post_intro(post, intro)
+end
+
+def import_post_intro(post, intro)
+  front_matter_delimiter_count
+  front_matter_finished = false
+  finished = false
+
+  File.open(intro, "w") do |intro_file|
+    File.open(post).each do |line|
+      if !front_matter_finished
+        if line == "---"
+          front_matter_count += 1
+        end
+        if front_matter_count == 2
+          front_matter_finished = true
+        end
+      end
+
+      if front_matter_finished && !finished
+        TODO
+      end
+    end
+  end
+end
