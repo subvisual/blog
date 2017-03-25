@@ -3,7 +3,7 @@ import moment from 'moment';
 
 const FormattedDate = ({ date }) => (
   <span>
-    {moment(date, "DD/MM/YYYY").format('MMM Do, YYYY')}
+    {moment(date, 'DD/MM/YYYY').format('MMM Do, YYYY')}
   </span>
 );
 

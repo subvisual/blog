@@ -36,7 +36,7 @@ const postInfoClasses = props => (
   })
 );
 
-const author = ({ author }) => (
+const authorData = ({ author }) => (
   Authors[author]
 );
 
@@ -56,7 +56,7 @@ const PostHero = props => (
           <div className="u-smallThenDefaultMargin" />
           <div className="PostInfo-author">
             by&nbsp;
-            <span className="PostInfo-authorName">{author(props).name}</span>
+            <span className="PostInfo-authorName">{authorData(props).name}</span>
           </div>
           <div className="PostInfo-date">
             on&nbsp;

@@ -2,15 +2,9 @@ import React from 'react';
 
 import Authors from '../data/authors.yaml';
 import Picture from './author/picture';
-import roberto from '../images/authors/roberto-machado.png';
-
-const data = slug => Authors[slug];
 
 const Author = ({ slug }) => {
   const data = Authors[slug];
-
-  if (!data)
-    console.error(slug);
 
   return <div className="Author Author--responsive">
     <div className="Author-imageWrapper">
@@ -32,7 +26,11 @@ const Author = ({ slug }) => {
 
       <div className="Author-bio">{data.bio}</div>
     </div>
-  </div>
+  </div>;
+};
+
+Author.propTypes = {
+  slug: React.PropTypes.string.isRequired,
 };
 
 export default Author;

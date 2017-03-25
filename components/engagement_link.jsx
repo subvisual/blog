@@ -12,7 +12,7 @@ const EngagementLink = ({ children }) => (
 );
 
 EngagementLink.propTypes = {
-  children: React.PropTypes.node,
+  children: React.PropTypes.node.isRequired,
 };
 
 export default EngagementLink;

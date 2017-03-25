@@ -7,12 +7,13 @@ import Author from '../components/author';
 import HireUs from '../components/hire_us';
 
 const PostPage = ({ post }) => (
+  /* eslint-disable react/no-danger */
   <div>
     <PostHero {...post} />
-    <div className="u-xSmallThenSmallMargin"></div>
+    <div className="u-xSmallThenSmallMargin" />
     <div className="PostWidthConstrainer">
       <TagList tags={post.tags} />
-      <div className="u-smallThenDefaultMargin"></div>
+      <div className="u-smallThenDefaultMargin" />
     </div>
 
     <div className="PostBody" dangerouslySetInnerHTML={{ __html: post.body }} />
@@ -27,10 +28,15 @@ const PostPage = ({ post }) => (
       <div className="u-smallThenDefaultMargin" />
     </div>
   </div>
+  /* eslint-enable react/no-danger */
 );
 
 PostPage.propTypes = {
-  post: React.PropTypes.object.isRequired,
+  post: React.PropTypes.shape({
+    author: React.PropTypes.string.isRequired,
+    tags: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+    body: React.PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default PostPage;

@@ -18,6 +18,7 @@ import campers from '../../images/authors/summer-campers.png';
 
 const pictures = {
   'bruno-azevedo': bruno,
+  'fernando-mendes': fernando,
   'francisco-baila': francisco,
   'gabriel-poca': gabriel,
   'joao-ferreira': joao,
@@ -31,15 +32,14 @@ const pictures = {
   'summer-campers': campers,
 };
 
-const authorPicture = slug => {
-  return {
+const authorPicture = slug => ({
   src: pictures[slug],
   alt: Authors[slug].name,
-  }
-};
+});
 
 const Picture = ({ slug, className }) => (
   <img
+    alt={Authors[slug].name}
     className={className}
     {...authorPicture(slug)}
   />
@@ -51,7 +51,7 @@ Picture.propTypes = {
 };
 
 Picture.defaultProps = {
-  className: "",
+  className: '',
 };
 
 export default Picture;

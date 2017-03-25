@@ -2,8 +2,6 @@ import React from 'react';
 
 import TagList from '../components/tag_list';
 import SmallAuthor from '../components/small_author';
-import HireUs from '../components/hire_us';
-import Separator from '../components/separator';
 
 const markdownIt = require('markdown-it');
 
@@ -14,6 +12,7 @@ const md = markdownIt({
 });
 
 const PostIntro = ({ post }) => (
+  /* eslint-disable react/no-danger */
   <div className="PostIntro">
     <div className="PostWidthConstrainer">
       <h2 className="PostIntro-heading">{post.title}</h2>
@@ -33,10 +32,16 @@ const PostIntro = ({ post }) => (
       <SmallAuthor slug={post.author} date={post.date} />
     </div>
   </div>
+  /* eslint-enable react/no-danger */
 );
 
 PostIntro.propTypes = {
-  post: React.PropTypes.object.isRequired,
+  post: React.PropTypes.shape({
+    title: React.PropTypes.string.isRequired,
+    author: React.PropTypes.string.isRequired,
+    tags: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+    intro: React.PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default PostIntro;
