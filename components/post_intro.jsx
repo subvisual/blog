@@ -26,10 +26,14 @@ const PostIntro = ({ post }) => (
       <TagList tags={post.tags} />
     </div>
 
-    <div className="u-smallMargin" />
 
     <div className="PostWidthConstrainer">
+      <div className="u-smallMargin" />
       <SmallAuthor slug={post.author} date={post.date} />
+
+      <div className="u-defaultMargin" />
+      <div className="PostIntro-endLine" />
+      <div className="u-defaultMargin" />
     </div>
   </div>
   /* eslint-enable react/no-danger */
