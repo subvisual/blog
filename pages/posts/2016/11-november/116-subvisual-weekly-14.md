@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/184/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/184/image@2x.jpg
 tags:
   - general
+intro: "We've all been there. We spend days, maybe weeks, planning something. We gather all the information and devise the ideal solution for that particular problem. But something happens, and our solution is no longer viable. It no longer solves the problem. The question now is, what's your backup plan?"
 ---
 
 We've all been there. We spend days, maybe weeks, planning something. We gather all the information and devise the ideal solution for that particular problem. But something happens, and our solution is no longer viable. It no longer solves the problem. The question now is, what's your backup plan?

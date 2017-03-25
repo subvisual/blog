@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - community
+intro: "[CoderDojo Minho](https://www.facebook.com/CoderdojoMinho), of which I'm a proud founder, is back this week, in parallel with [CodeWeek](https://codeweek.eu/), an EU initiative to promote coding for everyone."
 ---
 
 [CoderDojo Minho](https://www.facebook.com/CoderdojoMinho), of which I'm a proud founder, is back this week, in parallel with [CodeWeek](https://codeweek.eu/), an EU initiative to promote coding for everyone.

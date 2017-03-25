@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/177/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/177/image@2x.jpg
 tags:
   - community
+intro: "I can tell that something's off. Boxes are laying around on the floor, unorganized. People show up at our door asking us to taste food. Phones are ringing all day. And everyone is tense. Everyone but Laura; she's just pulling her hair off."
 ---
 
 I can tell that something's off. Boxes are laying around on the floor, unorganized. People show up at our door asking us to taste food. Phones are ringing all day. And everyone is tense. Everyone but Laura; she's just pulling her hair off.

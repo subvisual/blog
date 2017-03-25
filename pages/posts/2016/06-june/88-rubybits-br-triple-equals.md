@@ -9,6 +9,7 @@ tags:
   - ruby-bits
   - development
   - ruby
+intro: "If you thought that the `===` operator was something only JavaScript developers"
 ---
 
 If you thought that the `===` operator was something only JavaScript developers

@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "We're ready to announce that the 2nd edition of [RubyConf Portugal](http://rubyconf.pt/) is coming and it's going to be bigger, bolder and awesome-er!"
 ---
 
 We're ready to announce that the 2nd edition of [RubyConf Portugal](http://rubyconf.pt/) is coming and it's going to be bigger, bolder and awesome-er!

@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "Mobile web applications are expected to work differently from desktop applications. They need to feel responsive to the user's touch. Having worked on a couple of mobile web applications in the last year, I found that I always start by changing the browser's default appearance and behaviour. This article contains my setup to make a mobile web application feel more like a native one."
 ---
 
 Mobile web applications are expected to work differently from desktop applications. They need to feel responsive to the user's touch. Having worked on a couple of mobile web applications in the last year, I found that I always start by changing the browser's default appearance and behaviour. This article contains my setup to make a mobile web application feel more like a native one.

@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/158/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/158/image@2x.jpg
 tags:
   - general
+intro: "Starting a fresh, new project is a wonderful feeling. It is immaculate, filled with ambitious expectations, with an endless world of exciting possibilities that tingle our creative brains."
 ---
 
 Starting a fresh, new project is a wonderful feeling. It is immaculate, filled with ambitious expectations, with an endless world of exciting possibilities that tingle our creative brains. 

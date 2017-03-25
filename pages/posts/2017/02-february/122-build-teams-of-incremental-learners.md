@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - general
+intro: "One of these days I was reflecting on the similarities that we have at [Subvisual](https://subvisual.co/). It is true that we are notoriously different in our personalities, backgrounds, and experiences, but what were the common characteristics that accidentally or by choice we all have? It’s easy to spot the values that we share as a company being present in all of us. However, sometimes it’s hard to identify if they were consequences of joining this team or if they were already there."
 ---
 
 One of these days I was reflecting on the similarities that we have at [Subvisual](https://subvisual.co/). It is true that we are notoriously different in our personalities, backgrounds, and experiences, but what were the common characteristics that accidentally or by choice we all have? It’s easy to spot the values that we share as a company being present in all of us. However, sometimes it’s hard to identify if they were consequences of joining this team or if they were already there.

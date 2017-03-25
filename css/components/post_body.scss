@@ -14,19 +14,17 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
   margin-right: auto !important;
 }
 
-.Post--noPadding {
-  .Post-body > * {
-    padding-right: 0;
-    padding-left: 0;
-  }
+.PostBody > * {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 // both tables and highlights are not limited to the specified grid
-.Post-body > :not(.highlight):not(.PostTable):not(pre) {
+.PostBody > :not(.highlight):not(.PostTable):not(pre) {
   @include PostMaxWidth;
 }
 
-.Post-body {
+.PostBody {
   > * {
     padding-right: $Theme-spacing-small;
     padding-left: $Theme-spacing-small;
@@ -128,7 +126,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
   blockquote {
     @include font-properties(alt, large, $Theme-font-sizes-extra);
 
-    color: $Theme-palette-text-body-alt;
+    color: $Theme-color-horizon;
 
     font-style: italic;
     text-align: center;
@@ -156,6 +154,6 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 
     margin-right: 5px;
 
-    color: $Color-item-blue;
+    color: $Theme-color-item-blue;
   }
 }

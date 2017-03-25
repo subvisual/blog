@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/132/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/132/image@2x.jpg
 tags:
   - development
+intro: "If you have ever built a Rails application, you probably have encountered"
 ---
 
 If you have ever built a Rails application, you probably have encountered

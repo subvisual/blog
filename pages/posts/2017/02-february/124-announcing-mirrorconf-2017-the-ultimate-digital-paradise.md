@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/192/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/192/image@2x.jpg
 tags:
   - community
+intro: "We’re ready to announce that the [2nd edition of MirrorConf] (http://mirrorconf.com/) is happening on October 12-13!"
 ---
 
 We’re ready to announce that the [2nd edition of MirrorConf] (http://mirrorconf.com/) is happening on October 12-13!

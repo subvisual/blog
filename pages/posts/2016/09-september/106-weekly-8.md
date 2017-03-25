@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/174/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/174/image@2x.jpg
 tags:
   - general
+intro: "There's just one thing I need to be ok: alone time. Being by myself is how I recharge and find the motivation to keep going. Knowing this, just imagine how sweet it sounded when I was invited to go to the UK to work with a client at his office. It happened last week, and it was music to my ears."
 ---
 
 There's just one thing I need to be ok: alone time. Being by myself is how I recharge and find the motivation to keep going. Knowing this, just imagine how sweet it sounded when I was invited to go to the UK to work with a client at his office. It happened last week, and it was music to my ears.

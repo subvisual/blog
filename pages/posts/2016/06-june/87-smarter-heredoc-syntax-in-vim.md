@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I have lately run into a problem with my editor of choice, vim (well, actually, it's [neovim](https://github.com/neovim/neovim)), and the syntax highlighting in Ruby files."
 ---
 
 I have lately run into a problem with my editor of choice, vim (well, actually, it's [neovim](https://github.com/neovim/neovim)), and the syntax highlighting in Ruby files.

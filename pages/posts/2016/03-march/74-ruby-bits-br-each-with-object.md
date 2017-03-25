@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/140/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/140/image@2x.jpg
 tags:
   - development
+intro: "The`Enumerable` module is the core of everything in Ruby. It is often said that"
 ---
 
 The`Enumerable` module is the core of everything in Ruby. It is often said that

@@ -15,9 +15,7 @@ const PostPage = ({ post }) => (
       <div className="u-smallThenDefaultMargin"></div>
     </div>
 
-    <div className="Post">
-      <div className="Post-body" dangerouslySetInnerHTML={{ __html: post.body }} />
-    </div>
+    <div className="PostBody" dangerouslySetInnerHTML={{ __html: post.body }} />
 
     <div className="PostWidthConstrainer">
       <div className="u-defaultThenLargeMargin" />

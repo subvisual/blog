@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/165/image@2x.jpg
 tags:
   - community
   - general
+intro: "I'm lucky to have a friend who really knows how to bring people together. He is the brains behind everything our group of friends does, whether it's a Christmas dinner, a summer picnic, or a trip somewhere. We know that he makes sure it happens."
 ---
 
 I'm lucky to have a friend who really knows how to bring people together. He is the brains behind everything our group of friends does, whether it's a Christmas dinner, a summer picnic, or a trip somewhere. We know that he makes sure it happens.

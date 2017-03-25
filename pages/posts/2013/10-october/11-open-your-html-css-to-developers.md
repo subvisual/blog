@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "Have you ever showed your HTML/CSS to a Developer?"
 ---
 
 Have you ever showed your HTML/CSS to a Developer?

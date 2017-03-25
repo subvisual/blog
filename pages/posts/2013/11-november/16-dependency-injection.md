@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "Imagine you have a class which gets XML data, parses it and then stores the"
 ---
 
 Imagine you have a class which gets XML data, parses it and then stores the

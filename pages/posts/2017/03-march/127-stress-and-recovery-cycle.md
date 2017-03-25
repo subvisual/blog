@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/195/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/195/image@2x.jpg
 tags:
   - general
+intro: "This is the second time that I write this text. Naively I deleted the first version, leaving no chance of recovery, which caused me deep frustration. Instead of panicking about this, I took a walk, and a series of deep breaths and here I am writing the second version."
 ---
 
 This is the second time that I write this text. Naively I deleted the first version, leaving no chance of recovery, which caused me deep frustration. Instead of panicking about this, I took a walk, and a series of deep breaths and here I am writing the second version.

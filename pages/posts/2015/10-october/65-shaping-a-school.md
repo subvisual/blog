@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/130/image@2x.jpg
 tags:
   - community
   - design
+intro: "The new edition of Creators School had unprecedented ambitions which required a profound rebrand. Before I get into details about the rebrand, let me introduce you briefly to the project."
 ---
 
 The new edition of Creators School had unprecedented ambitions which required a profound rebrand. Before I get into details about the rebrand, let me introduce you briefly to the project. 

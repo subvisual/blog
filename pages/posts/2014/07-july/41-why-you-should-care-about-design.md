@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "Design is a way of thinking, a way of looking at things and trying to understand them and to find a different, better way of achieving something.  Not everyone is a designer but everyone would benefit from having a design perspective, a sort of disruptive approach to the world, a non-conformed state of mind. It’s about being critical and brave enough to do things differently."
 ---
 
 Design is a way of thinking, a way of looking at things and trying to understand them and to find a different, better way of achieving something.  Not everyone is a designer but everyone would benefit from having a design perspective, a sort of disruptive approach to the world, a non-conformed state of mind. It’s about being critical and brave enough to do things differently. 

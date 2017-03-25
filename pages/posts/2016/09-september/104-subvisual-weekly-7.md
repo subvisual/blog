@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/172/image@2x.jpg
 tags:
   - community
   - general
+intro: "Another week, another weekly. For this edition, Gabriel asked me to talk a bit about my thesis and share what I have been learning and doing so far."
 ---
 
 Another week, another weekly. For this edition, Gabriel asked me to talk a bit about my thesis and share what I have been learning and doing so far.

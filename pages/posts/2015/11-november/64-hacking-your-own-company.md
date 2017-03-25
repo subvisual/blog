@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/129/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/129/image@2x.jpg
 tags:
   - development
+intro: "I have a confession to make. A while ago I hacked my own company."
 ---
 
 I have a confession to make. A while ago I hacked my own company.

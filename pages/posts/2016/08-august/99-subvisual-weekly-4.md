@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/167/image@2x.jpg
 tags:
   - community
   - general
+intro: "The secret sauce: isn’t it what everyone is looking for? To find some kind of secret sauce? Imagine how amazing it would be if you could just grab a bottle of an exotic substance, and then add a few drops of it to anything. This strange liquid would somehow turn an absolutely normal object into an amazing, delightful, joyful item."
 ---
 
 The secret sauce: isn’t it what everyone is looking for? To find some kind of secret sauce? Imagine how amazing it would be if you could just grab a bottle of an exotic substance, and then add a few drops of it to anything. This strange liquid would somehow turn an absolutely normal object into an amazing, delightful, joyful item.

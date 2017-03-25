@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/161/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/161/image@2x.jpg
 tags:
   - general
+intro: "We have been working on expanding to a new location for a while now. We love Braga, and it will continue to be to be our home and HQ, but now we have a new office in Boston, MA. I will explain our motivations to do so, and our plans for the following months."
 ---
 
 We have been working on expanding to a new location for a while now. We love Braga, and it will continue to be to be our home and HQ, but now we have a new office in Boston, MA. I will explain our motivations to do so, and our plans for the following months.

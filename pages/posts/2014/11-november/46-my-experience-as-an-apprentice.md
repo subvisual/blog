@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "In the last couple of months I've been a part of [Group Buddies](https://groupbuddies.com/). I joined this company as an apprentice, where I learnt how to work for the web and to follow high quality standards. I was already coding apps for fun, but I had no idea how the web worked."
 ---
 
 In the last couple of months I've been a part of [Group Buddies](https://groupbuddies.com/). I joined this company as an apprentice, where I learnt how to work for the web and to follow high quality standards. I was already coding apps for fun, but I had no idea how the web worked. 

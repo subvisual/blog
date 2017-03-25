@@ -58,6 +58,8 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
     retina_cover = "https://subvisual.s3.amazonaws.com/blog/hero/#{hero[:id]}/image@2x.jpg"
   end
 
+  intro = post[:body].lines.first.strip.gsub('"', '\\"')
+
   # finally, create the post file
   File.open("#{dir}/#{filename}.md", "w") do |f|
     f.write(
@@ -71,6 +73,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
         retina_cover: #{retina_cover}
         tags:
           #{tags_str}
+        intro: "#{intro}"
         ---
 
         #{cleanup_body(post[:body])}

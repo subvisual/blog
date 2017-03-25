@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I try to automate all the annoying repetitive things I can. And not long ago, merging Pull Request was certainly on top of my list."
 ---
 
 I try to automate all the annoying repetitive things I can. And not long ago, merging Pull Request was certainly on top of my list.

@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - community
+intro: "That's right folks, it's official:"
 ---
 
 That's right folks, it's official:

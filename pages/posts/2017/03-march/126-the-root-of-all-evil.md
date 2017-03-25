@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "**Spoiler alert:** it's premature optimizations."
 ---
 
 **Spoiler alert:** it's premature optimizations.

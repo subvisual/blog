@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I'm taking the time to write the tutorial I wish I had some months ago. My task was to set up some user voice recording mechanism in the browser. It should record for about one hour, non-stop, saving to a server. The idea was to use the [getUserMedia()][getusermedia] API. No browser extensions should be used."
 ---
 
 I'm taking the time to write the tutorial I wish I had some months ago. My task was to set up some user voice recording mechanism in the browser. It should record for about one hour, non-stop, saving to a server. The idea was to use the [getUserMedia()][getusermedia] API. No browser extensions should be used.

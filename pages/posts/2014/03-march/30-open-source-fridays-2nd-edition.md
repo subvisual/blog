@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "On the second edition of the Open Source Fridays, here's what we've done:"
 ---
 
 On the second edition of the Open Source Fridays, here's what we've done:

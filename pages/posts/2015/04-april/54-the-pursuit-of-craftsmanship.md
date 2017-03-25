@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "After finishing my graduation it seemed natural for me to continue studying and enroll in a master's degree, but by the end of the first semester I started to feel frustrated. It's very rewarding to grasp the knowledge you get from college, but after a few years it gets discouraging. I wanted more. More experience, more responsibility, more visibility. I felt it was time for me to learn by doing, working side by side with more experienced designers, in a professional environment."
 ---
 
 After finishing my graduation it seemed natural for me to continue studying and enroll in a master's degree, but by the end of the first semester I started to feel frustrated. It's very rewarding to grasp the knowledge you get from college, but after a few years it gets discouraging. I wanted more. More experience, more responsibility, more visibility. I felt it was time for me to learn by doing, working side by side with more experienced designers, in a professional environment.

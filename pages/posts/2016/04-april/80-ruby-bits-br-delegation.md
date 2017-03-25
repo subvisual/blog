@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/146/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/146/image@2x.jpg
 tags:
   - development
+intro: "If you've been writing Object Oriented code for a while (or any code really),"
 ---
 
 If you've been writing Object Oriented code for a while (or any code really),

@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/189/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/189/image@2x.jpg
 tags:
   - general
+intro: "###... our problem-free philosophy."
 ---
 
 ### ... our problem-free philosophy.

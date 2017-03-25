@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - general
+intro: "Every once in a while people ask us what tools do we use as part of our processes. Not long ago, at a workshop I conducted on about Web Project Management, I was able to introduce a couple of free tools that we consider indispensable. So I came up with the idea of listing all the amazing software that we use every day, hoping it can be helpful to anyone reading this."
 ---
 
 Every once in a while people ask us what tools do we use as part of our processes. Not long ago, at a workshop I conducted on about Web Project Management, I was able to introduce a couple of free tools that we consider indispensable. So I came up with the idea of listing all the amazing software that we use every day, hoping it can be helpful to anyone reading this. 

@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I said it before and I'll say it again, several times: Automation is awesome."
 ---
 
 I said it before and I'll say it again, several times: Automation is awesome.

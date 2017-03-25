@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I recently watched Greg Hurrell's screencast about [Opening files in Terminal Vim](https://www.youtube.com/watch?v=DBUuhvS8nZ8&list=PLwJS-G75vM7kFO-yUkyNphxSIdbi_1NKX&index=45), in which he showcases an OSX-only solution for being able to open files on Vim when using Finder."
 ---
 
 I recently watched Greg Hurrell's screencast about [Opening files in Terminal Vim](https://www.youtube.com/watch?v=DBUuhvS8nZ8&list=PLwJS-G75vM7kFO-yUkyNphxSIdbi_1NKX&index=45), in which he showcases an OSX-only solution for being able to open files on Vim when using Finder.

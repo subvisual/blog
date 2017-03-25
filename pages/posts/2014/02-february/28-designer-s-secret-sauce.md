@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "When you ask someone about the main ingredient of a good design, most people will probably roam around  concepts such as usability, functionality, cleanliness or the one that get’s thrown around most often: simplicity."
 ---
 
 When you ask someone about the main ingredient of a good design, most people will probably roam around  concepts such as usability, functionality, cleanliness or the one that get’s thrown around most often: simplicity.

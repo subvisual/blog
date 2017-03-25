@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - general
+intro: "Join our talented team at sunny Braga, Portugal."
 ---
 
 Join our talented team at sunny Braga, Portugal.

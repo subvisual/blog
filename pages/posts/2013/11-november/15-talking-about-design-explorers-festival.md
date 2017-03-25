@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "It was nearly 9:30 on the cold morning of November 7th, when Zamith and I departed from Braga, to attend the [Explorers Festival](http://explorersfestival.com) in Lisbon, where we were expected to give a talk each, at 2PM."
 ---
 
 It was nearly 9:30 on the cold morning of November 7th, when Zamith and I departed from Braga, to attend the [Explorers Festival](http://explorersfestival.com) in Lisbon, where we were expected to give a talk each, at 2PM.

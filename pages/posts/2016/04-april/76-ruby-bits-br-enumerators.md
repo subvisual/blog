@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/142/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/142/image@2x.jpg
 tags:
   - development
+intro: "Welcome back to the world of `Enumerable` my friend. As Rubyists we are used to"
 ---
 
 Welcome back to the world of `Enumerable` my friend. As Rubyists we are used to

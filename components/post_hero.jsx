@@ -1,13 +1,8 @@
 import React from 'react';
-import moment from 'moment';
 import classnames from 'classnames';
-import _ from 'lodash';
 
 import Authors from '../data/authors.yaml';
-
-const formattedDate = date => (
-  moment(new Date(date)).format('MMM Do, YYYY')
-);
+import FormattedDate from './formatted_date';
 
 const coverStyle = (props) => {
   if (!props.cover) {
@@ -65,7 +60,7 @@ const PostHero = props => (
           </div>
           <div className="PostInfo-date">
             on&nbsp;
-            {formattedDate(props.date)}
+            <FormattedDate date={props.date} />
           </div>
         </div>
       </div>

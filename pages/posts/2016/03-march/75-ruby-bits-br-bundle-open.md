@@ -9,6 +9,7 @@ tags:
   - ruby-bits
   - development
   - ruby
+intro: "If you've ever used Ruby you have probably used `Bundler` through it's command"
 ---
 
 If you've ever used Ruby you have probably used `Bundler` through it's command

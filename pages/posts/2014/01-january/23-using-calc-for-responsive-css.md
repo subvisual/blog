@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "If you implement responsive design then CSS's calc() is a must know feature. If you've never heard of it, here's a description from MDN:"
 ---
 
 If you implement responsive design then CSS's calc() is a must know feature. If you've never heard of it, here's a description from MDN:

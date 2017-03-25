@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "I am privileged. I am able to navigate the web in all it's glory, with all the"
 ---
 
 I am privileged. I am able to navigate the web in all it's glory, with all the

@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/156/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/156/image@2x.jpg
 tags:
   - community
+intro: "This is the story of [Shelf](https://getshelf.io/?utm_source=subvisual-blog&utm_medium=blog&utm_campaign=stumble-into-product),"
 ---
 
 This is the story of [Shelf](https://getshelf.io/?utm_source=subvisual-blog&utm_medium=blog&utm_campaign=stumble-into-product),

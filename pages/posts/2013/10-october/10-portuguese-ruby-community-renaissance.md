@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - community
+intro: "Last Friday, me and some folks from the [Minho Ruby Brigade](https://www.meetup.com/Minho-rb/) went to the very first [Coimbra.rb](https://www.meetup.com/Coimbra-rb/) meetup."
 ---
 
 Last Friday, me and some folks from the [Minho Ruby Brigade](https://www.meetup.com/Minho-rb/) went to the very first [Coimbra.rb](https://www.meetup.com/Coimbra-rb/) meetup. 

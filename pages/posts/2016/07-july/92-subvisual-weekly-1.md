@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/159/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/159/image@2x.jpg
 tags:
   - community
+intro: "Our journey begins in the sunny city of Braga, as we adventure ourselves through the tall, green, grass. We were not prepared for this. But we pushed through. An empty Pokédex and just one Pokéball in our pockets, ready to take on the world."
 ---
 
 Our journey begins in the sunny city of Braga, as we adventure ourselves through the tall, green, grass. We were not prepared for this. But we pushed through. An empty Pokédex and just one Pokéball in our pockets, ready to take on the world.

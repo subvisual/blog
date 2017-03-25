@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/147/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/147/image@2x.jpg
 tags:
   - development
+intro: "Have you ever had to implement arithmetic operations for an object? If so, there"
 ---
 
 Have you ever had to implement arithmetic operations for an object? If so, there

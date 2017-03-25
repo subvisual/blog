@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "Having written and read a lot of Ruby code, I occasionally come across some not-so-well-known features. Or even just a tiny detail that, as useless as it may be, I still find interesting."
 ---
 
 Having written and read a lot of Ruby code, I occasionally come across some not-so-well-known features. Or even just a tiny detail that, as useless as it may be, I still find interesting.

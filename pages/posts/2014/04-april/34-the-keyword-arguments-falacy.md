@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - development
+intro: "Ruby 2.0 came with a feature that I love, that's the keyword arguments. They allow you to make your objects interface clearer, so you can call methods like so:"
 ---
 
 Ruby 2.0 came with a feature that I love, that's the keyword arguments. They allow you to make your objects interface clearer, so you can call methods like so:

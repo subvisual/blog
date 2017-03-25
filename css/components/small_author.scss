@@ -1,0 +1,25 @@
+@import '../theme/vars';
+@import '../theme/font';
+
+.SmallAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SmallAuthor-image {
+  width: 50px;
+  height: 50px;
+  margin-right: $Theme-spacing-small;
+}
+
+.SmallAuthor-text {
+  @include font-properties(heading, small, $Theme-font-sizes-extra);
+  color: $Theme-color-horizon;
+}
+
+.SmallAuthor-link {
+  @include font-properties(heading, small, $Theme-font-sizes-extra);
+  color: $Theme-color-horizon;
+  font-weight: bold;
+}

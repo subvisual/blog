@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - general
+intro: "We had our first offsite experience in May when we drove to the beautiful Gerês and spent 3 days blowing off steam, having fun and talking lightly about some of our projects."
 ---
 
 We had our first offsite experience in May when we drove to the beautiful Gerês and spent 3 days blowing off steam, having fun and talking lightly about some of our projects. 

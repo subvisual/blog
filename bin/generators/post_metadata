@@ -6,7 +6,11 @@ require "json"
 require "yaml"
 
 all_posts = Dir.glob("pages/posts/**/*.md").map do |file|
-  YAML.load_file(file)
+  begin
+    YAML.load_file(file)
+  rescue Exception => e
+    require 'pry'; binding.pry
+  end
 end.sort_by do |post|
   Date.parse(post["date"])
 end.reverse
@@ -20,7 +24,7 @@ File.open("data/_generated/all_posts.json", "w") do |file|
 end
 
 # output most recent posts
-File.open("data/_generated/all_posts.json", "w") do |file|
+File.open("data/_generated/recent_posts.json", "w") do |file|
   posts = all_posts.take(10)
 
   file.write(JSON.pretty_generate(posts))

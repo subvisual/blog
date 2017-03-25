@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - design
+intro: "There's only so much you can do in life. Your time is limited, as well as your focus and your energy."
 ---
 
 There's only so much you can do in life. Your time is limited, as well as your focus and your energy. 

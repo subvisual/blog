@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/148/image@2x.jpg
 tags:
   - general
   - design
+intro: ""
 ---
 
 

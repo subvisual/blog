@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/164/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/164/image@2x.jpg
 tags:
   - development
+intro: "I remember one particular class I had. It was late May and, as pretty much every Spring day in Portugal, the sun decided to greet us with a little too much enthusiasm."
 ---
 
 I remember one particular class I had. It was late May and, as pretty much every Spring day in Portugal, the sun decided to greet us with a little too much enthusiasm.

@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/178/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/178/image@2x.jpg
 tags:
   - community
+intro: "We did it. We made it happen. MirrorConf is done."
 ---
 
 We did it. We made it happen. MirrorConf is done.

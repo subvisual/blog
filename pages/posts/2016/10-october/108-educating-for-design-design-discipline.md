@@ -8,6 +8,7 @@ retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/176/image@2x.jpg
 tags:
   - general
   - design
+intro: "Over the last 4 years, I've had the pleasure of helping out designers on their first experiences in the web. Typically they come with a lot of questions and insecurities, usually all concerning two things: Typography and colors."
 ---
 
 Over the last 4 years, I've had the pleasure of helping out designers on their first experiences in the web. Typically they come with a lot of questions and insecurities, usually all concerning two things: Typography and colors. 

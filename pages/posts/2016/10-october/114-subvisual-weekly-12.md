@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/182/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/182/image@2x.jpg
 tags:
   - general
+intro: "I'm proud to introduce the top geeks: Miguel and Fernando."
 ---
 
 I'm proud to introduce the top geeks: Miguel and Fernando.

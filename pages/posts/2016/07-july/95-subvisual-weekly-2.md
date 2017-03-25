@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/162/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/162/image@2x.jpg
 tags:
   - community
+intro: "Last night I left home to have a drink with a friend. Next thing I know I'm at the office's door. This has been happening a lot. My mind wanders into the future, and my body goes into auto-pilot. Sometimes the mind wanders so deeply that you forget what you were up to in the first place."
 ---
 
 Last night I left home to have a drink with a friend. Next thing I know I'm at the office's door. This has been happening a lot. My mind wanders into the future, and my body goes into auto-pilot. Sometimes the mind wanders so deeply that you forget what you were up to in the first place.

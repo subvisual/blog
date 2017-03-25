@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/133/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/133/image@2x.jpg
 tags:
   - general
+intro: "In this blog post, I will share how we plan, create and send our weekly newsletter that has helped us improve cooperation, communication and responsibility within the team."
 ---
 
 In this blog post, I will share how we plan, create and send our weekly newsletter that has helped us improve cooperation, communication and responsibility within the team. 

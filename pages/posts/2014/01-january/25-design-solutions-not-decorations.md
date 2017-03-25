@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/126/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/126/image@2x.jpg
 tags:
   - design
+intro: ""
 ---
 
 

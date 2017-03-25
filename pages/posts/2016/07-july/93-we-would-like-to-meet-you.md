@@ -7,6 +7,7 @@ cover:
 retina_cover: 
 tags:
   - community
+intro: "At Subvisual we take community building very seriously as you can see by"
 ---
 
 At Subvisual we take community building very seriously as you can see by

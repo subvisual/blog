@@ -7,6 +7,7 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/151/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/151/image@2x.jpg
 tags:
   - development
+intro: "Debugging is something that (un)fortunately we as developers are all used to"
 ---
 
 Debugging is something that (un)fortunately we as developers are all used to
