@@ -6,7 +6,7 @@ import _ from 'lodash';
 import Authors from '../data/authors.yaml';
 
 const formattedDate = date => (
-  moment(date).format('MMM Do, YYYY')
+  moment(new Date(date)).format('MMM Do, YYYY')
 );
 
 const coverStyle = (props) => {

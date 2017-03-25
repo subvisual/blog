@@ -1,10 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Typekit from 'react-typekit';
 
 import { prefixLink } from 'gatsby-helpers'
-import Sitemap from 'components/sitemap';
-import Footer from 'components/footer';
 
 const BUILD_TIME = new Date().getTime()
 
@@ -38,10 +35,6 @@ module.exports = React.createClass({
         <body className="Theme">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
-          <div className="Separator Separator--subvisual"></div>
-          <Sitemap />
-          <Footer />
-          <Typekit kitId="wbx6iwp" />
         </body>
       </html>
     )

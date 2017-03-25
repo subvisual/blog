@@ -40,7 +40,7 @@ end
 
 def handle_file(post)
   dirname = File.dirname(post)
-  dirname.gsub!(/^pages/, 'pages/_generated')
+  dirname.gsub!(/^pages/, 'data/_generated')
 
   intro = "#{dirname}/#{File.basename(post)}.#{File.basename(post)}"
   FileUtils.mkdir_p(dirname)

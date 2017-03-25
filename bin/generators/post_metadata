@@ -3,6 +3,7 @@
 require "pry"
 require "fileutils"
 require "json"
+require "yaml"
 
 all_posts = Dir.glob("pages/posts/**/*.md").map do |file|
   YAML.load_file(file)
@@ -20,18 +21,18 @@ end
 
 # output most recent posts
 File.open("data/_generated/all_posts.json", "w") do |file|
-  posts = posts.take(10)
+  posts = all_posts.take(10)
 
   file.write(JSON.pretty_generate(posts))
 end
 
 # output tag pages
-all_tags = full_json.
+all_tags = all_posts.
   flat_map { |json| json["tags"] }.
   uniq
 
 all_tags.each do |tag|
-  posts = full_json.select { |post| post["tags"].include?(tag) }
+  posts = all_posts.select { |post| post["tags"].include?(tag) }
 
   File.open("data/_generated/tags/#{tag}.json", "w") do |file|
     file.write(JSON.pretty_generate(posts))
@@ -39,12 +40,12 @@ all_tags.each do |tag|
 end
 
 # output author pages
-all_authors = full_json.
+all_authors = all_posts.
   flat_map { |json| json["author"] }.
   uniq
 
 all_authors.each do |author|
-  posts = full_json.select { |post| post["author"] == author }
+  posts = all_posts.select { |post| post["author"] == author }
 
   File.open("data/_generated/authors/#{author}.json", "w") do |file|
     file.write(JSON.pretty_generate(posts))
