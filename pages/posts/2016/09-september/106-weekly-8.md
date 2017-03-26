@@ -1,5 +1,5 @@
 ---
-path: /posts/106-weekly-8
+path: /posts/106-weekly-8/
 title: "Weekly #8"
 author: gabriel-poca
 date: 13/09/2016

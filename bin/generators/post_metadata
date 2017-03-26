@@ -15,8 +15,9 @@ end.sort_by do |post|
   Date.parse(post["date"])
 end.reverse
 
-FileUtils.mkdir_p("data/_generated/tags")
-FileUtils.mkdir_p("data/_generated/authors")
+FileUtils.mkdir_p("data/_generated")
+FileUtils.mkdir_p("pages//tags")
+FileUtils.mkdir_p("pages//authors")
 
 # output all posts
 File.open("data/_generated/all_posts.json", "w") do |file|
@@ -38,7 +39,7 @@ all_tags = all_posts.
 all_tags.each do |tag|
   posts = all_posts.select { |post| post["tags"].include?(tag) }
 
-  File.open("data/_generated/tags/#{tag}.json", "w") do |file|
+  File.open("pages/tags/#{tag}.json", "w") do |file|
     file.write(JSON.pretty_generate(posts))
   end
 end
@@ -51,7 +52,7 @@ all_authors = all_posts.
 all_authors.each do |author|
   posts = all_posts.select { |post| post["author"] == author }
 
-  File.open("data/_generated/authors/#{author}.json", "w") do |file|
+  File.open("pages/authors/#{author}.json", "w") do |file|
     file.write(JSON.pretty_generate(posts))
   end
 end

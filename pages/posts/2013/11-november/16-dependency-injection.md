@@ -1,5 +1,5 @@
 ---
-path: /posts/16-dependency-injection
+path: /posts/16-dependency-injection/
 title: "Dependency Injection"
 author: luis-zamith
 date: 22/11/2013

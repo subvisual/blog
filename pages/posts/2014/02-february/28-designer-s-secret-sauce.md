@@ -1,5 +1,5 @@
 ---
-path: /posts/28-designer-s-secret-sauce
+path: /posts/28-designer-s-secret-sauce/
 title: "Designer's secret sauce"
 author: joao-ferreira
 date: 11/02/2014

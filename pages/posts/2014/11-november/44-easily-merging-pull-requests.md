@@ -1,5 +1,5 @@
 ---
-path: /posts/44-easily-merging-pull-requests
+path: /posts/44-easily-merging-pull-requests/
 title: "Easily Merging Pull Requests"
 author: miguel-palhas
 date: 24/11/2014

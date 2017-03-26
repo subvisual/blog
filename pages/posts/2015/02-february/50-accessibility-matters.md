@@ -1,5 +1,5 @@
 ---
-path: /posts/50-accessibility-matters
+path: /posts/50-accessibility-matters/
 title: "Accessibility Matters"
 author: luis-zamith
 date: 02/02/2015

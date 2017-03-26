@@ -1,5 +1,5 @@
 ---
-path: /posts/69-undersampling-of-failure
+path: /posts/69-undersampling-of-failure/
 title: "Undersampling of Failure"
 author: roberto-machado
 date: 22/01/2016

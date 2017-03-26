@@ -1,5 +1,5 @@
 ---
-path: /posts/10-portuguese-ruby-community-renaissance
+path: /posts/10-portuguese-ruby-community-renaissance/
 title: "Portuguese Ruby Community Renaissance"
 author: roberto-machado
 date: 21/10/2013

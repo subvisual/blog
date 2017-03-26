@@ -1,5 +1,5 @@
 ---
-path: /posts/25-design-solutions-not-decorations
+path: /posts/25-design-solutions-not-decorations/
 title: "Design solutions, not decorations"
 author: joao-ferreira
 date: 17/01/2014

@@ -1,5 +1,5 @@
 ---
-path: /posts/33-better-pushes-with-git
+path: /posts/33-better-pushes-with-git/
 title: "Better pushes with git"
 author: luis-zamith
 date: 08/04/2014

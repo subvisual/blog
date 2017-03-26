@@ -65,7 +65,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
     f.write(
       <<~TXT
         ---
-        path: /posts/#{filename}
+        path: /posts/#{filename}/
         title: "#{cleanup_title(post[:title])}"
         author: #{author_slug}
         date: #{post[:published_at].strftime("%d/%m/%Y")}

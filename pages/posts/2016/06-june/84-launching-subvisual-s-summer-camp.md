@@ -1,5 +1,5 @@
 ---
-path: /posts/84-launching-subvisual-s-summer-camp
+path: /posts/84-launching-subvisual-s-summer-camp/
 title: "Launching Subvisual's Summer Camp"
 author: roberto-machado
 date: 01/06/2016

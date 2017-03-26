@@ -1,5 +1,5 @@
 ---
-path: /posts/43-supercharge-your-git
+path: /posts/43-supercharge-your-git/
 title: "Supercharge your git"
 author: luis-zamith
 date: 17/11/2014

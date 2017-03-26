@@ -1,5 +1,5 @@
 ---
-path: /posts/82-team-shared-responsibility
+path: /posts/82-team-shared-responsibility/
 title: "Team-shared Responsibility"
 author: joao-ferreira
 date: 16/05/2016

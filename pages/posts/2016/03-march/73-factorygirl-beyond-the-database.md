@@ -1,5 +1,5 @@
 ---
-path: /posts/73-factorygirl-beyond-the-database
+path: /posts/73-factorygirl-beyond-the-database/
 title: "FactoryGirl Beyond the Database"
 author: miguel-palhas
 date: 03/03/2016

@@ -1,5 +1,5 @@
 ---
-path: /posts/68-a-late-recap-of-2015
+path: /posts/68-a-late-recap-of-2015/
 title: "A Late Recap of 2015"
 author: roberto-machado
 date: 28/01/2016

@@ -4,11 +4,9 @@ import Authors from '../data/authors.yaml';
 import Picture from './author/picture';
 import FormattedDate from './formatted_date';
 
-const link = ({ twitter, name }) => (
+const link = (slug, { name }) => (
   <a
-    href={`https://twitter.com/${twitter}`}
-    target="_blank"
-    rel="noreferrer noopener"
+    href={`/authors/${slug}/`}
     className="SmallAuthor-link"
   >
     {name}
@@ -24,7 +22,7 @@ const SmallAuthor = ({ slug, date }) => (
   <div className="SmallAuthor">
     <Picture className="SmallAuthor-image" slug={slug} />
     <div className="SmallAuthor-text">
-      Written by {link(Authors[slug])} on <FormattedDate date={date} />
+      Written by {link(slug, Authors[slug])} on <FormattedDate date={date} />
     </div>
   </div>
 );

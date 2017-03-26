@@ -1,5 +1,5 @@
 ---
-path: /posts/38-announcing-our-summer-apprenticeship-program
+path: /posts/38-announcing-our-summer-apprenticeship-program/
 title: "Announcing our Summer Apprenticeship Program"
 author: roberto-machado
 date: 17/06/2014

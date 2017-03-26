@@ -1,5 +1,5 @@
 ---
-path: /posts/53-a-better-reset-for-the-mobile-web
+path: /posts/53-a-better-reset-for-the-mobile-web/
 title: "A better reset for the mobile web"
 author: gabriel-poca
 date: 09/04/2015

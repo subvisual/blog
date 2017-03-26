@@ -1,5 +1,5 @@
 ---
-path: /posts/15-talking-about-design-explorers-festival
+path: /posts/15-talking-about-design-explorers-festival/
 title: "Talking about design @ Explorers Festival"
 author: joao-ferreira
 date: 19/11/2013

@@ -13,7 +13,7 @@ const Author = ({ slug }) => {
     <div className="Author-bioWrapper">
       <h2 className="Author-heading">
         About <a
-          href={`https://twitter.com/${data.twitter}`}
+          href={`/authors/${slug}/`}
           target="_blank"
           rel="noreferrer noopener"
           className="Author-name"

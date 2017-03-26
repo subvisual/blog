@@ -3,9 +3,13 @@ import _ from 'lodash';
 
 const renderTags = tags => (
   _.map(tags, (tag) => {
-    const classes = `Tag Tag--${tag}`;
+    const props = {
+      key: tag,
+      className: `Tag Tag--${tag}`,
+      href: `/tags/${tag}/`,
+    };
 
-    return <div key={tag} className={classes}>{tag}</div>;
+    return <a {...props}>{tag}</a>;
   })
 );
 

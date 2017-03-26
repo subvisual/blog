@@ -1,5 +1,5 @@
 ---
-path: /posts/117-the-trail-behind-me
+path: /posts/117-the-trail-behind-me/
 title: "The Trail Behind Me"
 author: pedro-costa
 date: 18/11/2016

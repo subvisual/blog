@@ -1,5 +1,5 @@
 ---
-path: /posts/17-teaching-kids-how-to-code
+path: /posts/17-teaching-kids-how-to-code/
 title: "Teaching Kids How to Code"
 author: roberto-machado
 date: 26/11/2013

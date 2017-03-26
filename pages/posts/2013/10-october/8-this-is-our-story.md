@@ -1,5 +1,5 @@
 ---
-path: /posts/8-this-is-our-story
+path: /posts/8-this-is-our-story/
 title: "This is Our Story"
 author: roberto-machado
 date: 14/10/2013

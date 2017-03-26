@@ -1,5 +1,5 @@
 ---
-path: /posts/91-from-client-to-partner
+path: /posts/91-from-client-to-partner/
 title: "From Client to Partner"
 author: joao-ferreira
 date: 02/08/2016

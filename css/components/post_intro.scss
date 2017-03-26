@@ -1,5 +1,17 @@
+@import "../theme/vars";
+
 .PostIntro-heading {
   @include font-properties(heading, veryLarge, $Theme-font-sizes-extra);
+}
+
+.PostIntro-link {
+  color: $Theme-color-limedSpruce;
+
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .PostIntro-endLine {

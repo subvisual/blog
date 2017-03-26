@@ -1,5 +1,5 @@
 ---
-path: /posts/19-solid-principles-in-ruby
+path: /posts/19-solid-principles-in-ruby/
 title: "SOLID Principles in Ruby"
 author: luis-zamith
 date: 29/11/2013

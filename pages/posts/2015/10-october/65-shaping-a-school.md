@@ -1,5 +1,5 @@
 ---
-path: /posts/65-shaping-a-school
+path: /posts/65-shaping-a-school/
 title: "Shaping a School"
 author: francisco-baila
 date: 07/10/2015

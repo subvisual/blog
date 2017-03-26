@@ -1,5 +1,5 @@
 ---
-path: /posts/105-first-steps-into-product-design
+path: /posts/105-first-steps-into-product-design/
 title: "First steps into product design"
 author: summer-campers
 date: 09/09/2016

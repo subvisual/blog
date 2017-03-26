@@ -1,5 +1,5 @@
 ---
-path: /posts/121-hakuna-matata
+path: /posts/121-hakuna-matata/
 title: "Hakuna Matata…"
 author: laura-esteves
 date: 10/02/2017

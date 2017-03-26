@@ -1,5 +1,5 @@
 ---
-path: /posts/124-announcing-mirrorconf-2017-the-ultimate-digital-paradise
+path: /posts/124-announcing-mirrorconf-2017-the-ultimate-digital-paradise/
 title: "Announcing MirrorConf 2017: the ultimate digital paradise"
 author: roberto-machado
 date: 27/02/2017

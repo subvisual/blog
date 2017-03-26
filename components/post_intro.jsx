@@ -15,7 +15,9 @@ const PostIntro = ({ post }) => (
   /* eslint-disable react/no-danger */
   <div className="PostIntro">
     <div className="PostWidthConstrainer">
-      <h2 className="PostIntro-heading">{post.title}</h2>
+      <h2 className="PostIntro-heading">
+        <a className="PostIntro-link" href={post.path}>{post.title}</a>
+      </h2>
     </div>
 
     <div className="u-smallMargin" />

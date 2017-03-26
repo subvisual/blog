@@ -98,6 +98,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
   pre {
     margin-top: $Theme-spacing-default;
     margin-bottom: $Theme-spacing-default;
+    max-width: 100%;
   }
 
   blockquote {

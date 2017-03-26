@@ -1,5 +1,5 @@
 ---
-path: /posts/89-stumbling-into-a-product
+path: /posts/89-stumbling-into-a-product/
 title: "Stumbling into a product"
 author: luis-zamith
 date: 22/06/2016
