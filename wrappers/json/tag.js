@@ -7,7 +7,6 @@ import PostList from '../../components/post_list';
 
 const JsonTag = props => {
   const data = props.route.page.data;
-  console.log(props)
 
   return <div>
     <Helmet

@@ -16,16 +16,16 @@ export default class Overlay extends React.Component {
   render() {
     return <div className={this.mainClasses}>
       <div className="NavOverlay-item">
-        <a className="NavOverlay-link">Work</a>
+        <a className="NavOverlay-link" href="https://subvisual.co/work">Work</a>
       </div>
       <div className="NavOverlay-item">
-        <a className="NavOverlay-link">Company</a>
+        <a className="NavOverlay-link" href="https://subvisual.co/company">Company</a>
       </div>
       <div className="NavOverlay-item">
-        <a className="NavOverlay-link">Community</a>
+        <a className="NavOverlay-link" href="https://subvisual.co/community">Community</a>
       </div>
       <div className="NavOverlay-item is-selected">
-        <a className="NavOverlay-link">Blog</a>
+        <a className="NavOverlay-link" href="https://subvisual.co/blog">Blog</a>
       </div>
     </div>;
   }
