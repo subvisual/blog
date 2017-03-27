@@ -67,7 +67,7 @@ export default class Nav extends React.Component {
             <a className="Nav-link" href="https://subvisual.co/company">Company</a>
           </li>
           <li className="Nav-item">
-            <a classname="nav-link" href="https://subvisual.co/community">Community</a>
+            <a className="Nav-link" href="https://subvisual.co/community">Community</a>
           </li>
           <li className="Nav-item is-selected">
             <a className="Nav-link" href="https://subvisual.co/blog">Blog</a>
