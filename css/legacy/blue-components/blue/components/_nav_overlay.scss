@@ -42,7 +42,7 @@ $NavOverlay-item-color-hover: $Theme-color-yellowOrange;
   height: calc(100% - #{$Theme-nav-height-mobile} + 200px);
   padding: $Theme-spacing-default 0;
 
-  opacity: 0;
+  display: none;
 
   transition: all 0.2s ease-in-out;
 }
@@ -102,5 +102,5 @@ $NavOverlay-item-color-hover: $Theme-color-yellowOrange;
 
   background-color: $Theme-color-white;
 
-  opacity: 1;
+  display: block;
 }
