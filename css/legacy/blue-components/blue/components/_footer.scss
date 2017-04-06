@@ -82,7 +82,7 @@
   color: $Theme-color-limedSpruce;
 }
 
-@include media('>=tablet') {
+@include media('>=desktop') {
   .Footer-credits {
     flex-basis: 70%;
     align-items: flex-start;
