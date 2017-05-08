@@ -1,12 +1,13 @@
 import React from 'react';
 import _ from 'lodash';
+import { prefixLink } from 'gatsby-helpers';
 
 const renderTags = tags => (
   _.map(tags, (tag) => {
     const props = {
       key: tag,
       className: `Tag Tag--${tag}`,
-      href: `/tags/${tag}/`,
+      href: prefixLink(`/tags/${tag}/`),
     };
 
     return <a {...props}>{tag}</a>;

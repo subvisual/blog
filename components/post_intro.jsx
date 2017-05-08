@@ -1,4 +1,5 @@
 import React from 'react';
+import { prefixLink } from 'gatsby-helpers';
 
 import TagList from '../components/tag_list';
 import SmallAuthor from '../components/small_author';
@@ -16,7 +17,7 @@ const PostIntro = ({ post }) => (
   <div className="PostIntro">
     <div className="PostWidthConstrainer">
       <h2 className="PostIntro-heading">
-        <a className="PostIntro-link" href={post.path}>{post.title}</a>
+        <a className="PostIntro-link" href={prefixLink(post.path)}>{post.title}</a>
       </h2>
     </div>
 

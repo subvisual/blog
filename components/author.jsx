@@ -1,4 +1,5 @@
 import React from 'react';
+import { prefixLink } from 'gatsby-helpers';
 
 import Authors from '../data/authors.yaml';
 import Picture from './author/picture';
@@ -13,7 +14,7 @@ const Author = ({ slug }) => {
     <div className="Author-bioWrapper">
       <h2 className="Author-heading">
         About <a
-          href={`/authors/${slug}/`}
+          href={prefixLink(`/authors/${slug}/`)}
           target="_blank"
           rel="noreferrer noopener"
           className="Author-name"

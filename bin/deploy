@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+yarn run build
+bundle exec s3_website push
