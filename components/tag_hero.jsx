@@ -7,6 +7,7 @@ import Hero from './hero';
 
 import GoBackIcon from '../images/icon-go-back.svg';
 
+/* eslint-disable react/no-danger */
 const TagHero = ({ tag }) => (
   <Hero tag={tag}>
     <div className="u-navPlaceholder" />
@@ -14,7 +15,7 @@ const TagHero = ({ tag }) => (
     <div className="PostWidthConstrainer">
       <h1 className="HeroHeading">{tag}</h1>
       <div className="u-smallPadding" />
-      <a href={prefixLink("/")} className="BackToIndex">
+      <a href={prefixLink('/')} className="BackToIndex">
         <div className="BackToIndex-icon" dangerouslySetInnerHTML={{ __html: GoBackIcon }} />
         Go to Index
       </a>
@@ -22,6 +23,7 @@ const TagHero = ({ tag }) => (
     <div className="u-smallThenDefaultPadding" />
   </Hero>
 );
+/* eslint-enable react/no-danger */
 
 TagHero.propTypes = {
   tag: PropTypes.string.isRequired,

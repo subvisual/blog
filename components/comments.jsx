@@ -11,11 +11,9 @@ const Comments = ({ id, title, path }) => (
 );
 
 Comments.propTypes = {
-  post: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    path: PropTypes.string.isRequired,
-  }),
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 Comments.defaultProps = {

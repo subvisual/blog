@@ -11,7 +11,7 @@ const Hero = ({ tag, author, children }) => {
 
   return <div className={classes}>
     <div className="Hero-content">{children}</div>
-  </div>
+  </div>;
 };
 
 Hero.propTypes = {
