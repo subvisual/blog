@@ -17,7 +17,7 @@ const Hero = ({ tag, author, children }) => {
 Hero.propTypes = {
   tag: PropTypes.string,
   children: PropTypes.node.isRequired,
-  author: PropTypes.boolean,
+  author: PropTypes.bool,
 };
 
 Hero.defaultProps = {

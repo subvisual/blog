@@ -7,16 +7,19 @@ import PostList from '../../components/post_list';
 import AuthorHero from '../../components/author_hero';
 
 const JsonAuthor = props => {
-  const data = props.route.page.data;
+  const posts = props.route.page.data;
 
   return <div>
     <Helmet
-      title={`${config.siteTitle} | ${data.title}`} 
+      title={`${config.siteTitle} | ${posts.title}`} 
     />
     <Navigation light />
     <AuthorHero author={props.author} />
+    <div className="PostWidthConstrainer">
+      <PostCount modifier={props.tag} count={posts.length} />
+    </div>
     <div className="u-navPlaceholder" />
-    <PostList posts={data} />
+    <PostList posts={posts} />
   </div>
 };
 

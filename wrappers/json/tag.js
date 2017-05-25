@@ -5,18 +5,23 @@ import { config } from 'config'
 import Navigation from '../../components/nav';
 import PostList from '../../components/post_list';
 import TagHero from '../../components/tag_hero';
+import PostCount from '../../components/post_count';
 
 const JsonTag = props => {
-  const data = props.route.page.data;
+  const posts = props.route.page.data;
 
   return <div>
     <Helmet
-      title={`${config.siteTitle} | ${data.title}`} 
+      title={`${config.siteTitle} | ${posts.title}`} 
     />
     <Navigation light />
     <TagHero tag={props.tag} />
+    <div className="u-smallMargin" />
+    <div className="PostWidthConstrainer">
+      <PostCount modifier={props.tag} count={posts.length} />
+    </div>
     <div className="u-navPlaceholder" />
-    <PostList posts={data} />
+    <PostList posts={posts} />
   </div>
 };
 
