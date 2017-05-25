@@ -13,8 +13,6 @@ const Template = ({ children }) => (
   <div>
     {children}
     <div className="Separator Separator--subvisual" />
-    <Separator />
-    <div className="u-defaultThenLargeMargin" />
     <Sitemap />
     <Footer />
     <Typekit kitId="wbx6iwp" />

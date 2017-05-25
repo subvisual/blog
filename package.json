@@ -32,6 +32,7 @@
     "moment": "^2.18.0",
     "object-assign": "^4.1.1",
     "react": "^15.4.2",
+    "react-disqus-thread": "^0.4.0",
     "react-headroom": "^2.1.2",
     "react-helmet": "^3.2.2",
     "react-typekit": "^1.0.6",

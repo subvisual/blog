@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 import PostHero from '../components/post_hero';
 import TagList from '../components/tag_list';
 import Separator from '../components/separator';
 import Author from '../components/author';
 import HireUs from '../components/hire_us';
+import Comments from '../components/comments';
 
 const ProcessedPostBody = ({ body }) => (
   body.replace(/(href="http)/g, 'target="_blank" $1')
@@ -30,16 +31,20 @@ const PostPage = ({ post }) => (
       <div className="u-defaultThenLargeMargin" />
       <HireUs />
       <div className="u-smallThenDefaultMargin" />
+      <Separator />
+      <div className="u-smallThenLargeMargin" />
+      <Comments post={post} />
+      <div className="u-defaultThenLargeMargin" />
     </div>
   </div>
   /* eslint-enable react/no-danger */
 );
 
 PostPage.propTypes = {
-  post: React.PropTypes.shape({
-    author: React.PropTypes.string.isRequired,
-    tags: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
-    body: React.PropTypes.string.isRequired,
+  post: PropTypes.shape({
+    author: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+    body: PropTypes.string.isRequired,
   }).isRequired,
 };
 
