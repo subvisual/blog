@@ -6,8 +6,8 @@ date: 07/10/2015
 cover: https://subvisual.s3.amazonaws.com/blog/hero/130/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/130/image@2x.jpg
 tags:
-  - community
   - design
+  - community
 intro: "The new edition of Creators School had unprecedented ambitions which required a profound rebrand. Before I get into details about the rebrand, let me introduce you briefly to the project."
 ---
 

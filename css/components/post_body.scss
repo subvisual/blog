@@ -20,7 +20,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 }
 
 // both tables and highlights are not limited to the specified grid
-.PostBody > :not(.highlight):not(.PostTable):not(pre) {
+.PostBody > :not(.highlight):not(.PostTable):not(pre):not(code) {
   @include PostMaxWidth;
 }
 
@@ -79,20 +79,33 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
     }
   }
 
-  code {
+  /* inline code blocks */
+  p code,
+  ol code {
+    display: inline;
+    border-radius: 3px;
+    padding: 0.2em;
+    border-radius: 3px;
+  }
+
+  /* large code blocks */
+  pre code {
     @include font-properties(code, base, $Theme-font-sizes-extra);
     @include PostMaxWidth($Post-code-max-width);
   }
 
+  /* all code blocks */
   pre,
   code {
     background-color: $Color-catskillWhite;
+    font-size: 85%;
   }
 
-  p > code {
-    display: inline;
-    border-radius: 3px;
+  /* wrapper of large code blocks */
+  pre {
+    padding: $Theme-spacing-small 0;
   }
+
 
   p > img,
   pre {

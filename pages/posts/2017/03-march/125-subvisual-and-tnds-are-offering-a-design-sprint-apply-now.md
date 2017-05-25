@@ -6,8 +6,8 @@ date: 03/03/2017
 cover: https://subvisual.s3.amazonaws.com/blog/hero/193/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/193/image@2x.jpg
 tags:
-  - community
   - design
+  - community
 intro: "Subvisual and The New Digital School are offering a Design Sprint - [Apply now!](https://subvisual.typeform.com/to/KJonG6)"
 ---
 

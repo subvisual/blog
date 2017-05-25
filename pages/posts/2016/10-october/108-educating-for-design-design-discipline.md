@@ -6,8 +6,8 @@ date: 19/10/2016
 cover: https://subvisual.s3.amazonaws.com/blog/hero/176/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/176/image@2x.jpg
 tags:
-  - general
   - design
+  - general
 intro: "Over the last 4 years, I've had the pleasure of helping out designers on their first experiences in the web. Typically they come with a lot of questions and insecurities, usually all concerning two things: Typography and colors."
 ---
 

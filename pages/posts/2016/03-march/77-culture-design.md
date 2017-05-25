@@ -6,8 +6,8 @@ date: 21/03/2016
 cover: https://subvisual.s3.amazonaws.com/blog/hero/143/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/143/image@2x.jpg
 tags:
-  - general
   - design
+  - general
 intro: "![file](https://subvisual.s3.amazonaws.com/blog/post_image/99/image-1458578163461.jpg)"
 ---
 

@@ -11,8 +11,9 @@ intro: "On the 1st of August we started out our internship at Subvisual. The mai
 ---
 
 On the 1st of August we started out our internship at Subvisual. The main goal was developing a new product consisting of a financial app that would  deal with the process of organizing and registering all the financial data of their organizations. Our target audience would be early stage enterprises like tech startups and small tech companies. Growing a business healthfully is a huge effort by itself, so why not clear the path of minor tasks that are simultaneously so important? So the problem was identified and our opportunity was here.
- 
-##Design Sprint
+
+
+## Design Sprint
 
 We were introduced to this new methodology that would be used to develop the app,  identifying the problem and testing the viability of our solution. It forces the team to work together towards a mutual goal, in a collaborative environment where everyone has something to say and the opportunity to share their ideas about the project. This framework has many advantages over other product development methods, by establishing a well-defined set of “things to do”, while still being highly adaptive.
 

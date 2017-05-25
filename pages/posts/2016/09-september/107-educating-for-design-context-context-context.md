@@ -6,8 +6,8 @@ date: 15/09/2016
 cover: https://subvisual.s3.amazonaws.com/blog/hero/175/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/175/image@2x.jpg
 tags:
-  - general
   - design
+  - general
 intro: "As designers, we get to learn new things every day. Most of them are usually related to the way we discuss design with others, which tends to be a bit chaotic most of the times. Although I'm far from being an expert in these matters, I've come a long way since my fresh-out-of-college design years and I'd like to share some of the little things that we can do/say/think to communicate better with the rest of the team."
 ---
 

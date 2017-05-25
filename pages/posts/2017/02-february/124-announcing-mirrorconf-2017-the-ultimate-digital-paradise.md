@@ -7,12 +7,12 @@ cover: https://subvisual.s3.amazonaws.com/blog/hero/192/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/192/image@2x.jpg
 tags:
   - community
-intro: "We’re ready to announce that the [2nd edition of MirrorConf] (http://mirrorconf.com/) is happening on October 12-13!"
+intro: "We’re ready to announce that the [2nd edition of MirrorConf](http://mirrorconf.com/) is happening on October 12-13!"
 ---
 
-We’re ready to announce that the [2nd edition of MirrorConf] (http://mirrorconf.com/) is happening on October 12-13!
+We’re ready to announce that the [2nd edition of MirrorConf](http://mirrorconf.com/) is happening on October 12-13!
 
-Again this year, this is an event envisioned by [Subvisual](https://subvisual.co/), although everyone is invited to help us put it together. We want to [join forces and unite the community] (https://subvisual.co/community), to create the best event we possibly can.
+Again this year, this is an event envisioned by [Subvisual](https://subvisual.co/), although everyone is invited to help us put it together. We want to [join forces and unite the community](https://subvisual.co/community), to create the best event we possibly can.
 
 ## I'm new here, what is MirrorConf?
 MirrorConf is a conference that merges the world of design and front-end. It’s curated and organized by front-end developers and web designers and aims to be a conversation between people in this industry. It will be held in an informal setting and laid back environment, with a broad range of speakers, from UX to Accessibility experts, sharing knowledge and experiences with the participants.

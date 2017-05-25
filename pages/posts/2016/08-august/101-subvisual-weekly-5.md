@@ -6,8 +6,8 @@ date: 22/08/2016
 cover: https://subvisual.s3.amazonaws.com/blog/hero/169/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/169/image@2x.jpg
 tags:
-  - general
   - development
+  - general
 intro: ""
 ---
 

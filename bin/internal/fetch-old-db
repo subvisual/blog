@@ -6,10 +6,11 @@ FILE=/tmp/blog-$DATE.dump
 
 echo "Dumping DB on remote server"
 
-ssh $HOST -C "pg_dump -C blog.subvisual.co --username blog.subvisual.co --format=c > $FILE"
+ssh -t $HOST -C "sudo -u postgres pg_dump -C blog.subvisual.co --format=c > $FILE"
 
 echo "Transfering"
 scp $HOST:$FILE $FILE > /dev/null
-
+
 echo "Restoring local database"
-sudo -u postgres pg_restore -d blog.subvisual.co -Cp $FILE > /dev/null
+sudo -u postgres pg_restore --clean -d blog $FILE > /dev/null 2> /dev/null
+echo "Done"
