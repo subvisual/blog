@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import _ from 'lodash';
 
 import { config } from '../config.toml';
 

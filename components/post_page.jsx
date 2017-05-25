@@ -7,7 +7,7 @@ import Author from '../components/author';
 import HireUs from '../components/hire_us';
 
 const ProcessedPostBody = ({ body }) => (
-  post.body.replace(/(href="http)/g, 'target="_blank" $1')
+  body.replace(/(href="http)/g, 'target="_blank" $1')
 );
 
 const PostPage = ({ post }) => (

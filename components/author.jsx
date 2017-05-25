@@ -1,5 +1,7 @@
 import React from 'react';
+/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import { prefixLink } from 'gatsby-helpers';
+/* eslint-enable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 
 import Authors from '../data/authors.yaml';
 import Picture from './author/picture';
