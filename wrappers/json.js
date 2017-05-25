@@ -6,12 +6,12 @@ import Tag from './json/tag';
 import Author from './json/author';
 
 const Json = props => {
-  const { dirname } = props.route.page.file;
+  const { dirname, name } = props.route.page.file;
 
   if (dirname.includes("tags")) {
-    return <Tag {...props} />;
+    return <Tag {...props} tag={name} />;
   } else if (dirname.includes("authors")) {
-    return <Author {...props} />;
+    return <Author {...props} author={name} />;
   } else {
     const data = props.route.page.data;
 

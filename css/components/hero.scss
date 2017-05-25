@@ -1,0 +1,19 @@
+$Hero-min-height: 300px;
+$Hero--tag-bg-color: #8db6cd;
+
+.Hero {
+  min-height: $Hero-min-height;
+
+  background-color: $Color-catskillWhite;
+}
+
+.Hero.Hero--tag,
+.Hero.Hero--author {
+  background-color: $Hero--tag-bg-color;
+}
+
+@each $tag, $color in $Theme-tags-color {
+  .Hero.Hero--#{$tag} {
+    background-color: $color;
+  }
+}
