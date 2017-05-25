@@ -1,4 +1,5 @@
 #!/bin/sh
 
 yarn
+./bin/generators/post-metadata
 bundle check || bundle install
