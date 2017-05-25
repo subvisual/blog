@@ -6,6 +6,7 @@ import { config } from '../config.toml';
 import Navigation from '../components/nav';
 import PostList from '../components/post_list';
 import Separator from '../components/separator';
+import IndexHero from '../components/index_hero';
 
 import recentPosts from '../data/_generated/recent_posts.json';
 
@@ -20,6 +21,7 @@ const Index = () => (
     />
 
     <Navigation />
+    <IndexHero />
     <div className="u-navPlaceholder" />
     <PostList posts={recentPosts} />
     <div className="u-navPlaceholder" />
