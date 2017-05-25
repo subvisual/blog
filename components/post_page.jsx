@@ -6,6 +6,10 @@ import Separator from '../components/separator';
 import Author from '../components/author';
 import HireUs from '../components/hire_us';
 
+const ProcessedPostBody = ({ body }) => (
+  post.body.replace(/(href="http)/g, 'target="_blank" $1')
+);
+
 const PostPage = ({ post }) => (
   /* eslint-disable react/no-danger */
   <div>
@@ -16,7 +20,7 @@ const PostPage = ({ post }) => (
       <div className="u-smallThenDefaultMargin" />
     </div>
 
-    <div className="PostBody" dangerouslySetInnerHTML={{ __html: post.body }} />
+    <div className="PostBody" dangerouslySetInnerHTML={{ __html: ProcessedPostBody(post) }} />
 
     <div className="PostWidthConstrainer">
       <div className="u-defaultThenLargeMargin" />
