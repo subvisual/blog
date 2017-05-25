@@ -9,11 +9,11 @@ const PostCount = ({ modifier, count }) => {
 
   return <div className={classes}>
     {count} posts
-  </div>
+  </div>;
 };
 
 PostCount.propTypes = {
-  modififer: PropTypes.string,
+  modifier: PropTypes.string,
   count: PropTypes.number.isRequired,
 };
 
