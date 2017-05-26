@@ -5,6 +5,7 @@ import { config } from 'config'
 import Navigation from '../../components/nav';
 import PostList from '../../components/post_list';
 import AuthorHero from '../../components/author_hero';
+import PostCount from '../../components/post_count';
 
 const JsonAuthor = props => {
   const posts = props.route.page.data;

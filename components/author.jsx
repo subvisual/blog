@@ -17,7 +17,6 @@ const Author = ({ slug }) => {
       <h2 className="Author-heading">
         About <a
           href={prefixLink(`/authors/${slug}/`)}
-          target="_blank"
           rel="noreferrer noopener"
           className="Author-name"
         >
