@@ -16,6 +16,7 @@ const JsonAuthor = props => {
     />
     <Navigation light />
     <AuthorHero author={props.author} />
+    <div className="u-smallMargin" />
     <div className="PostWidthConstrainer">
       <PostCount modifier={props.tag} count={posts.length} />
     </div>
