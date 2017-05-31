@@ -8,18 +8,19 @@ import TagHero from '../../components/tag_hero';
 import PostCount from '../../components/post_count';
 import Separator from '../../components/separator';
 
-const JsonTag = props => {
-  const posts = props.route.page.data;
+const JsonTag = ({ tag, route }) => {
+  const posts = route.page.data;
+  const capitalizedTag = tag.charAt(0).toUpperCase() + tag.slice(1);
 
   return <div>
     <Helmet
-      title={`${config.siteTitle} | ${posts.title}`} 
+      title={`${config.siteTitle} | ${capitalizedTag}`} 
     />
     <Navigation light />
-    <TagHero tag={props.tag} />
+    <TagHero tag={tag} />
     <div className="u-smallMargin" />
     <div className="PostWidthConstrainer">
-      <PostCount modifier={props.tag} count={posts.length} />
+      <PostCount modifier={tag} count={posts.length} />
     </div>
     <div className="u-navPlaceholder" />
     <PostList posts={posts} />

@@ -8,12 +8,15 @@ import AuthorHero from '../../components/author_hero';
 import PostCount from '../../components/post_count';
 import Separator from '../../components/separator';
 
+import Authors from '../../data/authors.yaml';
+
 const JsonAuthor = props => {
   const posts = props.route.page.data;
+  const authorData = Authors[props.author];
 
   return <div>
     <Helmet
-      title={`${config.siteTitle} | ${posts.title}`} 
+      title={`${config.siteTitle} | ${authorData.name}`} 
     />
     <Navigation light />
     <AuthorHero author={props.author} />
