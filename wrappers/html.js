@@ -12,9 +12,9 @@ module.exports = React.createClass({
     const page = this.props.route.page.data
     return (
       <div>
-        <Helmet
-          title={`${config.siteTitle} | ${page.title}`} 
-        />
+        <Helmet>
+          <title>{config.siteTitle} | {page.title}</title>
+        </Helmet>
         <div dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
     )

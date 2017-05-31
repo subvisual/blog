@@ -25,10 +25,6 @@ class Md extends React.Component {
   render() {
     return (
       <div>
-        <Helmet
-          title={`${config.siteTitle} | ${this.post.title}`}
-        />
-
         <Navigation light={!!this.post.cover} />
 
         {(this.post.author) ? this.renderPost() : this.renderMd()}

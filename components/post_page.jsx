@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
+import Meta from '../components/meta';
 import PostHero from '../components/post_hero';
 import TagList from '../components/tag_list';
 import Separator from '../components/separator';
@@ -16,9 +17,12 @@ const ProcessedPostBody = ({ body }) => (
 const PostPage = ({ post }) => (
   /* eslint-disable react/no-danger */
   <div>
-    <Helmet
-      title={`${config.siteTitle} | ${data.title}`} 
+    <Meta
+      title={post.title}
+      image={post.cover}
+      author={post.author}
     />
+
     <PostHero {...post} />
     <div className="u-xSmallThenSmallMargin" />
     <div className="PostWidthConstrainer">

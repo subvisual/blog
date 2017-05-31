@@ -3,6 +3,11 @@ import classnames from 'classnames';
 
 import Authors from '../data/authors.yaml';
 import FormattedDate from './formatted_date';
+import Meta from './meta';
+
+const renderMeta = ({ cover }) => {
+  return <Meta image={cover} />;
+}
 
 const coverStyle = (props) => {
   if (!props.cover) {
@@ -42,6 +47,7 @@ const authorData = ({ author }) => (
 
 const PostHero = props => (
   <div className={mainClasses(props)}>
+    {renderMeta(props)}
     <div className="u-navPlaceholder" />
 
     <div className="PostHero-cover" style={coverStyle(props)} />

@@ -3,13 +3,15 @@ import Typekit from 'react-typekit';
 
 import Sitemap from '../components/sitemap';
 import Footer from '../components/footer';
+import Meta from '../components/meta';
 
 import '../css/markdown-styles.css';
 import '../css/legacy.scss';
 import '../css/app.scss';
 
-const Template = ({ children }) => (
+const Template = ({ children, route }) => (
   <div>
+    <Meta base route={route} />
     {children}
     <div className="Separator Separator--subvisual" />
     <Sitemap />
