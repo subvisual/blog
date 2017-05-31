@@ -21,9 +21,16 @@ const PostPage = ({ post }) => (
       <div className="u-smallThenDefaultMargin" />
     </div>
 
-    <div className="PostBody" dangerouslySetInnerHTML={{ __html: ProcessedPostBody(post) }} />
+    <div
+      className="PostBody"
+      dangerouslySetInnerHTML={{ __html: ProcessedPostBody(post) }}
+    />
 
     <div className="PostWidthConstrainer">
+      <div className="u-defaultThenLargeMargin" />
+      <Separator />
+      <div className="u-defaultThenLargeMargin" />
+      <Comments post={post} />
       <div className="u-defaultThenLargeMargin" />
       <Separator />
       <div className="u-defaultThenLargeMargin" />
@@ -33,8 +40,6 @@ const PostPage = ({ post }) => (
       <div className="u-smallThenDefaultMargin" />
       <Separator />
       <div className="u-smallThenLargeMargin" />
-      <Comments post={post} />
-      <div className="u-defaultThenLargeMargin" />
     </div>
   </div>
   /* eslint-enable react/no-danger */
