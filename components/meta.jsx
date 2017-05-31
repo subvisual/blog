@@ -33,6 +33,7 @@ class Meta extends React.Component {
       <meta property="fb:app_id" content="169112516473978" />
       <meta property="fb:admins" content="169112516473978,1448175923" />
       <meta property="og:site_name" content="Subvisual Website" />
+      <meta property="og:type" content="blog" />
     </Helmet>
   }
 
@@ -61,7 +62,6 @@ class Meta extends React.Component {
       <meta itemprop="description" content={this.props.description} />
 
       <meta property="og:description" content={this.props.description} />
-      <meta property="og:type" content="blog" />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:site" content="@subvisual" />
     </Helmet>;
