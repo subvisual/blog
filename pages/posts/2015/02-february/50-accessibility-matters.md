@@ -1,4 +1,5 @@
 ---
+legacy_id: 50
 path: /posts/50-accessibility-matters/
 title: "Accessibility Matters"
 author: luis-zamith

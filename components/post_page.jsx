@@ -30,7 +30,11 @@ const PostPage = ({ post }) => (
       <div className="u-defaultThenLargeMargin" />
       <Separator />
       <div className="u-defaultThenLargeMargin" />
-      <Comments post={post} />
+      <Comments
+        id={(post.legacy_id || post.title).toString()}
+        title={post.title}
+        path={post.path}
+      />
       <div className="u-defaultThenLargeMargin" />
       <Separator />
       <div className="u-defaultThenLargeMargin" />

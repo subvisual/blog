@@ -11,7 +11,7 @@ const Comments = ({ id, title, path }) => (
 );
 
 Comments.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
 };

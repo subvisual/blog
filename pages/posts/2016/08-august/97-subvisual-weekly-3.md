@@ -1,4 +1,5 @@
 ---
+legacy_id: 97
 path: /posts/97-subvisual-weekly-3/
 title: "Subvisual Weekly #3"
 author: gabriel-poca

@@ -1,4 +1,5 @@
 ---
+legacy_id: 92
 path: /posts/92-subvisual-weekly-1/
 title: "Subvisual Weekly #1"
 author: gabriel-poca

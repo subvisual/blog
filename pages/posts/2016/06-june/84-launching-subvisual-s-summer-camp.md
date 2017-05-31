@@ -1,4 +1,5 @@
 ---
+legacy_id: 84
 path: /posts/84-launching-subvisual-s-summer-camp/
 title: "Launching Subvisual's Summer Camp"
 author: roberto-machado

@@ -1,4 +1,5 @@
 ---
+legacy_id: 34
 path: /posts/34-the-keyword-arguments-falacy/
 title: "The keyword arguments falacy"
 author: luis-zamith

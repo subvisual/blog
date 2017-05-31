@@ -1,4 +1,5 @@
 ---
+legacy_id: 87
 path: /posts/87-smarter-heredoc-syntax-in-vim/
 title: "Smarter heredoc syntax in vim"
 author: miguel-palhas

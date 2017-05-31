@@ -1,4 +1,5 @@
 ---
+legacy_id: 114
 path: /posts/114-subvisual-weekly-12/
 title: "Subvisual Weekly #12"
 author: gabriel-poca

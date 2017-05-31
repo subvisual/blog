@@ -1,4 +1,5 @@
 ---
+legacy_id: 25
 path: /posts/25-design-solutions-not-decorations/
 title: "Design solutions, not decorations"
 author: joao-ferreira

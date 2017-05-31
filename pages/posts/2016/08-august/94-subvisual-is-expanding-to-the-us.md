@@ -1,4 +1,5 @@
 ---
+legacy_id: 94
 path: /posts/94-subvisual-is-expanding-to-the-us/
 title: "Subvisual is expanding to the US"
 author: roberto-machado

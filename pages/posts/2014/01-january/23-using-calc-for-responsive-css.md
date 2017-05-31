@@ -1,4 +1,5 @@
 ---
+legacy_id: 23
 path: /posts/23-using-calc-for-responsive-css/
 title: "Using calc() for responsive CSS"
 author: gabriel-poca

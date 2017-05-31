@@ -1,4 +1,5 @@
 ---
+legacy_id: 36
 path: /posts/36-we-are-hiring/
 title: "We are hiring!"
 author: roberto-machado

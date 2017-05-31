@@ -1,4 +1,5 @@
 ---
+legacy_id: 65
 path: /posts/65-shaping-a-school/
 title: "Shaping a School"
 author: francisco-baila

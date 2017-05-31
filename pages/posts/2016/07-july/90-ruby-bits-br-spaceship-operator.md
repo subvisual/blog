@@ -1,4 +1,5 @@
 ---
+legacy_id: 90
 path: /posts/90-ruby-bits-br-spaceship-operator/
 title: "Ruby Bits:  Spaceship Operator"
 author: luis-zamith

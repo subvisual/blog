@@ -1,4 +1,5 @@
 ---
+legacy_id: 123
 path: /posts/123-how-we-share-ownership-and-accountability/
 title: "How We Share Ownership and Accountability"
 author: roberto-machado

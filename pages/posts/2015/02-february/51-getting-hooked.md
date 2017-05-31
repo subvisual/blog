@@ -1,4 +1,5 @@
 ---
+legacy_id: 51
 path: /posts/51-getting-hooked/
 title: "Getting Hooked"
 author: miguel-palhas

@@ -1,4 +1,5 @@
 ---
+legacy_id: 74
 path: /posts/74-ruby-bits-br-each-with-object/
 title: "Ruby Bits:  Each with object"
 author: luis-zamith

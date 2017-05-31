@@ -1,4 +1,5 @@
 ---
+legacy_id: 85
 path: /posts/85-rubybits-br-source-diving/
 title: "RubyBits:  Source Diving"
 author: luis-zamith

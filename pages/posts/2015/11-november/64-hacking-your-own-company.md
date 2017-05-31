@@ -1,4 +1,5 @@
 ---
+legacy_id: 64
 path: /posts/64-hacking-your-own-company/
 title: "Hacking your own company"
 author: joao-justo

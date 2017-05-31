@@ -1,4 +1,5 @@
 ---
+legacy_id: 21
 path: /posts/21-a-toast-to-2013-welcome-2014/
 title: "A Toast To 2013! Welcome 2014"
 author: roberto-machado

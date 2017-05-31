@@ -1,4 +1,5 @@
 ---
+legacy_id: 16
 path: /posts/16-dependency-injection/
 title: "Dependency Injection"
 author: luis-zamith

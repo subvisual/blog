@@ -1,4 +1,5 @@
 ---
+legacy_id: 122
 path: /posts/122-build-teams-of-incremental-learners/
 title: "Build Teams of Incremental Learners"
 author: roberto-machado

@@ -1,4 +1,5 @@
 ---
+legacy_id: 88
 path: /posts/88-rubybits-br-triple-equals/
 title: "RubyBits:  Triple Equals"
 author: luis-zamith

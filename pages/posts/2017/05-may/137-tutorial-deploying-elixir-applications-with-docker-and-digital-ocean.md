@@ -1,4 +1,5 @@
 ---
+legacy_id: 137
 path: /posts/137-tutorial-deploying-elixir-applications-with-docker-and-digital-ocean/
 title: "Tutorial: Deploying Elixir applications with Docker and Digital Ocean"
 author: miguel-palhas

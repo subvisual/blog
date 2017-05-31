@@ -1,4 +1,5 @@
 ---
+legacy_id: 105
 path: /posts/105-first-steps-into-product-design/
 title: "First steps into product design"
 author: summer-campers

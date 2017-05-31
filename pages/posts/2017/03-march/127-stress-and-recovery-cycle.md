@@ -1,4 +1,5 @@
 ---
+legacy_id: 127
 path: /posts/127-stress-and-recovery-cycle/
 title: "Stress and Recovery Cycle"
 author: roberto-machado

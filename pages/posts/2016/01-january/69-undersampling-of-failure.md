@@ -1,4 +1,5 @@
 ---
+legacy_id: 69
 path: /posts/69-undersampling-of-failure/
 title: "Undersampling of Failure"
 author: roberto-machado

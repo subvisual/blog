@@ -1,4 +1,5 @@
 ---
+legacy_id: 125
 path: /posts/125-subvisual-and-tnds-are-offering-a-design-sprint-apply-now/
 title: "Subvisual and TNDS are offering a Design Sprint - Apply now!"
 author: francisco-baila

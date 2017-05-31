@@ -1,4 +1,5 @@
 ---
+legacy_id: 77
 path: /posts/77-culture-design/
 title: "Culture Design"
 author: joao-ferreira
