@@ -21,7 +21,7 @@ Hero.propTypes = {
 };
 
 Hero.defaultProps = {
-  tag: false,
+  tag: null,
   author: false,
 };
 
