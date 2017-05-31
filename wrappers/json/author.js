@@ -6,6 +6,7 @@ import Navigation from '../../components/nav';
 import PostList from '../../components/post_list';
 import AuthorHero from '../../components/author_hero';
 import PostCount from '../../components/post_count';
+import Separator from '../../components/separator';
 
 const JsonAuthor = props => {
   const posts = props.route.page.data;
@@ -22,6 +23,7 @@ const JsonAuthor = props => {
     </div>
     <div className="u-navPlaceholder" />
     <PostList posts={posts} />
+    <Separator />
   </div>
 };
 

@@ -6,6 +6,7 @@ import Navigation from '../../components/nav';
 import PostList from '../../components/post_list';
 import TagHero from '../../components/tag_hero';
 import PostCount from '../../components/post_count';
+import Separator from '../../components/separator';
 
 const JsonTag = props => {
   const posts = props.route.page.data;
@@ -22,6 +23,7 @@ const JsonTag = props => {
     </div>
     <div className="u-navPlaceholder" />
     <PostList posts={posts} />
+    <Separator />
   </div>
 };
 
