@@ -41,11 +41,11 @@ class Meta extends React.Component {
   }
 
   renderTitle() {
-    if (!this.props.title) {
-      return null;
-    }
+    let fullTitle = config.siteTitle;
 
-    const fullTitle = `${config.siteTitle} | ${this.props.title}`;
+    if (this.props.title) {
+      fullTitle = `${config.siteTitle} | ${this.props.title}`;
+    }
 
     return <Helmet>
       <title>{fullTitle}</title>
