@@ -215,6 +215,7 @@ $Theme-font-sizes-extra: (
 
   font-family: nth($family-list, length($family-list));
 
+  // scss-lint:disable SelectorFormat
   @at-root.wf-active & {
     font-family: nth($family-list, 1);
   }
@@ -222,6 +223,7 @@ $Theme-font-sizes-extra: (
   @include media('>=tablet') {
     @include font-properties-on-resolution($family, $size, desktop, $font-sizes);
   }
+  // scss-lint:enable SelectorFormat
 }
 
 @mixin extra-font($family, $desktop, $mobile) {

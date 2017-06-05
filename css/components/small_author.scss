@@ -21,5 +21,6 @@
 .SmallAuthor-link {
   @include font-properties(heading, small, $Theme-font-sizes-extra);
   color: $Theme-color-horizon;
+
   font-weight: bold;
 }

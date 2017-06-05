@@ -1,4 +1,6 @@
-@import "../theme/vars";
+@import '../theme/vars';
+
+$PostIntro-line-color: rgba(#b5c9d6, 0.25);
 
 .PostIntro-heading {
   @include font-properties(heading, veryLarge, $Theme-font-sizes-extra);
@@ -19,7 +21,7 @@
   width: 100%;
   height: 1px;
 
-  background-color: rgba(#b5c9d6, 0.25);
+  background-color: $PostIntro-line-color;
 }
 
 .PostIntro:last-child .PostIntro-endLine {

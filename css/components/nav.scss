@@ -2,6 +2,8 @@
 @import '../theme/font';
 
 $Nav-item-color-hover: $Theme-color-yellowOrange;
+$Nav-shadow-color: rgba(0, 0, 0, 0.1);
+$Nav--hit-shadow-color: rgba(0, 0, 0, 0.2);
 
 //
 // Positioning
@@ -11,8 +13,9 @@ $Nav-item-color-hover: $Theme-color-yellowOrange;
 
   z-index: 1;
 
-  transition: background-color 0.2s ease-in-out, transform 0.2s linear, opacity 0.2s linear;
   transform: translateY(0);
+
+  transition: background-color 0.2s ease-in-out, transform 0.2s linear, opacity 0.2s linear;
 }
 
 .Nav.Nav--top {
@@ -60,13 +63,13 @@ $Nav-item-color-hover: $Theme-color-yellowOrange;
 .Nav.Nav--fixed,
 .Nav.Nav--top.is-open {
   background: $Theme-color-white;
-  box-shadow: 0 2px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 11px $Nav-shadow-color;
 }
 
 .Nav.Nav--hint {
   background-color: $Theme-color-white;
 
-  box-shadow: 0 3px 11px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 11px $Nav--hint-shadow-color;
 }
 
 .Nav-link {
@@ -109,6 +112,10 @@ $Nav-item-color-hover: $Theme-color-yellowOrange;
 
   transition: border-color 0.2s ease-in-out;
 
+  @include media('>desktop') {
+    margin-left: $Theme-spacing-default;
+  }
+
   &:hover,
   &.is-selected {
     border-bottom: 5px solid $Nav-item-color-hover;
@@ -116,10 +123,6 @@ $Nav-item-color-hover: $Theme-color-yellowOrange;
     .Nav-link {
       color: $Nav-item-color-hover;
     }
-  }
-
-  @include media('>desktop') {
-    margin-left: $Theme-spacing-default;
   }
 }
 

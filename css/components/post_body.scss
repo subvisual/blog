@@ -79,29 +79,30 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
     }
   }
 
-  /* inline code blocks */
+  // inline code blocks
   p code,
   ol code {
     display: inline;
-    border-radius: 3px;
     padding: 0.2em;
+
     border-radius: 3px;
   }
 
-  /* large code blocks */
+  // large code blocks
   pre code {
     @include font-properties(code, base, $Theme-font-sizes-extra);
     @include PostMaxWidth($Post-code-max-width);
   }
 
-  /* all code blocks */
+  // all code blocks
   pre,
   code {
     background-color: $Color-catskillWhite;
+
     font-size: 85%;
   }
 
-  /* wrapper of large code blocks */
+  // wrapper of large code blocks
   pre {
     padding: $Theme-spacing-small 0;
   }
@@ -109,14 +110,14 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 
   p > img,
   pre {
+    max-width: 100%;
     margin-top: $Theme-spacing-default;
     margin-bottom: $Theme-spacing-default;
-    max-width: 100%;
   }
 
   blockquote {
-    &:before,
-    &:after {
+    &::before,
+    &::after {
       content: '';
 
       display: block;
@@ -127,12 +128,12 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
       background-color: $Color-catskillWhite;
     }
 
-    &:before {
+    &::before {
       margin-top: $Theme-spacing-default;
       margin-bottom: $Theme-spacing-small;
     }
 
-    &:after {
+    &::after {
       margin-top: $Theme-spacing-small;
     }
   }
@@ -162,7 +163,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
     counter-reset: post-ol-counter;
   }
 
-  ol li:before {
+  ol li::before {
     content: counter(post-ol-counter) '.';
     counter-increment: post-ol-counter;
 

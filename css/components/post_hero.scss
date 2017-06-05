@@ -1,9 +1,10 @@
-@import "../theme/vars";
+@import '../theme/vars';
 
 $PostHero-fixed-height: 400px;
 $PostHero-min-height: 300px;
 $PostHero-min-height-large: 600px;
 $PostHero-background-color-tag: #8db6cb;
+$PostHero-overlay-bg: rgba(0, 0, 0, 0.3);
 
 .PostHero {
   position: relative;
@@ -79,6 +80,6 @@ $PostHero-background-color-tag: #8db6cb;
   width: 100%;
   height: 100%;
 
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: $PostHero-overlay-bg;
 }
 

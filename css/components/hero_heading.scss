@@ -6,8 +6,8 @@ $HeroHeading-color: $Theme-color-limedSpruce;
   color: $Theme-color-white;
 
   font-weight: normal;
-  text-transform: capitalize;
   text-align: left;
+  text-transform: capitalize;
 }
 
 .HeroHeading-link {
@@ -22,4 +22,15 @@ $HeroHeading-color: $Theme-color-limedSpruce;
 
 .HeroHeading.HeroHeading--dark {
   color: $Theme-color-limedSpruce;
+}
+
+.HeroHeading.HeroHeading--withPicture {
+  display: flex;
+  align-items: center;
+
+  .HeroHeading-picture {
+    width: 80px;
+    height: 80px;
+    margin-right: $Theme-spacing-small;
+  }
 }

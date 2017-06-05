@@ -17,7 +17,7 @@ const TagHero = ({ tag }) => (
       <div className="u-smallPadding" />
       <a href={prefixLink('/')} className="BackToIndex">
         <div className="BackToIndex-icon" dangerouslySetInnerHTML={{ __html: GoBackIcon }} />
-        Go to Index
+        Go back
       </a>
     </div>
     <div className="u-smallThenDefaultPadding" />
