@@ -20,6 +20,7 @@ end.reverse
 FileUtils.mkdir_p("data/_generated")
 FileUtils.mkdir_p("pages/tags")
 FileUtils.mkdir_p("pages/authors")
+FileUtils.mkdir_p("public")
 
 # output all posts
 File.open("data/_generated/all_posts.json", "w") do |file|
