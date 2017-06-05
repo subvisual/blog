@@ -24,6 +24,7 @@ const Template = ({ children, route }) => (
 
 Template.propTypes = {
   children: React.PropTypes.node.isRequired,
+  route: React.PropTypes.shape.isRequired,
 };
 
 export default Template;

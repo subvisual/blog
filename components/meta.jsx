@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react';
 import Helmet from 'react-helmet';
+/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import { config } from 'config';
+/* eslint-enable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 
 import Authors from '../data/authors.yaml';
 
@@ -8,8 +10,8 @@ class Meta extends React.Component {
   static propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
-    route: PropTypes.any,
-    image: PropTypes.any,
+    route: PropTypes.shape,
+    image: PropTypes.string,
     author: PropTypes.string,
     base: PropTypes.bool,
   }
@@ -20,6 +22,7 @@ class Meta extends React.Component {
     route: null,
     image: null,
     twitter: null,
+    author: null,
     base: false,
   }
 
@@ -34,7 +37,7 @@ class Meta extends React.Component {
       <meta property="fb:admins" content="169112516473978,1448175923" />
       <meta property="og:site_name" content="Subvisual Website" />
       <meta property="og:type" content="blog" />
-    </Helmet>
+    </Helmet>;
   }
 
   renderTitle() {
@@ -47,7 +50,7 @@ class Meta extends React.Component {
     return <Helmet>
       <title>{fullTitle}</title>
       <meta property="og:title" content={fullTitle} />
-      <meta itemprop="name" content={fullTitle} />
+      <meta itemProp="name" content={fullTitle} />
     </Helmet>;
   }
 
@@ -59,7 +62,7 @@ class Meta extends React.Component {
     return <Helmet>
       <meta name="description" content={this.props.description} />
       <meta property="twitter:description" content={this.props.description} />
-      <meta itemprop="description" content={this.props.description} />
+      <meta itemProp="description" content={this.props.description} />
 
       <meta property="og:description" content={this.props.description} />
       <meta property="twitter:card" content="summary" />
@@ -98,7 +101,7 @@ class Meta extends React.Component {
     return <Helmet>
       <meta property="og:image" content={this.props.image} />
       <meta property="twitter:image" content={this.props.image} />
-      <meta itemprop="image" content={this.props.image} />
+      <meta itemProp="image" content={this.props.image} />
     </Helmet>;
   }
 

@@ -1,6 +1,4 @@
 import React, { PropTypes } from 'react';
-import Helmet from 'react-helmet'
-import { config } from 'config'
 
 import Meta from '../components/meta';
 import PostHero from '../components/post_hero';
