@@ -34,3 +34,12 @@ $HeroHeading-color: $Theme-color-limedSpruce;
     margin-right: $Theme-spacing-small;
   }
 }
+
+.HeroHeading.HeroHeading--withLinks {
+  display: flex;
+  align-items: center;
+}
+
+.HeroHeading-links {
+  margin-left: auto;
+}

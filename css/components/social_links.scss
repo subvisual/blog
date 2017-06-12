@@ -1,0 +1,18 @@
+$SocialLinks-icon-size: 24px;
+
+.SocialLinks {
+  display: flex;
+}
+
+.SocialLinks-icon,
+.SocialLinks-icon > svg {
+  width: $SocialLinks-icon-size;
+}
+
+.SocialLinks-icon {
+  display: flex;
+  align-items: center;
+  height: $SocialLinks-icon-size;
+
+  margin-left: $Theme-spacing-xSmall;
+}

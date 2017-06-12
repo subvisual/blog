@@ -1,0 +1,7 @@
+@import '../theme/vars';
+
+.HeroText {
+  @include font-properties(heading, small, $Theme-font-sizes-extra);
+
+  color: $Theme-color-white;
+}
