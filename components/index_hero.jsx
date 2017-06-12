@@ -8,7 +8,7 @@ const IndexHero = () => (
     <div className="u-navPlaceholder" />
     <div className="u-defaultThenLargeMargin" />
     <div className="PostWidthConstrainer">
-      <h1 className="HeroHeading HeroHeading--dark">Search by tag</h1>
+      <h1 className="HeroHeading HeroHeading--dark">Subvisual's Blog</h1>
       <div className="u-smallPadding" />
       <TagList tags={['general', 'development', 'design', 'community', 'ruby', 'elixir']} />
     </div>

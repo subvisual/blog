@@ -35,17 +35,13 @@ const PostPage = ({ post }) => (
 
     <div className="PostWidthConstrainer">
       <div className="u-defaultThenLargeMargin" />
-      <Separator />
+      <Author slug={post.author} />
       <div className="u-defaultThenLargeMargin" />
       <Comments
         id={(post.legacy_id || post.title).toString()}
         title={post.title}
         path={post.path}
       />
-      <div className="u-defaultThenLargeMargin" />
-      <Separator />
-      <div className="u-defaultThenLargeMargin" />
-      <Author slug={post.author} />
       <div className="u-defaultThenLargeMargin" />
       <HireUs />
       <div className="u-smallThenDefaultMargin" />

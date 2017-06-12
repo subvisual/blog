@@ -29,7 +29,7 @@ end
 
 # output most recent posts
 File.open("data/_generated/recent_posts.json", "w") do |file|
-  posts = all_posts.take(10)
+  posts = all_posts.take(20)
 
   file.write(JSON.pretty_generate(posts))
 end
