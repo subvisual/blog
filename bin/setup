@@ -2,4 +2,8 @@
 
 yarn
 bundle check || bundle install
+
+# rehash rbenv if command exists (necessary for semaphore, since this is a node.js build and not a Ruby one)
+command -v rbenv && rbenv rehash
+
 ./bin/generators/post-metadata
