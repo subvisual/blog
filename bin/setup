@@ -1,6 +1,5 @@
 #!/bin/sh
 
 yarn
-npm rebuild scss-lint
 bundle check || bundle install
 ./bin/generators/post-metadata
