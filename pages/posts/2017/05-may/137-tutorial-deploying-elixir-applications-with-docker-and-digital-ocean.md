@@ -56,8 +56,8 @@ Both of these issues will be discussed later on in the post.
 
 There are a couple of tools that make it straightforward to generate releases:
 
-1.  `[distillery](https://github.com/bitwalker/distillery)` is currently the recommended project to use;
-2.  `[exrm](https://github.com/bitwalker/exrm)` is a previous project by the same author. Despite having been replaced by distillery recently, it is still worth mentioning due to its heavy use. It still has it's own page in the [Phoenix framework docs](http://www.phoenixframework.org/v0.13.1/docs/advanced-deployment), for instance.
+1.  [`distillery`](https://github.com/bitwalker/distillery) is currently the recommended project to use;
+2.  [`exrm`](https://github.com/bitwalker/exrm) is a previous project by the same author. Despite having been replaced by distillery recently, it is still worth mentioning due to its heavy use. It still has it's own page in the [Phoenix framework docs](http://www.phoenixframework.org/v0.13.1/docs/advanced-deployment), for instance.
 
 I'll be using distillery for this tutorial. However, I won't be using it directly, but via a Docker container, so that I can solve the system architecture problem mentioned above.
 
@@ -71,7 +71,7 @@ Building directly on the server is an option, of course, but that takes away a l
 Instead, how about delegating the build process to a Docker container? That way, we ensure consistency, regardless of where we trigger the build. In the docker community, this is usually referred to as the [Builder Pattern](http://blog.terranillius.com/post/docker_builder_pattern/).
 We'll have one Docker container to build the release package, and a different one for running it, with only the bare minimum runtime dependencies.
 
-And that's exactly what `[mix_docker](https://github.com/Recruitee/mix_docker)` does for us. Out of the box, it includes two different Dockerfile descriptions, which are used to, respectively, build and release your Elixir app. Under the hood, it uses `[distillery](https://github.com/bitwalker/distillery)` to generate the releases.
+And that's exactly what [`mix_docker`](https://github.com/Recruitee/mix_docker) does for us. Out of the box, it includes two different Dockerfile descriptions, which are used to, respectively, build and release your Elixir app. Under the hood, it uses [`distillery`](https://github.com/bitwalker/distillery) to generate the releases.
 
 Note: We could also take advantage of Docker's new feature: [Multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/#use-multi-stage-builds), but mix_docker does not yet support those, so we're going with the two Dockerfile approach for convenience.
 
@@ -127,7 +127,7 @@ On the free plan, it allows only one private repository, which fortunately is en
 Keeping with the Docker Hub approach:
 
 ```shell
-$ mix docker.build publish --tag 0.1.0
+$ mix docker.publish --tag 0.1.0
 ```
 
 Since my docker username is `naps62`, and considering `demo` as the name of this particular project, this would upload an image called `naps62/demo:0.1.0`.
@@ -329,7 +329,7 @@ environment :prod do
   set post_start_hook: "rel/hooks/post_start"
 ``` 
 
-This references a `rel/hooks/post_start" file, which we will now create. This is actually a regular shell script where we can do whatever we need.
+This references a `rel/hooks/post_start` file, which we will now create. This is actually a regular shell script where we can do whatever we need.
 
 In this case, we're going to use RPC to call the Elixir function defined above:
 

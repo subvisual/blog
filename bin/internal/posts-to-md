@@ -66,6 +66,7 @@ DB.from(:posts).where("published_at IS NOT NULL").each do |post|
       <<~TXT
         ---
         legacy_id: #{post[:id]}
+        id: #{post[:id]}
         path: /posts/#{filename}/
         title: "#{cleanup_title(post[:title])}"
         author: #{author_slug}

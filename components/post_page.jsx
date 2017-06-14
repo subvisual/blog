@@ -38,7 +38,7 @@ const PostPage = ({ post }) => (
       <Author slug={post.author} />
       <div className="u-defaultThenLargeMargin" />
       <Comments
-        id={(post.legacy_id || post.title).toString()}
+        id={post.id.toString()}
         title={post.title}
         path={post.path}
       />

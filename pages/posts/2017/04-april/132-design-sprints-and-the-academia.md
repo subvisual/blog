@@ -7,16 +7,19 @@ date: 24/04/2017
 cover: https://subvisual.s3.amazonaws.com/blog/hero/200/image.jpg
 retina_cover: https://subvisual.s3.amazonaws.com/blog/hero/200/image@2x.jpg
 tags:
+  - design
   - general
-intro: "> To walk a thorny road, we may cover its every inch with leather or we can make"
+intro: "To be honest, before this fall I had never taken part of a Design Sprint. It"
 ---
-
-> To walk a thorny road, we may cover its every inch with leather or we can make
-> sandals.
 
 To be honest, before this fall I had never taken part of a Design Sprint. It
 always seemed like a toy for the big boys in startups to play with. Then Eaze
 happened...
+
+
+> To walk a thorny road, we may cover its every inch with leather or we can make
+> sandals.
+
 
 I'm still wrapping up my masters degree. The course University of Minho provides
 has a peculiar characteristic. It doesn't matter what specialty you are attending,
