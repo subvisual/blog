@@ -1,5 +1,5 @@
 ---
-legacy_id: 83
+id: 83
 path: /posts/83-announcing-br-mirror-conf/
 title: "Announcing Mirror Conf"
 author: roberto-machado

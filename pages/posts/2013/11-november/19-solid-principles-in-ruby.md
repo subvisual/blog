@@ -1,5 +1,5 @@
 ---
-legacy_id: 19
+id: 19
 path: /posts/19-solid-principles-in-ruby/
 title: "SOLID Principles in Ruby"
 author: luis-zamith

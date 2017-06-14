@@ -1,5 +1,5 @@
 ---
-legacy_id: 68
+id: 68
 path: /posts/68-a-late-recap-of-2015/
 title: "A Late Recap of 2015"
 author: roberto-machado

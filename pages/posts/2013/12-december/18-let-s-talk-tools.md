@@ -1,5 +1,5 @@
 ---
-legacy_id: 18
+id: 18
 path: /posts/18-let-s-talk-tools/
 title: "Let's Talk Tools"
 author: roberto-machado

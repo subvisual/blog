@@ -1,5 +1,5 @@
 ---
-legacy_id: 99
+id: 99
 path: /posts/99-subvisual-weekly-4/
 title: "Subvisual Weekly #4"
 author: joao-justo

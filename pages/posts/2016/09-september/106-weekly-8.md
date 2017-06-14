@@ -1,5 +1,5 @@
 ---
-legacy_id: 106
+id: 106
 path: /posts/106-weekly-8/
 title: "Weekly #8"
 author: gabriel-poca

@@ -1,5 +1,5 @@
 ---
-legacy_id: 129
+id: 129
 path: /posts/129-product-vision-as-the-cornerstone/
 title: "Product Vision as the Cornerstone "
 author: roberto-machado

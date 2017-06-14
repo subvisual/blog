@@ -1,5 +1,5 @@
 ---
-legacy_id: 75
+id: 75
 path: /posts/75-ruby-bits-br-bundle-open/
 title: "Ruby Bits:  Bundle open"
 author: luis-zamith

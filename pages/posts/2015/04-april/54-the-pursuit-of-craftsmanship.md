@@ -1,5 +1,5 @@
 ---
-legacy_id: 54
+id: 54
 path: /posts/54-the-pursuit-of-craftsmanship/
 title: "The Pursuit of Craftsmanship "
 author: francisco-baila

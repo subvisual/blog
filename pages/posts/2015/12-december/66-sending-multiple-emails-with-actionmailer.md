@@ -1,5 +1,5 @@
 ---
-legacy_id: 66
+id: 66
 path: /posts/66-sending-multiple-emails-with-actionmailer/
 title: "Sending multiple emails with ActionMailer"
 author: luis-zamith

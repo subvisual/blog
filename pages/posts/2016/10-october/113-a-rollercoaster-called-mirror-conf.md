@@ -1,5 +1,5 @@
 ---
-legacy_id: 113
+id: 113
 path: /posts/113-a-rollercoaster-called-mirror-conf/
 title: "A rollercoaster called Mirror Conf"
 author: joao-ferreira

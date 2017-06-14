@@ -1,5 +1,5 @@
 ---
-legacy_id: 10
+id: 10
 path: /posts/10-portuguese-ruby-community-renaissance/
 title: "Portuguese Ruby Community Renaissance"
 author: roberto-machado

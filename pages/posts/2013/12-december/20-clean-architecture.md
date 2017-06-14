@@ -1,5 +1,5 @@
 ---
-legacy_id: 20
+id: 20
 path: /posts/20-clean-architecture/
 title: "Clean Architecture"
 author: luis-zamith

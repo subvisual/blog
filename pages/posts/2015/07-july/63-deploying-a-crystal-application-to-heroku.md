@@ -1,5 +1,5 @@
 ---
-legacy_id: 63
+id: 63
 path: /posts/63-deploying-a-crystal-application-to-heroku/
 title: "Deploying a Crystal application to Heroku"
 author: luis-zamith

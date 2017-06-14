@@ -1,5 +1,5 @@
 ---
-legacy_id: 28
+id: 28
 path: /posts/28-designer-s-secret-sauce/
 title: "Designer's secret sauce"
 author: joao-ferreira

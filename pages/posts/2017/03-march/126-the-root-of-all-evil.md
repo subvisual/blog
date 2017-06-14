@@ -1,5 +1,5 @@
 ---
-legacy_id: 126
+id: 126
 path: /posts/126-the-root-of-all-evil/
 title: "The root of all evil"
 author: miguel-palhas

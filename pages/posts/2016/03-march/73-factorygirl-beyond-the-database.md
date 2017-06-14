@@ -1,5 +1,5 @@
 ---
-legacy_id: 73
+id: 73
 path: /posts/73-factorygirl-beyond-the-database/
 title: "FactoryGirl Beyond the Database"
 author: miguel-palhas

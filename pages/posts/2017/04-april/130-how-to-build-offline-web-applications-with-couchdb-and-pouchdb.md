@@ -1,5 +1,5 @@
 ---
-legacy_id: 130
+id: 130
 path: /posts/130-how-to-build-offline-web-applications-with-couchdb-and-pouchdb/
 title: "How to build offline web applications with CouchDB and PouchDB"
 author: gabriel-poca

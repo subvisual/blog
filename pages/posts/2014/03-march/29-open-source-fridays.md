@@ -1,5 +1,5 @@
 ---
-legacy_id: 29
+id: 29
 path: /posts/29-open-source-fridays/
 title: "Open Source Fridays"
 author: luis-zamith

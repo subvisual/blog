@@ -1,5 +1,5 @@
 ---
-legacy_id: 128
+id: 128
 path: /posts/128-rubyconf-portugal-gap-year/
 title: "RubyConf Portugal Gap Year"
 author: roberto-machado

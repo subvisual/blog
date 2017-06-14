@@ -1,5 +1,5 @@
 ---
-legacy_id: 132
+id: 132
 path: /posts/132-design-sprints-and-the-academia/
 title: "Design Sprints and the Academia"
 author: fernando-mendes

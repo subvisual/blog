@@ -1,5 +1,5 @@
 ---
-legacy_id: 82
+id: 82
 path: /posts/82-team-shared-responsibility/
 title: "Team-shared Responsibility"
 author: joao-ferreira

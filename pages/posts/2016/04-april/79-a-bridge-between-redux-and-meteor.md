@@ -1,5 +1,5 @@
 ---
-legacy_id: 79
+id: 79
 path: /posts/79-a-bridge-between-redux-and-meteor/
 title: "A bridge between Redux and Meteor"
 author: gabriel-poca

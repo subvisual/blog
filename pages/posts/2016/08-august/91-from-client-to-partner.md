@@ -1,5 +1,5 @@
 ---
-legacy_id: 91
+id: 91
 path: /posts/91-from-client-to-partner/
 title: "From Client to Partner"
 author: joao-ferreira

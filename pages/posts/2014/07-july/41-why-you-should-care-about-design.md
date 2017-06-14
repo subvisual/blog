@@ -1,5 +1,5 @@
 ---
-legacy_id: 41
+id: 41
 path: /posts/41-why-you-should-care-about-design/
 title: "Why you should care about Design"
 author: joao-ferreira

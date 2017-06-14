@@ -1,5 +1,5 @@
 ---
-legacy_id: 89
+id: 89
 path: /posts/89-stumbling-into-a-product/
 title: "Stumbling into a product"
 author: luis-zamith

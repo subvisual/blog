@@ -1,5 +1,5 @@
 ---
-legacy_id: 111
+id: 111
 path: /posts/111-an-exercise-in-futility/
 title: "An exercise in futility"
 author: miguel-palhas

@@ -1,5 +1,5 @@
 ---
-legacy_id: 109
+id: 109
 path: /posts/109-subvisual-weekly-9/
 title: "Subvisual Weekly #9"
 author: gabriel-poca

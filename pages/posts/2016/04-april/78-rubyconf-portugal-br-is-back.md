@@ -1,5 +1,5 @@
 ---
-legacy_id: 78
+id: 78
 path: /posts/78-rubyconf-portugal-br-is-back/
 title: "RubyConf Portugal  is back!"
 author: roberto-machado

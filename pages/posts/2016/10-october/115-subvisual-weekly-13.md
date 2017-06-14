@@ -1,5 +1,5 @@
 ---
-legacy_id: 115
+id: 115
 path: /posts/115-subvisual-weekly-13/
 title: "Subvisual Weekly #13"
 author: miguel-palhas

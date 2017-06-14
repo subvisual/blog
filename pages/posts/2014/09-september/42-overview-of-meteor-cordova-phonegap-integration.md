@@ -1,5 +1,5 @@
 ---
-legacy_id: 42
+id: 42
 path: /posts/42-overview-of-meteor-cordova-phonegap-integration/
 title: "Overview of Meteor Cordova - PhoneGap integration"
 author: joao-justo
