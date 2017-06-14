@@ -3,7 +3,6 @@ import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
-import Navigation from 'components/nav';
 import PostPage from 'components/post_page';
 
 class Md extends React.Component {
@@ -19,14 +18,12 @@ class Md extends React.Component {
   }
 
   renderPost() {
-    return <PostPage post={this.post} />;
+    return <PostPage postData={this.post} />;
   }
 
   render() {
     return (
       <div>
-        <Navigation light={!!this.post.cover} />
-
         {(this.post.author) ? this.renderPost() : this.renderMd()}
       </div>
     )

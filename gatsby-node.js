@@ -26,3 +26,9 @@ exports.modifyWebpackConfig = function (config, env) {
 
   return config;
 };
+
+exports.rewritePath = function(path, metadata) {
+  if (path.dir.match(/^posts/) && path.ext === "jsx") {
+    return `/posts/${path.name}`;
+  }
+};

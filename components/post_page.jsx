@@ -7,40 +7,51 @@ import Separator from '../components/separator';
 import Author from '../components/author';
 import HireUs from '../components/hire_us';
 import Comments from '../components/comments';
+import Navigation from 'components/nav';
 
 const ProcessedPostBody = ({ body }) => (
   body.replace(/(href="http)/g, 'target="_blank" $1')
 );
 
-const PostPage = ({ post }) => (
+const renderContent = (postData, children) => {
+  if (children) {
+    return <div className="PostBody">{children}</div>;
+  } else {
+    return <div
+      className="PostBody"
+      dangerouslySetInnerHTML={{ __html: ProcessedPostBody(postData) }}
+    />;
+  }
+};
+
+const PostPage = ({ postData, children }) => (
   /* eslint-disable react/no-danger */
   <div>
     <Meta
-      title={post.title}
-      image={post.cover}
-      author={post.author}
+      title={postData.title}
+      image={postData.cover}
+      author={postData.author}
     />
 
-    <PostHero {...post} />
+    <Navigation light={!!postData.cover} />
+
+    <PostHero {...postData} />
     <div className="u-xSmallThenSmallMargin" />
     <div className="PostWidthConstrainer">
-      <TagList tags={post.tags} />
+      <TagList tags={postData.tags} />
       <div className="u-smallThenDefaultMargin" />
     </div>
 
-    <div
-      className="PostBody"
-      dangerouslySetInnerHTML={{ __html: ProcessedPostBody(post) }}
-    />
+    {renderContent(postData, children)}
 
     <div className="PostWidthConstrainer">
       <div className="u-defaultThenLargeMargin" />
-      <Author slug={post.author} />
+      <Author slug={postData.author} />
       <div className="u-defaultThenLargeMargin" />
       <Comments
-        id={post.id.toString()}
-        title={post.title}
-        path={post.path}
+        id={postData.id.toString()}
+        title={postData.title}
+        path={postData.path}
       />
       <div className="u-defaultThenLargeMargin" />
       <HireUs />
@@ -53,10 +64,11 @@ const PostPage = ({ post }) => (
 );
 
 PostPage.propTypes = {
-  post: PropTypes.shape({
+  postData: PropTypes.shape({
+    title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-    body: PropTypes.string.isRequired,
+    body: PropTypes.string,
   }).isRequired,
 };
 
