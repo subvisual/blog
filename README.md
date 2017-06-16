@@ -1,8 +1,9 @@
-# Subvisual's Blog 2.0
+# Subvisual's Blog
 
-An experiment. Entertaining the possiblity of migrating our blog to a static
-website built with [Gatsby]
+The source code for [our blog](https://s3.subvisual.co)
 
-More info soon...
+## [How to write a post](docs/writing.md)
 
-[Gatsby]: https://github.com/gatsbyjs/gatsby
+## About
+
+This project is maintained by [Subvisual](https://subvisual.co).
