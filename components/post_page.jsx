@@ -31,6 +31,7 @@ const PostPage = ({ postData, children }) => (
       title={postData.title}
       image={postData.cover}
       author={postData.author}
+      description={postData.intro}
       type="article"
     />
 
