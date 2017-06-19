@@ -125,7 +125,7 @@ class Meta extends React.Component {
       {this.renderImage()}
       {this.renderDescription()}
       {this.renderAuthor()}
-      {this.renderAuthor()}
+      {this.renderType()}
     </div>;
   }
 }
