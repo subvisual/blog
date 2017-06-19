@@ -36,7 +36,7 @@ class Meta extends React.Component {
     return <Helmet>
       <meta name="author" content="Subvisual" />
       <meta property="fb:app_id" content="169112516473978" />
-      <meta property="fb:admins" content="169112516473978,1448175923" />
+      <meta property="fb:admins" content="1448175923" />
       <meta property="og:site_name" content="Subvisual Website" />
       <meta property="og:type" content="blog" />
     </Helmet>;
