@@ -65,7 +65,6 @@ class Meta extends React.Component {
     }
 
     const fullTitle = `${this.props.title} | ${config.siteTitle}`;
-    console.log(fullTitle);
 
     return <Helmet>
       <title>{fullTitle}</title>
