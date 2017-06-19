@@ -13,6 +13,7 @@ class Meta extends React.Component {
     route: PropTypes.shape,
     image: PropTypes.string,
     author: PropTypes.string,
+    type: PropTypes.string,
     base: PropTypes.bool,
   }
 
@@ -23,6 +24,7 @@ class Meta extends React.Component {
     image: null,
     twitter: null,
     author: null,
+    type: null,
     base: false,
   }
 
@@ -105,6 +107,16 @@ class Meta extends React.Component {
     </Helmet>;
   }
 
+  renderType() {
+    if (!this.props.type) {
+      return null;
+    }
+
+    return <Helmet>
+      <meta property="og:type" content="blog" />
+    </Helmet>;
+  }
+
   render() {
     return <div>
       {this.renderBase()}
@@ -112,6 +124,7 @@ class Meta extends React.Component {
       {this.renderUrl()}
       {this.renderImage()}
       {this.renderDescription()}
+      {this.renderAuthor()}
       {this.renderAuthor()}
     </div>;
   }
