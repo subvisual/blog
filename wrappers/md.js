@@ -1,8 +1,8 @@
 import React from 'react'
 import 'css/markdown-styles.css'
-import Helmet from 'react-helmet'
 import { config } from 'config'
 
+import Meta from '../components/meta';
 import PostPage from 'components/post_page';
 
 class Md extends React.Component {
@@ -24,6 +24,7 @@ class Md extends React.Component {
   render() {
     return (
       <div>
+        <Meta base route={this.props.route} />
         {(this.post.author) ? this.renderPost() : this.renderMd()}
       </div>
     )

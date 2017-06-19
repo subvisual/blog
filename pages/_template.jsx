@@ -13,7 +13,7 @@ import '../css/app.scss';
 
 const Template = ({ children, route }) => (
   <div>
-    <Meta base route={route} image={Logo} />
+    <Meta base image={Logo} />
     {children}
     <div className="Separator Separator--subvisual" />
     <Sitemap />

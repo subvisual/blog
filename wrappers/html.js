@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
+import Meta from '../components/meta';
+
 module.exports = React.createClass({
   propTypes () {
     return {
@@ -13,7 +15,7 @@ module.exports = React.createClass({
     return (
       <div>
         <Helmet>
-          <title>{config.siteTitle} | {page.title}</title>
+          <Meta base route={this.props.route} />
         </Helmet>
         <div dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
