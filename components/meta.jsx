@@ -113,7 +113,7 @@ class Meta extends React.Component {
     }
 
     return <Helmet>
-      <meta property="og:type" content="blog" />
+      <meta property="og:type" content={this.props.type} />
     </Helmet>;
   }
 
