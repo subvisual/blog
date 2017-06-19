@@ -1,3 +1,4 @@
 siteTitle="Subvisual Blog"
 linkPrefix = "/blog"
 baseUrl = "https://subvisual.co"
+googleAnalyticsTrackingCode = "UA-97061864-1"
