@@ -6,8 +6,11 @@ import { config } from 'config';
 
 import Authors from '../data/authors.yaml';
 
+let x = 1
+
 class Meta extends React.Component {
   static propTypes = {
+    baseTitle: PropTypes.bool,
     title: PropTypes.string,
     description: PropTypes.string,
     route: PropTypes.shape,
@@ -18,6 +21,7 @@ class Meta extends React.Component {
   }
 
   static defaultProps = {
+    baseTitle: false,
     title: null,
     description: null,
     route: null,
@@ -41,12 +45,27 @@ class Meta extends React.Component {
     </Helmet>;
   }
 
-  renderTitle() {
-    let fullTitle = config.siteTitle;
-
-    if (this.props.title) {
-      fullTitle = `${config.siteTitle} | ${this.props.title}`;
+  renderBaseTitle() {
+    if (!this.props.baseTitle) {
+      return null;
     }
+
+    const title = config.siteTitle;
+
+    return <Helmet>
+      <title>{title}</title>
+      <meta property="og:title" content={title} />
+      <meta itemProp="name" content={title} />
+    </Helmet>;
+  }
+
+  renderTitle() {
+    if (!this.props.title) {
+      return null;
+    }
+
+    const fullTitle = `${this.props.title} | ${config.siteTitle}`;
+    console.log(fullTitle);
 
     return <Helmet>
       <title>{fullTitle}</title>
@@ -119,6 +138,7 @@ class Meta extends React.Component {
   render() {
     return <div>
       {this.renderBase()}
+      {this.renderBaseTitle()}
       {this.renderTitle()}
       {this.renderUrl()}
       {this.renderImage()}
