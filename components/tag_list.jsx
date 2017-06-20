@@ -1,8 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import { prefixLink } from 'gatsby-helpers';
-/* eslint-enable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 
 const renderTags = tags => (
   _.map(tags, (tag) => {

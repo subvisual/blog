@@ -7,7 +7,7 @@ import Separator from '../components/separator';
 import Author from '../components/author';
 import HireUs from '../components/hire_us';
 import Comments from '../components/comments';
-import Navigation from 'components/nav';
+import Navigation from '../components/nav';
 
 const ProcessedPostBody = ({ body }) => (
   body.replace(/(href="http)/g, 'target="_blank" $1')
@@ -16,16 +16,15 @@ const ProcessedPostBody = ({ body }) => (
 const renderContent = (postData, children) => {
   if (children) {
     return <div className="PostBody">{children}</div>;
-  } else {
-    return <div
-      className="PostBody"
-      dangerouslySetInnerHTML={{ __html: ProcessedPostBody(postData) }}
-    />;
   }
+
+  return <div
+    className="PostBody"
+    dangerouslySetInnerHTML={{ __html: ProcessedPostBody(postData) }}
+  />;
 };
 
 const PostPage = ({ postData, children }) => (
-  /* eslint-disable react/no-danger */
   <div>
     <Meta
       title={postData.title}
@@ -62,7 +61,6 @@ const PostPage = ({ postData, children }) => (
       <div className="u-smallThenLargeMargin" />
     </div>
   </div>
-  /* eslint-enable react/no-danger */
 );
 
 PostPage.propTypes = {
@@ -72,6 +70,7 @@ PostPage.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string).isRequired,
     body: PropTypes.string,
   }).isRequired,
+  children: PropTypes.node,
 };
 
 export default PostPage;

@@ -1,3 +1,6 @@
+import React from 'react';
+import PostPage from 'components/post_page';
+
 const PostData = {
   // must be unique among all posts
   id: 139,
@@ -33,11 +36,6 @@ const PostData = {
   // always in the format DD/MM/YYYY
   date: '06/06/2017',
 };
-
-/* eslint-disable import/no-extraneous-dependencies, import/first, import/no-unresolved */
-import React from 'react';
-import PostPage from 'components/post_page';
-/* eslint-enable import/no-extraneous-dependencies, import/first */
 
 const PostBody = () => (
   <PostPage post={PostData}>

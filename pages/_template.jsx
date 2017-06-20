@@ -11,7 +11,7 @@ import '../css/markdown-styles.css';
 import '../css/legacy.scss';
 import '../css/app.scss';
 
-const Template = ({ children, route }) => (
+const Template = ({ children }) => (
   <div>
     <Meta base image={Logo} />
     {children}
@@ -24,7 +24,6 @@ const Template = ({ children, route }) => (
 
 Template.propTypes = {
   children: React.PropTypes.node.isRequired,
-  route: React.PropTypes.shape.isRequired,
 };
 
 export default Template;

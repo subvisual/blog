@@ -13,12 +13,10 @@ const classes = props => (
 );
 
 const Logo = props => (
-  /* eslint-disable react/no-danger */
   <a href="https://subvisual.co" className={classes(props)}>
     <div dangerouslySetInnerHTML={{ __html: logoColor }} />
     <div dangerouslySetInnerHTML={{ __html: logoMono }} />
   </a>
-  /* eslint-enable react/no-danger */
 );
 
 export default Logo;

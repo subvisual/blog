@@ -30,7 +30,6 @@ export default class SocialLinks extends React.Component {
       return null;
     }
 
-    /* eslint-disable react/no-danger */
     return <a
       key={name}
       className={`SocialLinks SocialLinks-${name}`}
@@ -40,7 +39,6 @@ export default class SocialLinks extends React.Component {
     >
       <div className="SocialLinks-icon" dangerouslySetInnerHTML={{ __html: Icons[name] }} />
     </a>;
-    /* eslint-enable react/no-danger */
   }
 
   renderLinks() {

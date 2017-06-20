@@ -1,12 +1,8 @@
 import React, { PropTypes } from 'react';
 import Helmet from 'react-helmet';
-/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import { config } from 'config';
-/* eslint-enable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 
 import Authors from '../data/authors.yaml';
-
-let x = 1
 
 class Meta extends React.Component {
   static propTypes = {
