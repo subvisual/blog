@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import classnames from 'classnames';
 
 import Meta from '../components/meta';
 import PostHero from '../components/post_hero';
@@ -27,7 +26,7 @@ const renderContent = (postData, children) => {
 
 const renderHero = postData => <PostHero {...postData} />;
 
-const PostPage = ({ postData, className, children, hideHero }) => (
+const PostPage = ({ postData, className, children, hero, lightNav }) => (
   <div className={className}>
     <Meta
       title={postData.title}
@@ -37,9 +36,9 @@ const PostPage = ({ postData, className, children, hideHero }) => (
       type="article"
     />
 
-    <Navigation light={!!postData.cover} />
+    <Navigation light={lightNav || !!postData.cover} />
 
-    {hideHero || renderHero(postData)}
+    {hero ? hero : renderHero(postData)}
 
     <div className="u-xSmallThenSmallMargin" />
     <div className="PostWidthConstrainer">
@@ -76,13 +75,14 @@ PostPage.propTypes = {
   }).isRequired,
 
   children: PropTypes.node,
-
-  hideHero: PropTypes.string,
+  hero: PropTypes.node,
+  lightNav: PropTypes.bool,
   className: PropTypes.string,
 };
 
 PostPage.defaultProps = {
-  hideHero: false,
+  hero: null,
+  lightNav: false,
 };
 
 export default PostPage;

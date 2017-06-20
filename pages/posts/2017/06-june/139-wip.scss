@@ -1,6 +1,14 @@
+@import "../../../../css/theme/vars";
+
 .Post139 {
+  //
+  // Mirror
+  //
   .Mirror {
     position: relative;
+
+    --rotation-x: 0deg;
+    --rotation-y: 0deg;
   }
 
   .Mirror-original,
@@ -23,6 +31,40 @@
     pointer-events: none;
     transform: scaleX(-1) translateX(50%);
 
-    filter: opacity(0.3) blur(7px);
+    filter: opacity(0.3) blur(6px);
+
+    transform: scaleX(-1) translateX(50%) rotateX(var(--rotation-x)) rotateY(var(--rotation-y));
+  }
+
+  //
+  // PostHero
+  //
+  .PostHero {
+    background: linear-gradient(to right, #0D1E61, #081440)
+  }
+
+  //
+  // Hero
+  //
+  .PostHeading {
+    text-align: left;
+    margin: auto;
+
+    color: #FD7D57;
+
+    white-space: pre-line;
+  }
+
+  .PostHero-content {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    max-width: 800px;
+    padding: $Theme-spacing-default;
+  }
+
+  .PostInfo {
+    text-align: left;
+    color: $Theme-color-white;
   }
 }
