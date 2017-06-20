@@ -1,3 +1,6 @@
+import React from 'react';
+import PostPage from 'components/post_page';
+
 const PostData = {
   // must be unique among all posts
   id: 139,
@@ -34,24 +37,40 @@ const PostData = {
   date: '06/06/2017',
 };
 
-/* eslint-disable import/no-extraneous-dependencies, import/first, import/no-unresolved */
-import React from 'react';
-import PostPage from 'components/post_page';
-/* eslint-enable import/no-extraneous-dependencies, import/first */
-
 const stylesheet = require("!raw!postcss!sass!./139-wip.scss")
 
-const renderStyle = () => (
-  <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-)
-
-
-const PostBody = () => (
-  <PostPage postData={PostData}>
-    {renderStyle()}
-
-    <p>asd</p>
-  </PostPage>
+const Mirror = ({ children }) => (
+  <div className="Mirror">
+    <div className="Mirror-original">
+      {children}
+    </div>
+    <div className="Mirror-reflection">
+      {children}
+    </div>
+  </div>
 );
+
+class PostBody extends React.Component {
+  renderStyle() {
+    return <style dangerouslySetInnerHTML={{ __html: stylesheet }} />;
+  }
+
+  renderHero() {
+
+  }
+
+  render() {
+    return <PostPage hero={false} className="Post139" postData={PostData}>
+      {this.renderStyle()}
+      {this.renderHero()}
+
+      <div className="PostWidthConstrainer">
+        <Mirror>
+          <p>This should be mirrored</p>
+        </Mirror>
+      </div>
+    </PostPage>;
+  }
+}
 
 export default PostBody;

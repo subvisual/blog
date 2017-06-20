@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import classnames from 'classnames';
 
 import Meta from '../components/meta';
 import PostHero from '../components/post_hero';
@@ -24,8 +25,10 @@ const renderContent = (postData, children) => {
   />;
 };
 
-const PostPage = ({ postData, children }) => (
-  <div>
+const renderHero = postData => <PostHero {...postData} />;
+
+const PostPage = ({ postData, className, children, hideHero }) => (
+  <div className={className}>
     <Meta
       title={postData.title}
       image={postData.cover}
@@ -36,7 +39,8 @@ const PostPage = ({ postData, children }) => (
 
     <Navigation light={!!postData.cover} />
 
-    <PostHero {...postData} />
+    {hideHero || renderHero(postData)}
+
     <div className="u-xSmallThenSmallMargin" />
     <div className="PostWidthConstrainer">
       <TagList tags={postData.tags} />
@@ -70,7 +74,15 @@ PostPage.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string).isRequired,
     body: PropTypes.string,
   }).isRequired,
+
   children: PropTypes.node,
+
+  hideHero: PropTypes.string,
+  className: PropTypes.string,
+};
+
+PostPage.defaultProps = {
+  hideHero: false,
 };
 
 export default PostPage;

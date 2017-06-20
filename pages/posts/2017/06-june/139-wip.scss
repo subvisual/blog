@@ -1,2 +1,28 @@
-.PostBody {
+.Post139 {
+  .Mirror {
+    position: relative;
+  }
+
+  .Mirror-original,
+  .Mirror-reflection {
+    width: 100%;
+  }
+
+  .Mirror-original {
+    position: relative;
+  }
+
+  .Mirror-reflection {
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    width: 100%;
+
+    pointer-events: none;
+    transform: scaleX(-1) translateX(50%);
+
+    filter: opacity(0.3) blur(7px);
+  }
 }
