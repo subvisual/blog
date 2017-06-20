@@ -20,7 +20,7 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 }
 
 // both tables and highlights are not limited to the specified grid
-.PostBody > :not(.highlight):not(.PostTable):not(pre):not(code) {
+.PostBody > :not(.highlight):not(.PostTable):not(pre):not(code):not(style) {
   @include PostMaxWidth;
 }
 
