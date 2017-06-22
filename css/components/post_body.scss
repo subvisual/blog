@@ -104,7 +104,8 @@ $Post-inlineCodeBgColor: rgba(0, 0, 0, 0.04);
 
   // wrapper of large code blocks
   pre {
-    padding: $Theme-spacing-small 0;
+    padding: $Theme-spacing-small;
+    overflow-x: auto;
   }
 
 
