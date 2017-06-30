@@ -1,5 +1,6 @@
 pages/authors
 pages/tags
+pages/posts.json
 data/_generated
 
 # Logs
