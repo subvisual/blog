@@ -2,9 +2,11 @@ $Hero-min-height: 300px;
 $Hero--tag-bg-color: #8db6cd;
 
 .Hero {
-  min-height: $Hero-min-height;
-
   background-color: $Color-catskillWhite;
+
+  @include media('>=tablet') {
+    min-height: $Hero-min-height;
+  }
 }
 
 .Hero.Hero--tag,
