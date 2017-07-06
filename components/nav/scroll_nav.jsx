@@ -31,12 +31,12 @@ export default class ScrollNav extends React.Component {
   }
 
   onScroll = _.throttle(() => {
-    if (document.body.scrollTop > this.lastScrollTop) {
+    if (document.documentElement.scrollTop > this.lastScrollTop) {
       this.onScrollDown();
     } else {
       this.onScrollUp();
     }
-    this.lastScrollTop = document.body.scrollTop;
+    this.lastScrollTop = document.documentElement.scrollTop;
   }, 100);
 
 
@@ -50,7 +50,7 @@ export default class ScrollNav extends React.Component {
   }
 
   onScrollUp = () => {
-    if (document.body.scrollTop === 0) {
+    if (document.documentElement.scrollTop === 0) {
       // if it's still on top after 100ms, hide this nav
       _.delay(this.hideIfOnTop, 100);
     } else {
