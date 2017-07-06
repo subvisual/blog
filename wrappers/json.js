@@ -13,10 +13,11 @@ const Json = props => {
     return <Tag {...props} tag={name} />;
   } else if (dirname.includes("authors")) {
     return <Author {...props} author={name} />;
+  } else if (name == "recent") {
+    return <h1>asd</h1>
   } else {
     const data = props.route.page.data;
 
-    if (dirname)
     return <div>
       <Meta base route={this.props.route} />
       <h1>{data.title}</h1>

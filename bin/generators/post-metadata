@@ -35,7 +35,7 @@ File.open("data/_generated/recent_posts.json", "w") do |file|
 end
 
 # output 2 recent posts for API endpoint
-File.open("pages/posts.json", "w") do |file|
+File.open("pages/recent.json", "w") do |file|
   posts = all_posts.take(2)
 
   posts_with_nested_author = posts.map do |post|
