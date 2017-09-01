@@ -17,12 +17,12 @@ const Json = props => {
     const data = props.route.page.data;
 
     if (dirname) {
-    return <div>
-      <Meta base route={this.props.route} />
-      <h1>{data.title}</h1>
-      <p>Raw view of json file</p>
-      <pre dangerouslySetInnerHTML={{ __html: JSON.stringify(data, null, 4) }} />
-    </div>
+      return <div>
+        <Meta base route={this.props.route} />
+        <h1>{data.title}</h1>
+        <p>Raw view of json file</p>
+        <pre dangerouslySetInnerHTML={{ __html: JSON.stringify(data, null, 4) }} />
+      </div>
     } else {
       return null;
     }
