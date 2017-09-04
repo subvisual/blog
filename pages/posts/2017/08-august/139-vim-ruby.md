@@ -1,9 +1,9 @@
 ---
 id: 139
-path: /posts/139-vim-ruby/
-title: "Vim ❤️ Ruby"
+path: /posts/139-how-to-program-vim-using-ruby/
+title: "How to program Vim using Ruby"
 author: gabriel-poca
-date: 30/08/2017
+date: 04/09/2017
 cover: https://s3-eu-west-1.amazonaws.com/subvisual/blog/hero/139/ruby-vim.jpg
 retina_cover: https://s3-eu-west-1.amazonaws.com/subvisual/blog/hero/139/ruby-vim.jpg
 tags:
@@ -17,18 +17,19 @@ Let's say that you have an HTML file that looks like this:
 
 ```html
 ...
-<div class="chart__timepicker">
-  <chart-timepicker on-change="ctrl.load">
-  </chart-timepicker>
+<div class="timepicker">
+  <timepicker>
+    ...
+  </timepicker>
 </div>
 ...
 ```
 
-When the cursor is on line two or three (the `chart-timepicker` tag), you want to trigger a shortcut that opens the JavaScript file for the directive `chart-timepicker`.
+When the cursor is on line two or four (the `timepicker` tag), you want to trigger a shortcut that opens the JavaScript file for the directive `timepicker`.
 
 ## Ruby to the rescue
 
-In this project, every directive is in the folder `javascript/directives/`, where the directive's name is also the file's name. If the name has more than one word, such as *chart-timepicker*, the file name would be snake case: *chart<sub>timepicker</sub>*.
+In this project, every directive is in the folder `javascript/directives/`, where the directive's name is also the file's name. If the name has more than one word, such as *chart-timepicker*, the file name would be snake case: *chart_timepicker*.
 
 I'm assuming you don't know enough VimScript to make this work (I don't), but fear not, if you compiled Vim with Ruby support, this will be enough:
 
@@ -50,17 +51,17 @@ autocmd BufRead,BufNewFile *assets/templates*.html nnoremap <silent> <C-]> :call
 
 It's a Vim function that you can trigger with `C-]` or call with `:call AngularTemplateToDirective()` (or map to a shortcut). Notice that it uses a module called `VIM` on line three. That module comes from Vim and it allows us to control it from the Ruby. If you want to learn more use `:help ruby` inside Vim.
 
-This function fetches the current buffer and the current line. If the line matches an HTML tag (something like `<chart-timepicker>` , `</chart-timepicker>` or `<chart-timepicker something`), it takes the tag's name, turns it to snake<sub>case</sub>, and opens the corresponding directive's file.
+This function fetches the current buffer and the current line. If the line matches an HTML tag (something like `<timepicker>` , `</timepicker>` or `<timepicker something>`), it takes the tag's name, turns it to snakecase, and opens the corresponding directive's file.
 
-Cool right? Five years and there's still so much to learn about Vim!
+Cool right? Five years using Vim and there's still so much to learn!
 
 ## A little more advanced
 
 With the function above, you can open directives from the HTML. How nice would it be to open CSS files from the HTML as well?
 
-Taking the previous HTML example, when I'm in a line with `class="chart__timepicker"` I want to open the [BEM](http://getbem.com/) component named `chart` that, by convention, sits in `stylesheets/components/chart.scss`.
+Taking the previous HTML example, when I'm in a line with `class="timepicker"` I want to open the [BEM](http://getbem.com/) component named `timepicker` that, by convention, sits in `stylesheets/components/timepicker.scss`.
 
-Building on the previous implementation, you first check if the current line contains \`class="\`, if not then look for the tag using the code from before. If it does match, you extract the component's name from the class, turn it into snake case and open the file:
+Building on the previous implementation, you first check if the current line contains `class="`, if not then look for the tag using the code from before. If it does match, you extract the component's name from the class, turn it into snake case and open the file:
 
 ```ruby
 function! AngularTemplateToDirectiveOrCSS()
