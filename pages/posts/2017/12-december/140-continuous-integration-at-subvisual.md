@@ -45,7 +45,7 @@ Recent updates to GitHub helped this a lot, with Code Reviews now being a part o
 
 ## Automated builds
 
-Our Continuous Integration process happens mostly through our CI, [Semaphore](https://semaphoreci.com/).
+Our Continuous Integration process happens mostly through our CI Server, [Semaphore](https://semaphoreci.com/).
 
 It's where we automate our builds and set up automatic deploys.
 
