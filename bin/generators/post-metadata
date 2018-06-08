@@ -4,6 +4,7 @@ require "pry"
 require "fileutils"
 require "json"
 require "yaml"
+require "date"
 
 AUTHORS = YAML.load_file("data/authors.yaml")
 
