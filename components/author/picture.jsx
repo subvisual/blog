@@ -2,19 +2,19 @@ import React from 'react';
 
 import Authors from '../../data/authors.yaml';
 
-import bruno from '../../images/authors/bruno-azevedo.png';
-import fernando from '../../images/authors/fernando-mendes.png';
-import francisco from '../../images/authors/francisco-baila.png';
+import bruno from '../../images/authors/bruno-azevedo.jpg';
+import fernando from '../../images/authors/fernando-mendes.jpg';
+import francisco from '../../images/authors/francisco-baila.jpg';
+import gabriel from '../../images/authors/gabriel-poca.jpg';
 import helena from '../../images/authors/helena-muniz.jpg';
-import gabriel from '../../images/authors/gabriel-poca.png';
-import joao from '../../images/authors/joao-ferreira.png';
-import justo from '../../images/authors/joao-justo.png';
-import laura from '../../images/authors/laura-esteves.png';
-import zamith from '../../images/authors/luis-zamith.png';
-import naps from '../../images/authors/miguel-palhas.png';
-import pedro from '../../images/authors/pedro-costa.png';
-import roberto from '../../images/authors/roberto-machado.png';
-import ronaldo from '../../images/authors/ronaldo-sousa.png';
+import joao from '../../images/authors/joao-ferreira.jpg';
+import justo from '../../images/authors/joao-justo.jpg';
+import laura from '../../images/authors/laura-esteves.jpg';
+import zamith from '../../images/authors/luis-zamith.jpg';
+import naps from '../../images/authors/miguel-palhas.jpg';
+import pedro from '../../images/authors/pedro-costa.jpg';
+import roberto from '../../images/authors/roberto-machado.jpg';
+import ronaldo from '../../images/authors/ronaldo-sousa.jpg';
 import campers from '../../images/authors/summer-campers.png';
 
 const pictures = {
