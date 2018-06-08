@@ -22,7 +22,7 @@ const pictures = {
   'fernando-mendes': fernando,
   'francisco-baila': francisco,
   'gabriel-poca': gabriel,
-  'helena-muniz': helena.
+  'helena-muniz': helena,
   'joao-ferreira': joao,
   'joao-justo': justo,
   'laura-esteves': laura,
