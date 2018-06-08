@@ -5,6 +5,7 @@ import Authors from '../../data/authors.yaml';
 import bruno from '../../images/authors/bruno-azevedo.png';
 import fernando from '../../images/authors/fernando-mendes.png';
 import francisco from '../../images/authors/francisco-baila.png';
+import helena from '../../images/authors/helena-muniz.jpg';
 import gabriel from '../../images/authors/gabriel-poca.png';
 import joao from '../../images/authors/joao-ferreira.png';
 import justo from '../../images/authors/joao-justo.png';
@@ -21,6 +22,7 @@ const pictures = {
   'fernando-mendes': fernando,
   'francisco-baila': francisco,
   'gabriel-poca': gabriel,
+  'helena-muniz': helena.
   'joao-ferreira': joao,
   'joao-justo': justo,
   'laura-esteves': laura,
