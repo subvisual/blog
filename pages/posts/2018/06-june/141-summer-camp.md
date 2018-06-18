@@ -2,7 +2,7 @@
 id: 140
 path: /posts/141-summer-camp-2018/
 title: "Subvisual's Summer Camp"
-author: fernando-mendes
+author: helena-muniz
 date: 01/06/2018
 tags:
   - community
@@ -25,7 +25,7 @@ We are looking for newly graduates or college students who are keen to learning 
 
 ### How to apply
 
-To apply you simply need to answer some questions about yourself in [this form](https://subvisual.typeform.com/to/RR1Dqm). We will reach out to you through the email you provide us and give you further instructions so we can meet you and determine if you are a good fit for our program. Applications are open until the 17th of June.
+To apply you simply need to answer some questions about yourself in [this form](https://subvisual.typeform.com/to/RR1Dqm). We will reach out to you through the email you provide us and give you further instructions so we can meet you and determine if you are a good fit for our program. Applications are open until the 24th of June.
 
 Your ideas and insights can make an impact here. You can make an impact. Don’t forget to apply and we will talk soon!
 
