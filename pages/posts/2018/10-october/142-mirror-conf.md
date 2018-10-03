@@ -13,7 +13,7 @@ intro: ""
 
 We’re happy to announce that the 3rd edition of Mirror Conf is happening in 17 days! \o/
 
-That’s October 18th and 19th, if you don’t care about date math. :stuck_out_tongue_closed_eyes:
+That’s October 18th and 19th, if you don’t care about date math. :)
 
 If you’ve never heard of Mirror Conf, it is a conference that aims to blur the differences and point towards a collaborative future between designers and front-end developers.
 Our goal is to gather talented designers and front-end developers from all over the globe in one event, bridging these two worlds and engaging them to share their experiences and their stories.
@@ -53,4 +53,4 @@ Mike Monteiro | Jared Spool | Stephanie Troeth | Vitaly Friedman | Amber Case | 
 
 This year we want to make sure nobody misses out on this gathering of brilliant minds, crazy ideas, and interesting people. Therefore, dear latecomers, undecided, and forgetful, we’re offering you a [last-minute discount](https://ti.to/subvisual/mirror-conf-2018/discount/mirrorconf), so that you can join us in what will be our best Mirror Conf ever.
 
-We hope to see you in Braga. :slightly_smiling_face:
+We hope to see you in Braga. \o/
