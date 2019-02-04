@@ -59,7 +59,10 @@ pedro-costa:
   name: "Pedro Costa"
   twitter: "iampfac"
   githbu: "pfac"
-  bio: "Refactor maniac with a thing for philosophic thoughts."
+  bio: >
+    Self proclaimed Chief Over-Engineering Officer at Subvisual. Full stack Web
+    developer working with Ruby and Elixir. Has a shady past involving Java and
+    other darker arts. Proud to be a nut case.
 
 roberto-machado:
   name: "Roberto Machado"
