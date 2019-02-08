@@ -57,7 +57,7 @@ In order to scan possible testers, you need to understand the core characteristi
 
 ### Prepare a survey to scan potential users
 
-If you know what you're looking for, now you just need to prepare a quick survey to evaluate the applicants. At Subvisual we are big fans of Typeform, so that's the tool we'd recommend for the survey, but feel free to use anything else that gets the job done. Here's the survey we prepared for Crediflux:
+If you know what you're looking for, now you just need to prepare a quick survey to evaluate the applicants. At Subvisual we are big fans of [Typeform][typeform], so that's the tool we'd recommend for the survey, but feel free to use anything else that gets the job done. Here's the survey we prepared for Crediflux:
 
 
 ### Advertise for participants and mention the complimentary gift
@@ -175,3 +175,5 @@ After that, it's time to start working on an iteration and planning for the next
 - [Steve Krug's Usability Demo](http://ptgmedia.pearsoncmg.com/imprint_downloads/peachpit/peachpit/videosampleclips/krug/SteveKrug_UsabilityDemo.mov)
 - [10 UX Heuristics, by the NN Group](https://www.nngroup.com/articles/ten-usability-heuristics/)
 - [UX Check Plugin](http://www.uxcheck.co/)
+
+[typeform]: https://www.typeform.com/surveys/
