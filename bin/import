@@ -1,4 +1,0 @@
-#!/bin/sh
-
-./bin/internal/fetch-old-db
-./bin/internal/posts-to-md
