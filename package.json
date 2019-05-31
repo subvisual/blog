@@ -16,7 +16,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
     "front-matter": "^2.1.2",
-    "gatsby": "^0.12.36",
+    "gatsby": "^0.12.48",
     "highlight.js": "^9.8.0",
     "history": "^2.0.2",
     "include-media": "^1.4.9",
