@@ -1,9 +1,48 @@
 #!/bin/sh
 
+# Install required language versions
+if ! command -v asdf >/dev/null 2>&1; then
+  echo >&2 <<EOS
+ERROR: asdf command not found
+
+This project uses asdf-vm to set up the required language versions. Please set
+asdf-vm up in this environment, with the NodeJS plugin, if you wish to work on
+it.
+
+For more information see https://asdf-vm.com. 
+EOS
+  exit 1
+fi
+asdf install >/dev/null
+
+# Install JavaScript dependencies
+if ! command -v yarn >/dev/null 2>&1; then
+  echo >&2 <<EOS
+ERROR: yarn command not found
+
+This project uses Yarn to install JavaScript dependencies. Please set it up in
+this environment by running `npm install -g yarn`, or by installing it through
+your preferred mechanism.
+
+For more information see https://yarnpkg.com. 
+EOS
+  exit 2
+fi
 yarn
+
+# Install Ruby dependencies
+if ! command -v bundle >/dev/null 2>&1; then
+  echo >&2 <<EOS
+ERROR: bundle command not found
+
+This project uses Bundler to install Ruby dependencies. Please set it up in
+this environment by running `gem install bundle`.
+
+For more information see https://bundler.io. 
+EOS
+  exit 3
+fi
 bundle check || bundle install
 
-# rehash rbenv if command exists (necessary for semaphore, since this is a node.js build and not a Ruby one)
-command -v rbenv && rbenv rehash
-
+# Generate metadata for posts (required for accurate previews)
 ./bin/generators/post-metadata
