@@ -1,5 +1,0 @@
-#!/bin/sh
-
-yarn run eslint . -- --ext .jsx,.js
-
-scss-lint css/components css/theme
