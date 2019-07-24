@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# Install required languages versions
+asdf install
+asdf reshim
+
+# Install JavaScript dependencies
+npm install -g yarn
+asdf reshim nodejs
+yarn
