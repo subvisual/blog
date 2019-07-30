@@ -1,5 +1,10 @@
 import React from "react"
+import Helmet from "react-helmet"
 
-const NotFoundPage = () => null
+const NotFoundPage = () => <>
+  <Helmet>
+    <title>Subvisual Blog - No idea what this is</title>
+  </Helmet>
+</>
 
 export default NotFoundPage
