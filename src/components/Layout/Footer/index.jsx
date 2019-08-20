@@ -1,13 +1,13 @@
 import React from "react"
 
+import styles from "./index.module.css"
+
 function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <div styleName="blue">
-      <div styleName="content">
-        <p>Handcrafted by Subvisual © {year}</p>
-      </div>
+    <div className={styles.root}>
+      <p>Handcrafted by Subvisual © {year}</p>
     </div>
   )
 }

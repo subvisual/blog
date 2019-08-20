@@ -1,0 +1,6 @@
+@value color-blue: #045cfc;
+
+.root {
+  padding: 56px 20px 20px;
+  background-color: color-blue;
+}
