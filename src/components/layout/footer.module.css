@@ -1,6 +1,21 @@
+@value breakpoint-tablet: (min-width: 768px);
 @value color-blue: #045cfc;
 
 .root {
   padding: 56px 20px 20px;
   background-color: color-blue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1184px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media breakpoint-tablet {
+  .content {
+    align-items: center;
+  }
 }

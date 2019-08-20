@@ -8,9 +8,11 @@ function Footer() {
 
   return (
     <div className={styles.root}>
-      <p>
-        <Text small>Handcrafted by Subvisual © {year}</Text>
-      </p>
+      <div className={styles.content}>
+        <p>
+          <Text small>Handcrafted by Subvisual © {year}</Text>
+        </p>
+      </div>
     </div>
   )
 }
