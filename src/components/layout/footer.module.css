@@ -1,9 +1,10 @@
 @value breakpoint-tablet: (min-width: 768px);
-@value color-blue: #045cfc;
+
+@value blue from "../colors.module.css";
 
 .root {
   padding: 56px 20px 20px;
-  background-color: color-blue;
+  background-color: blue;
 }
 
 .content {
